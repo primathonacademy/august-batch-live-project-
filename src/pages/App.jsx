@@ -1,5 +1,13 @@
-const App = () => {
-    return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-};
+import Art from './Home/Art';
+import { BrowserRouter } from 'react-router-dom';
+function App() {
+    return (
+        <BrowserRouter>
+            <div>
+                <Art />
+            </div>
+        </BrowserRouter>
+    );
+}
 
 export default App;

@@ -6,12 +6,12 @@ export default {
             fontFamily: {
                 poppins: ['Poppins', 'sans'],
                 roboto: ['Roboto', 'sans-serif'],
-                serif: ['DM Serif Display', 'serif']
+                serif: ['DM Serif Display', 'serif'],
             },
             screens: {
-                '3xl': '1920px'
-            }
-        }
+                '3xl': '1920px',
+            },
+        },
     },
-    plugins: []
+    plugins: [],
 };
