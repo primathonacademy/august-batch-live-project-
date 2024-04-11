@@ -1,5 +1,5 @@
 import art from '../../assets/HomeImg/Art.png';
-import gridlineImage from '../../assets/HomeImg/gridline-bg.png';
+import gridline from '../../assets/HomeImg/gridline-bg.png';
 import Scrollservice from './Scroll-service';
 import NewsCard from './NewsCard';
 
@@ -8,9 +8,9 @@ function Art() {
         <>
             <div className="px-[20px] md:px-[56px] lg:px-[82px] xl:px-[100px] 2xl:px-[120px] 3xl:px[182px] pt-[48px]">
                 <section>
-                    <div className="pl-4">
-                        <div className="hidden lg:block lg:relative lg:h-0 lg:top-[-6.668rem] lg:left-[-5.2rem] xl:left-[-7.7rem] 2xl:left-0">
-                            <img src={gridlineImage} alt="Grid" className="md:w-full md:h-96" />
+                    <div className="pl-[18px]">
+                        <div className="hidden lg:block lg:relative opacity-1 lg:h-0 lg:top-[-6.668rem] lg:left-[-5.2rem] xl:left-[-7.7rem] 2xl:left-0">
+                            <img src={gridline} alt="Grid" className="md:w-full md:h-96" />
                         </div>
                         <span className="text-blue-500 lg:text-white lg:bg-blue-900 md:text-blue-800 md:bg-dark-blue lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 ">
                             The Art of the Possible
