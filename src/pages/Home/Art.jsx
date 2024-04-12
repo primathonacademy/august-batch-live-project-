@@ -37,7 +37,7 @@ function Art() {
                     </div>
                 </div>
 
-                <div className="px-10 ">
+                <div className=" px-5">
                     <NewsCard />
                 </div>
             </div>
