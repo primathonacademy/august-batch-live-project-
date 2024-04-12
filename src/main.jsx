@@ -4,12 +4,13 @@ import App from './pages/App.jsx';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-         <BrowserRouter> {/* Wrap your App component with BrowserRouter */}
-    <App />
-  </BrowserRouter>,
-        
+        <BrowserRouter>
+            {' '}
+            {/* Wrap your App component with BrowserRouter */}
+            <App />
+        </BrowserRouter>
+        ,
     </React.StrictMode>
 );
