@@ -1,10 +1,10 @@
-import Art from './Home/Art';
+import ArtSection from './Home/ArtSection';
 import { BrowserRouter } from 'react-router-dom';
 function App() {
     return (
         <BrowserRouter>
             <div>
-                <Art />
+                <ArtSection />
             </div>
         </BrowserRouter>
     );

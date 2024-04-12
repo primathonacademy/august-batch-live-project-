@@ -1,4 +1,4 @@
-import Arrow from '../../assets/HomeImg/arrow.png';
+import rightArrow from '../../assets/HomeImg/arrow.png';
 import { NavLink } from 'react-router-dom';
 
 function Scrollservice() {
@@ -12,7 +12,7 @@ function Scrollservice() {
                         ALL OUR SERVICES
                     </h1>
                     <div className="flex items-center justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r  hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
-                        <img src={Arrow} alt="" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
+                        <img src={rightArrow} alt="rightArrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
                     </div>
                 </NavLink>
             </div>
