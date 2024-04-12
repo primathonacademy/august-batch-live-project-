@@ -9,7 +9,12 @@ export default {
                 serif: ['DM Serif Display', 'serif']
             },
             screens: {
-                '3xl': '1920px'
+                xs: '280px',
+
+                sm: '428px', //heading-16px  width-427
+                // => @media (min-width: 640px) { ... }
+    
+                '3xl': '1920px' //h-24px w-770px
             }
         }
     },
