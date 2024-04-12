@@ -30,7 +30,7 @@ function NewsCard() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full mr-4">
+                    <div className="w-full mr-5">
                         <div className="w-56 lg:w-auto md:w-full">
                             <img src={newsCard} alt="" className=" w-full rounded-md bg-[#E7E7FC]" />
                             <div className="mt-2 pb-28">
