@@ -12,13 +12,13 @@ const Header = () => {
     };
     return (
         <>
-            <header className=" px-5 md:px-16 lg:px-[80px] xl:px-[100px] 2xl:px-[120px] 3xl:px-[182px] md:flex md:items-center md:justify-between  md:h-[77px]  lg:h-[82px]  xl:h-[87px]  2xl:h-[92 px] 3xl:h-[96px]">
-                <div className="flex h-[72px] md:border-0 justify-between items-center">
+            <header className=" px-5 md:px-16 lg:px-20 xl:px-25 2xl:px-30 3xl:px-45.5 md:flex md:items-center md:justify-between  md:h-19.25  lg:h-20.5  xl:h-21.75  2xl:h-23 3xl:h-24">
+                <div className="flex h-18 md:border-0 justify-between items-center">
                     <div className="flex gap-4 items-center md:gap-2 ">
-                        <div className="h-6 w-[18px] md:h-[24px] md:w-[16px] lg:h-[28px] lg:w-[20px] xl:h-[30px] xl:w-[21px] 2xl:h-[32px] 2xl:w-[22px] 3xl:h-[32px] 3xl:w-[24px]  ">
+                        <div className="h-6 w-4.5 md:h-6 md:w-4 lg:h-7 lg:w-5 xl:h-7.5 xl:w-5.25 2xl:h-8 2xl:w-5.5 3xl:h-8 3xl:w-6  ">
                             <img src={Headerlogo} alt="lab logo image" />
                         </div>
-                        <span className="h-5 w-[140px] md:h-[21px] md:w-[148px]  lg:h-[22px] lg:w-[156px] xl:h-[23px] xl:w-[164px] 2xl:h-[24px] 2xl:w-[172px] 3xl:h-[25px] 3xl:w-[182 px]">
+                        <span className="h-5 w-35 md:h-5.25 md:w-37  lg:h-5.5 lg:w-39 xl:h-5.75 xl:w-41 2xl:h-6 2xl:w-43 3xl:h-6.25 3xl:w-45.5">
                             <img src={Headerlogoname} alt=" logoname image" />
                         </span>
                     </div>
@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </div>
                 <nav className={`md:flex items-center ${isMenuOpen ? 'block' : 'hidden'} `}>
-                    <ul className="flex flex-col md:gap-2 lg:gap-6 xl:gap-[48px] 2xl:gap-[64px] md:mt-0 3xl:gap-[80px] md:flex-row text-[28px]  md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[18px] 3xl:text-[16px]  md:items-center md:leading-[60px] leading-[93px] mt-[162px] font-normal not-italic font-poppins  text-[#2F3750]">
+                    <ul className="flex flex-col md:gap-2 lg:gap-6 xl:gap-12 2xl:gap-16 md:mt-0 3xl:gap-20 md:flex-row text-7  md:text-4 lg:text-5 xl:text-5 2xl:text-4.5 3xl:text-4  md:items-center md:leading-15 leading-93px mt-40.5 font-normal not-italic font-poppins  text-[#2F3750]">
                         <li className=" 3xl:font-semibold">
                             <Link to="/">WORK</Link>
                         </li>
