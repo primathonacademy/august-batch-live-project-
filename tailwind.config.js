@@ -10,6 +10,10 @@ export default {
             },
             screens: {
                 '3xl': '1920px',
+                '4xl': '2560px',
+            },
+            spacing: {
+                '46px': '182px',
             },
         },
     },

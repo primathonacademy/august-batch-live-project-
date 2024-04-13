@@ -7,7 +7,7 @@ function Scrollservice() {
             <div className="w-full flex justify-center items-center pt-5 pb-12 sm:pb-5 z-10">
                 <NavLink
                     to="/"
-                    className="flex items-center justify-center cursor-pointer gap-8 xs:gap-14 2xl:gap-16 py-1 xl:py-2 pl-5 xl:pl-12 2xl:pl-16 bg-[#F4F8FF] rounded-full hover:bg-gradient-to-r hover:from-white hover:to-pink-100">
+                    className="flex items-center justify-center cursor-pointer gap-8 xs:gap-14 2xl:gap-16 py-1 xl:py-2 pl-5 xl:pl-12 2xl:pl-16 bg-slate-100 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-100">
                     <h1 className="text-blue-500 text-xs sm:text-sm md:text-base xl:text-xl font-semibold hover:scale-110 transition-all duration-300">
                         ALL OUR SERVICES
                     </h1>
