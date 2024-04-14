@@ -1,6 +1,6 @@
-import artSectionImg from '../../assets/HomeImg/Art.png';
-import gridlineImg from '../../assets/HomeImg/gridline-bg.png';
-import Scrollservice from './Scroll-service';
+import artSectionImg from '../../assets/images/art.png';
+import gridlineImg from '../../assets/images/gridline-bg.png';
+import Scrollservice from './ServiceBtn';
 import NewsCard from './NewsCard';
 
 function ArtSection() {

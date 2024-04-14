@@ -1,4 +1,4 @@
-import newsCard from '../../assets/HomeImg/Newscard.png';
+import newsCard from '../../assets/images/newscard.png';
 function NewsCard() {
     return (
         <div className="flex overflow-x-auto lg:overflow-hidden lg:scrollbar-hide gap-4 w-full px-5 md:px-0">

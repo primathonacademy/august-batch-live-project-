@@ -1,4 +1,4 @@
-import rightArrow from '../../assets/HomeImg/arrow.png';
+import rightArrow from '../../assets/images/arrow.png';
 import { NavLink } from 'react-router-dom';
 
 function Scrollservice() {
