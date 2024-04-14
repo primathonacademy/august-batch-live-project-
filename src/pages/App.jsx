@@ -1,5 +1,11 @@
+import Research from '../components/Research';
+
 const App = () => {
-    return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+    return (
+        <div>
+            <Research />
+        </div>
+    );
 };
 
 export default App;
