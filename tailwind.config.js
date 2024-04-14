@@ -12,23 +12,19 @@ export default {
                 '3xl': '1920px'
             },
             spacing: {
-                '46': '182px',
-                '73' : '298px',
-                '97': '418px',
-                '98': '508px',
+                46: '11.375rem',
+                73: '18.625rem',
+                97: '26.125rem',
+                98: '31.75rem',
             },
-            colors : {
-                primary : '#2F3750',
-                secondary : '#555555', 
-                bgPrimary : '#F7F7F7',
-                blue : '#253F9C'
+            colors: {
+                primary: '#2F3750',
+                secondary: '#555555',
+                bgPrimary: '#F7F7F7',
+                blue: '#253F9C'
             },
-            fontSize : {
-                'sxs' : '10px',
-                'sm' : '14px',
-                'base' : '16px',
-                'xl' : '20px',
-                '2xl' : '24px'
+            fontSize: {
+                sxs: '0.625rem',
             }
         }
     },

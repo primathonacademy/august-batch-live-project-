@@ -1,4 +1,4 @@
-export const FOOTER_NAV_ITEMS = [
+export const footerItems = [
     { nav: 'Work', href: '/work' },
     { nav: 'Services', href: '/services' },
     { nav: 'Insights', href: '/insights' },

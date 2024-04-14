@@ -8,4 +8,8 @@
     html {
         font-family: 'Roboto', system-ui, sans-serif;
     }
+    body {
+        font-size: 100%; /* Reset browser's default font size */
+    }
+    
 }
