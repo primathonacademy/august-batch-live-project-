@@ -1,5 +1,4 @@
 import ArrowDown from '../assets/images/arrowdown.png';
-import Line from '../assets/images/line.png';
 import Arrow from '../assets/images/arrow.svg';
 import research from '../assets/images/research.png';
 
@@ -33,7 +32,7 @@ function Research() {
                                 className="w-4 h-3 ml-auto lg:w-6 lg:h-4 3xl:w-6 3xl:h-3"
                             />
                         </div>
-                        <img src={Line} alt="" className="h-0.5 bg-gray-300 mt-1 w-full opacity-20" />
+                        <hr className="h-0.5 bg-gray-400 mt-1 w-full opacity-20" />
                     </div>
                 ))}
 
