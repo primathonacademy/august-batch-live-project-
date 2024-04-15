@@ -1,4 +1,3 @@
-import React from 'react';
 import ArrowDown from '../assets/images/arrowdown.png';
 import Line from '../assets/images/line.png';
 import Arrow from '../assets/images/arrow.svg';
@@ -102,6 +101,4 @@ function Research() {
         </div>
     );
 }
-
 export default Research;
-s
