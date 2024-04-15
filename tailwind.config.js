@@ -95,7 +95,7 @@ export default {
             },
             fontSize: {
                 6: '1.5rem',
-                
+
                 9: '2.25rem',
                 5: '1.25rem',
                 4.5: '1.125rem',

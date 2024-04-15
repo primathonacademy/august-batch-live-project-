@@ -1,8 +1,8 @@
-import img1 from '../assets/images/double.svg';
-import img2 from '../assets/images/man1.png';
-import img3 from '../assets/images/ellipse.svg';
-import img4 from '../assets/images/arrow-left.svg';
-import img5 from '../assets/images/arrow-right.svg';
+import flagicon from '../assets/images/flag-icon.svg';
+import profileimage from '../assets/images/man1.png';
+import ellipse from '../assets/images/ellipse.svg';
+import arrowleftimage from '../assets/images/arrow-left.svg';
+import arrowrightimage from '../assets/images/arrow-right.svg';
 
 const CoFounder = () => {
     return (
@@ -10,7 +10,7 @@ const CoFounder = () => {
             <div className="flex  w-89 h-84.25 xl:gap-55 2xl:gap-75 3xl:gap-94 md:w-full  lg:w-full xl:w-full 2xl:w-full 3xl:w-full   ">
                 <div className=" flex flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row 3xl:flex-row w-89 md:w-110 lg:w-130.25 xl:w-130.25 2xl:w-171 3xl:w-192.5 h-84.25 3xl:h-83.25">
                     <div className=" xl:mr-10 2xl:mr-13 3xl:mr-16.25  mb-7 w-13 md:w-14 lg:w-14 xl:w-16 3xl:w-16.5 h-9.75 md:h-10 xl:h-11 3xl:h-12.25">
-                        <img src={img1} alt="icon-image" />
+                        <img src={flagicon} alt="icon-image" />
                     </div>
                     <div className=" w-89 md:w-101.5 lg:w-116.5 xl:w-130.25 2xl:w-144.25 3xl:w-159.75 h-36.5 md:h-37.25 lg:h-40 xl:h-40 3xl:h-40 ">
                         <p className="text-6  2xl:text-8  3xl:text-9 opacity-60 text-left text-yume italic font-normal  text-lg 3xl:leading-10.75 font-roboto mt-1 mb-7 lg:mb-8 xl:mb-9 2xl:mb-10 3xl:mb-11 w-full">
@@ -21,11 +21,11 @@ const CoFounder = () => {
                         <div className="flex">
                             <div className="relative  w-24 md:w-25.5 lg:w-28 xl:w-28 2xl:w-30.25 3xl:w-32.25 h-24 md:h-24 lg:h-26 xl:h-28 2xl:h-28 3xl:h-32.25 mr-2 ">
                                 <img
-                                    src={img3}
+                                    src={ellipse}
                                     alt="ellipse-image"
                                     className="w-24 md:w-26 lg:w-28 xl:w-28  3xl:w-30.25 h-24 md:h-26 lg:h-26 xl:h-28 2xl:h-28 3xl:h-30.25 absolute right-3 bottom-1 xl:right-4 2xl:right-5 3xl:right-6 lg:top-0.5 "></img>
                                 <img
-                                    src={img2}
+                                    src={profileimage}
                                     alt="man-image"
                                     className="w-17.75 md:w-20 lg:w-21 xl:w-22 2xl:w-22 3xl:w-24 h-17.75 md:h-20 lg:h-20 xl:h-21 2xl:h-24 3xl:h-24 absolute right-1 lg:bottom-5 top-3 3xl:top-5"></img>
                             </div>
@@ -55,8 +55,8 @@ const CoFounder = () => {
             </div>
             <div className="w-89.75 md:w-112.5 lg:w-210 xl:w-250 2xl:w-330 3xl:w-389  h-9.75 3xl:h-16 flex lg:pr-89 xl:pr-20 2xl:pr-22 3xl:pr-24 ">
                 <hr className="w-59.25 md:w-116.25 lg:w-173.25 xl:w-230.25 2xl:w-287.5 3xl:w-344.5 mr-2 border opacity-1 h-0 mt-6 3xl:mt-7"></hr>{' '}
-                <img src={img4} alt="left-arrow-image" className="mr-2 w-[51px] h-[51px]"></img>{' '}
-                <img src={img5} alt="right-arrow-image" className="w-[51px] h-[51px]"></img>{' '}
+                <img src={arrowleftimage} alt="left-arrow-image" className="mr-2 w-[51px] h-[51px]"></img>{' '}
+                <img src={arrowrightimage} alt="right-arrow-image" className="w-[51px] h-[51px]"></img>{' '}
             </div>
         </div>
     );
