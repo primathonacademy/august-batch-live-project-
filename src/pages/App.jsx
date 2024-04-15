@@ -1,5 +1,11 @@
+import CustomerLove from "../components/CustomerLove";
+
 const App = () => {
-    return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+    return (
+        <>
+            <CustomerLove />
+        </>
+    )
 };
 
 export default App;
