@@ -1,7 +1,7 @@
 import Footer from '../components/footer/Footer';
 
 const App = () => {
-    return <Footer />
+    return <Footer />;
 };
 
 export default App;
