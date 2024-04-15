@@ -1,12 +1,10 @@
-
-import ExploreInnovationSection from "./ExploreInnovationSection";
-
+import ExploreInnovationSection from "../components/ExploreInnovationSection";
 const App = () => {
     return (
         <>
-      <ExploreInnovationSection/>
+    <ExploreInnovationSection/>
         </>
-    )
+    );
 };
 
 export default App;
