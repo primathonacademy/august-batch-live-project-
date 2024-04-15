@@ -36,7 +36,7 @@ function ArtSection() {
                         </div>
                     </div>
                 </div>
-                <div className=" ">
+                <div>
                     <NewsCard />
                 </div>
             </div>
