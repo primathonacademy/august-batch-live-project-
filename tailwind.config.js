@@ -22,7 +22,7 @@ export default {
             screens: {
                 '3xl': '1920px',
                 // => @media (min-width: 1920px) { ... },
-                '4xl':'2560'
+                '4xl': '2560'
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans'],
@@ -51,18 +51,18 @@ export default {
                 40.5: '10.125rem',
                 41: '10.25rem',
                 43: '10.75rem',
-                45.5: '11.375rem',
+                45.5: '11.375rem'
             },
             colors: {
-                  
-               '0A66EC':'#0A66EC'
-                  
+                '#0A66EC': '#0A66EC',
+                '#828796': '#828796',
+                '#2F3750': '#2F3750'
             },
             borderRadius: {
-              8:'2rem'
+                8: '2rem'
             },
             fontSize: {
-                3:'0.875rem',
+                3: '0.875rem',
                 7: '1.75rem',
                 4: '1rem',
                 4.5: '1.125rem',
@@ -71,10 +71,10 @@ export default {
             lineHeight: {
                 15: '3.75rem',
                 23: '5.8125rem',
-                16:'4rem',
-                17:'4.25rem',
-                18:'4,5rem',
-                20:'6.25rem',
+                16: '4rem',
+                17: '4.25rem',
+                18: '4,5rem',
+                20: '6.25rem'
             }
         }
     },
