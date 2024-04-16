@@ -1,7 +1,7 @@
-import artSectionImg from '../../assets/images/artcard.png';
-import gridlineImage from '../../assets/images/gridline-bg.png';
+import ArtSectionImg from '../../assets/images/artcard.png';
+import GridlineImage from '../../assets/images/gridline-bg.png';
 import Scrollservice from './ServiceBtn';
-import NewsCard from './NewsCard';
+import NewsCards from './NewsCards';
 
 function ArtSection() {
     return (
@@ -10,7 +10,7 @@ function ArtSection() {
                 <section>
                     <div className="pl-6 4xl:pl-8">
                         <div className="hidden lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0">
-                            <img src={gridlineImage} alt="GridLines" className="md:w-full md:h-96" />
+                            <img src={GridlineImage} alt="GridLines" className="md:w-full md:h-96" />
                         </div>
                         <span className="text-blue-500 lg:text-white lg:bg-blue-900 md:text-blue-800 lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 4xl:text-4xl">
                             The Art of the Possible
@@ -23,7 +23,7 @@ function ArtSection() {
                 <div className="relative flex pb-8 overflow-x-auto">
                     <div
                         className="bg-cover lg:h-full object-cover overflow-hidden w-full md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl"
-                        style={{ backgroundImage: `url(${artSectionImg})` }}>
+                        style={{ backgroundImage: `url(${ArtSectionImg})` }}>
                         <div className="lg:pt-64 lg:pl-32 md:pt-32 md:pl-12 pt-16 pl-9 lg:pb-4 pr-2 p-20">
                             <div className="mt-2 mr-6 md:pb-28">
                                 <h1 className="font-semibold text-gray-300 font-poppins text-lg pt-4 3xl:text-2xl pr-5 4xl:text-4xl">
@@ -37,7 +37,7 @@ function ArtSection() {
                     </div>
                 </div>
                 <div>
-                    <NewsCard />
+                    <NewsCards />
                 </div>
             </div>
             <Scrollservice />
