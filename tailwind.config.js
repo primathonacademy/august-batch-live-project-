@@ -9,8 +9,12 @@ export default {
                 serif: ['DM Serif Display', 'serif']
             },
             screens: {
-                '3xl': '1920px'
-            }
+                '3xl': '1920px',
+                '4xl': '2560px',
+            },
+            spacing: {
+                45  :  '11.375rem',
+            },
         }
     },
     plugins: []
