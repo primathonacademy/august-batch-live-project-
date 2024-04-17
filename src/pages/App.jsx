@@ -1,14 +1,12 @@
-import ArtSection from '../components/Home/ArtSection';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
+import Homepage from "./homepage";
 
 function App() {
-    return (
-        <BrowserRouter>
-            <div>
-                <ArtSection />
-            </div>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Homepage />
+    </BrowserRouter>
+  );
 }
 
 export default App;
