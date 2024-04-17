@@ -1,10 +1,13 @@
-import Research from '../components/Research';
+import { BrowserRouter } from 'react-router-dom';
+import Service from './service';
 
 const App = () => {
     return (
-        <div>
-            <Research />
-        </div>
+        <BrowserRouter>
+            <div>
+                <Service />
+            </div>
+        </BrowserRouter>
     );
 };
 
