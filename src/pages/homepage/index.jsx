@@ -4,7 +4,6 @@ function Homepage() {
     return (
         <div>
             <ArtSection />
-            
         </div>
     );
 }
