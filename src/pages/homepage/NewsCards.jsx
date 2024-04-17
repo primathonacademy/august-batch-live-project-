@@ -4,7 +4,7 @@ function NewsCards() {
     return (
         <div className="flex overflow-x-auto lg:overflow-hidden lg:scrollbar-hide gap-4 w-full md:px-0">
             <div className="w-full flex sm:px-4">
-                <div className="flex flex-no-wrap w-auto sm: md:px-0 xl:px-5 lg:px-5 3xl:px-6">
+                <div className="flex flex-no-wrap w-auto sm: md:px-0 xl:px-5  3xl:px-6">
                     <div className="w-full mr-4">
                         <div className="w-56 lg:w-auto md:w-full">
                             <img src={NewsCard} alt="Newscard" className=" w-full rounded-lg bg-slate-200" />
