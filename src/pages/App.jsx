@@ -1,4 +1,4 @@
-import GetTouch from '../Components/GetTouch';
+import GetTouch from '../components/GetTouch';
 
 const App = () => {
     return (
