@@ -1,12 +1,13 @@
 import ArtSectionImg from '../../assets/images/artcard.png';
 import GridlineImage from '../../assets/images/gridline-bg.png';
-import Scrollservice from './ServiceBtn';
-import NewsCards from './NewsCards';
+import NewsCard from '../../assets/images/newscard.png';
+import RightArrow from '../../assets/images/arrow.png';
+import { NavLink } from 'react-router-dom';
 
 function ArtSection() {
     return (
         <>
-            <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-46 3xl:px-45 pt-12 4xl:text-2xl xs:px-2">
+            <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-30 3xl:px-45.5 pt-12 4xl:text-2xl xs:px-2">
                 <section>
                     <div className="pl-6 4xl:pl-8">
                         <div className="hidden lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0">
@@ -37,10 +38,74 @@ function ArtSection() {
                     </div>
                 </div>
                 <div>
-                    <NewsCards />
+                    <div className="flex overflow-x-auto lg:overflow-hidden lg:scrollbar-hide gap-4 w-full md:px-0">
+                        <div className="w-full flex sm:px-4">
+                            <div className="flex flex-no-wrap w-auto sm: md:px-0 xl:px-5  3xl:px-6">
+                                <div className="w-full mr-4">
+                                    <div className="w-56 lg:w-auto md:w-full">
+                                        <img
+                                            src={NewsCard}
+                                            alt="Newscard"
+                                            className=" w-full rounded-lg bg-slate-200"
+                                        />
+                                        <div className="mt-2">
+                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                                /01/ News Technology / 03 March 2022
+                                            </h1>
+                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                                Great Place to Work 2022 Survey: Vincit is the best place to work in
+                                                Finland, again!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-full mr-4">
+                                    <div className="w-56 lg:w-auto md:w-full">
+                                        <img src={NewsCard} alt="Newscard" className="w-full rounded-lg bg-slate-200" />
+                                        <div className="mt-2">
+                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                                /01/ News Technology / 03 March 2022
+                                            </h1>
+                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                                Great Place to Work 2022 Survey: Vincit is the best place to work in
+                                                Finland, again!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-full mr-4 3xl:mr-6">
+                                    <div className="w-56 lg:w-auto md:w-full">
+                                        <img src={NewsCard} alt="Newscard" className="w-full rounded-lg bg-slate-200" />
+                                        <div className="mt-2 pb-28">
+                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                                /01/ News Technology / 03 March 2022
+                                            </h1>
+                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                                Great Place to Work 2022 Survey: Vincit is the best place to work in
+                                                Finland, again!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <Scrollservice />
+            <section>
+                <div className="w-full flex justify-center items-center pt-5 pb-12 sm:pb-5 z-10">
+                    <NavLink
+                        to="/"
+                        className="flex items-center justify-center cursor-pointer gap-8 xs:gap-14 2xl:gap-16 py-1 xl:py-2 pl-5 xl:pl-12 2xl:pl-16 bg-slate-100 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-100">
+                        <h1 className="text-blue-500 text-xs sm:text-sm md:text-base xl:text-xl font-semibold hover:scale-110 transition-all duration-300">
+                            ALL OUR SERVICES
+                        </h1>
+                        <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r  hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
+                            <img src={RightArrow} alt="rightArrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
+                        </div>
+                    </NavLink>
+                </div>
+            </section>
         </>
     );
 }
