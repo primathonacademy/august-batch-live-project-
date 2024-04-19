@@ -3,7 +3,7 @@ import ArrowIcon from '../assets/images/arrow-icon.svg';
 
 const GetTouch = () => {
     return (
-        <div className="bg-white pb-12 md:pb-16 lg:pb-20 xl:pb-24 2xl:pb-28 px-10 mt-24">
+        <div className="bg-white  md:pb-16 md:px-14 lg:pb-20 xl:pb-24 xl:px-24 lg:px-20 2xl:pb-28 2xl:px-30 px-5 mt-24 3xl:px-45.5 ">
             <section className="flex flex-col sm:flex-row w-full bg-blue-900 p-3 rounded-lg md:rounded-xl relative overflow-hidden">
                 <div className="absolute left-0 top-28 sm:top-28 lg:top-20 xl:top-32 2xl:top-40 3xl:top-43.5 flex flex-col gap-11 md:gap-11 lg:gap-16 xl:gap-16 2xl:gap-24 w-full border-fade-white opacity-20"></div>
                 <div className="absolute top-0 -left-32 sm:-left-6 md:left-7 lg:left-8 xl:left-9 2xl:left-10 flex items-center gap-2 lg:gap-5 xl:gap-6 2xl:gap-7"></div>
