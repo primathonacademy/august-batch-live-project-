@@ -1,4 +1,4 @@
-import gridImg from '../../assets/images/grid-img.svg'
+import gridImg from '../../assets/images/grid-img.svg';
 import quoteIcon from '../../assets/images/double-quote-sans-left.svg';
 import ellipseImg from '../../assets/images/ellipse-gradient.svg';
 import profileIcon from '../../assets/images/profile-img.png';
@@ -36,8 +36,8 @@ const CustomerLoveCard = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 const CustomerLove = () => {
     return (

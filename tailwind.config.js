@@ -9,8 +9,8 @@ export default {
                 serif: ['DM Serif Display', 'serif']
             },
             screens: {
-                'ss': '280px',
-                'xs': '428px',
+                ss: '280px',
+                xs: '428px',
                 '3xl': '1920px',
                 '4xl': '2560px'
             },
