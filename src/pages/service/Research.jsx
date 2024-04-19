@@ -13,7 +13,7 @@ function Research() {
     ];
 
     return (
-        <div className="px-5 md:flex lg:px-20 justify-around mt-48">
+        <div className="px-5 md:flex md:px-14  lg:px-20 xl:24 2xl:px-30  3xl:45.5 justify-around mt-48 ">
             <div className="ml-9 mr-20 lg:w-3/4 xl:w-2/3 mx-auto mt-16 lg:ml-5">
                 <h2 className="text-4xl lg:text-5xl font-medium text-gray-800">Research</h2>
                 <p className="mt-12 text-sm lg:text-xl text-gray-500">
