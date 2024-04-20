@@ -1,6 +1,6 @@
-import ArrowIcon from '../../assets/images/arrow-icon.svg';
+import ArrowRightIcon from '../../assets/icons/arrow-right-icon.svg';
+import ArrowDownIcon from '../../assets/icons/arrow-down-icon.png';
 import ResearchCardImage from '../../assets/images/research-card.png';
-import ArrowDownIcon from '../../assets/images/arrowdown-icon.png';
 
 function Research() {
     const researchItems = [
@@ -13,7 +13,7 @@ function Research() {
     ];
 
     return (
-        <div className="px-5 md:flex md:px-14  lg:px-20 xl:24 2xl:px-30  3xl:45.5 justify-around mt-48 ">
+        <div className="px-5 md:flex md:px-14  lg:px-20 xl:24 2xl:px-28  3xl:45.5 justify-around mt-48 ">
             <div className="ml-9 mr-20 lg:w-3/4 xl:w-2/3 mx-auto mt-16 lg:ml-5">
                 <h2 className="text-4xl lg:text-5xl font-medium text-gray-800">Research</h2>
                 <p className="mt-12 text-sm lg:text-xl text-gray-500">
@@ -84,11 +84,9 @@ function Research() {
                     <span
                         to="/"
                         className="flex items-center justify-center cursor-pointer gap-8 py-1 xl:py-2 pl-5 xl:pl-12 bg-gray-200 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-200">
-                        <h1 className="text-blue-600 text-xs sm:text-sm md:text-base xl:text-xl font-semibold">
-                            ALL OUR SERVICE
-                        </h1>
-                        <div className="flex items-center justify-center rounded-full p-3.5 sm:p-4 xl:p-6 bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-pink-500">
-                            <img src={ArrowIcon} alt="ArrowIcon" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-125 " />
+                        <h1 className="text-blue-600 text-sm md:text-base xl:text-xl font-semibold">ALL OUR SERVICE</h1>
+                        <div className="flex items-center justify-center rounded-full p-4 xl:p-6 bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-pink-500">
+                            <img src={ArrowRightIcon} alt="ArrowRightIcon" className="w-4 h-4 hover:scale-125 " />
                         </div>
                     </span>
                 </div>
