@@ -3,12 +3,12 @@ import Instagram from '../assets/icons/instagram-icon.svg';
 import Linkedin from '../assets/icons/linkedin-icon.svg';
 import Twitter from '../assets/icons/twitter-icon.svg';
 import { IMPORTANT_PAGES, NAV_ITEMS } from '../constants';
-import FooterLogo from '../assets/images/footer-logo.svg';
+import YumeLogo from '../assets/images/yume-logo.svg';
 
 
 const NavElement = () => {
     return (
-        <ul className="flex flex-col gap-3 text-lg lg:leading-8 2xl:text-xl 3xl:text-2xl 3xl:leading-7">
+        <ul className="flex flex-col gap-3 3xl:gap-y-7 text-lg lg:leading-8 2xl:text-xl 3xl:text-2xl 3xl:leading-7">
             {NAV_ITEMS.map((item, i) => {
                 return (
                     <Link to={item.link} key={`index-${i}`}>{item.title}</Link>
@@ -20,7 +20,7 @@ const NavElement = () => {
 
 const BottomFooter = () => {
     return (
-        <div className="grid grid-cols-3 gap-5 font-poppins text-xs font-semibold md:flex text-blue-850 md:text-sm lg:text-base lg:leading-6">
+        <div className="grid grid-cols-3 gap-5 font-poppins text-xs font-semibold  text-blue-850 md:text-sm lg:text-base lg:leading-6">
             {IMPORTANT_PAGES.map((item, i) => (
                 <Link key={`index-${i}`} to={item.link}>
                     {item.title}
@@ -33,14 +33,15 @@ const BottomFooter = () => {
 
 const Footer = () => {
     return (
-        <footer className="w-screen bg-gray-75 px-5 md:w-full md:px-14 md:pt-20 lg:px-20 lg:pt-24 xl:px-24 2xl:px-28 2xl:pt-28 3xl:px-45.5">
-            <section className="mb-10 flex flex-col items-start justify-between gap-10 border-b-2 border-opacity-80 pb-10 pt-14 text-slate-725 md:flex-row md:pb-20 lg:pb-24 2xl:pb-28">
+        <footer className="w-full mt-auto bg-gray-75 px-5 py-5 lg:py-0 md:w-full md:px-14 md:pt-20 lg:px-20 lg:pt-24 xl:px-24 2xl:px-28 2xl:pt-28  3xl:px-45.5">
 
-                <div className="flex items-center md:w-74.5">
+            <section className="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 border-b-2 border-opacity-80 pb-10 pt-14 text-slate-725  md:pb-20 lg:pb-24 2xl:pb-28">
+
+                <div className="flex items-center ">
                     <NavElement />
                 </div>
 
-                <address className="gap-9 text-2xl md:w-104.5 not-italic">
+                <address className="gap-9 text-2xl not-italic">
                     <div className="lg:leading-7">
                         <p className="font-poppins text-xs font-semibold text-neutral-575 lg:text-sm lg:leading-7">
                             WRITE TO US
@@ -58,8 +59,8 @@ const Footer = () => {
                     </div>
                 </address>
 
-                <div className="mb-10 w-52 md:w-74.5">
-                    <ul className="flex justify-between">
+                <div className="mb-10">
+                    <ul className="flex justify-start gap-10 lg:justify-evenly">
                         <li className="w-6 lg:h-8 lg:w-8">
                             <a href="https://www.instagram.com" target="_">
                                 <img src={Instagram} alt="instagram icon" className="w-full" />
@@ -83,7 +84,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between md:py-4 xl:py-6 2xl:py-8 3xl:py-15">
 
                 <Link to={'/'} className="mb-4 md:mb-0">
-                    <img src={FooterLogo} alt="yume labs logo" className="w-36 md:w-48 lg:h-8 lg:w-60" />
+                    <img src={YumeLogo} alt="yume labs logo" className="w-36 md:w-48 lg:h-8 lg:w-60" />
                 </Link>
 
                 <BottomFooter />
