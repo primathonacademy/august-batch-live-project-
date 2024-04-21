@@ -13,20 +13,20 @@ import Work from './work';
 const App = () => {
     return (
         <>
-        <BrowserRouter>
-            <Routes>
-                <Route element={<Layout />}>
-                    <Route path={ROUTES.HOME} element={<HomePage />} />
-                    <Route path={ROUTES.ABOUT} element={<About />} />
-                    <Route path={ROUTES.CONTACT} element={<Contact />} />
-                    <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
-                    <Route path={ROUTES.INSIGHT} element={<Insight />} />
-                    <Route path={ROUTES.INSIGHT_DETAIL} element={<InsightDetail />} />
-                    <Route path={ROUTES.WORK} element={<Work />} />
-                    <Route path={ROUTES.SERVICE} element={<Service />} />
-                    <Route path="*" element={<h1>404 — Page Not Found</h1>} />
-                </Route>
-            </Routes>
+            <BrowserRouter>
+                <Routes>
+                    <Route element={<Layout />}>
+                        <Route path={ROUTES.HOME} element={<HomePage />} />
+                        <Route path={ROUTES.ABOUT} element={<About />} />
+                        <Route path={ROUTES.CONTACT} element={<Contact />} />
+                        <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
+                        <Route path={ROUTES.INSIGHT} element={<Insight />} />
+                        <Route path={ROUTES.INSIGHT_DETAIL} element={<InsightDetail />} />
+                        <Route path={ROUTES.WORK} element={<Work />} />
+                        <Route path={ROUTES.SERVICE} element={<Service />} />
+                        <Route path="*" element={<h1>404 — Page Not Found</h1>} />
+                    </Route>
+                </Routes>
             </BrowserRouter>
         </>
     );
