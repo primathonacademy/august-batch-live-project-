@@ -1,5 +1,5 @@
-import { Outlet } from 'react-router-dom'
-import Footer from './components/Footer'
+import { Outlet } from 'react-router-dom';
+import Footer from './components/Footer';
 
 const Layout = () => {
     return (
@@ -9,7 +9,7 @@ const Layout = () => {
             </main>
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default Layout 
+export default Layout;

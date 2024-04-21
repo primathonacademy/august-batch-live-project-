@@ -1,6 +1,5 @@
 const Insight = () => {
-  return <div>Insights</div>
-  
-}
+    return <div>Insights</div>;
+};
 
-export default Insight
+export default Insight;
