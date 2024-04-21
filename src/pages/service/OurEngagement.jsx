@@ -3,12 +3,9 @@ import { OUR_ENGAGEMENT_DATA } from '../../constants';
 const OurEngagement = () => {
     return (
         <div className=" w-screen px-5  xs:pt-3 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 3xl:pt-5">
-            <h2 className="font-poppins font-medium  text-zinc-850  text-4xl mb-6">
-                Our Engagement Models
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-5">
-                {
-                OUR_ENGAGEMENT_DATA.map((item, i) => {
+            <h2 className="font-poppins font-medium  text-zinc-850  text-4xl mb-6">Our Engagement Models</h2>
+            <div className="grid grid-cols-1 gap-y-5 md:grid-cols-2 md:gap-x-5">
+                {OUR_ENGAGEMENT_DATA.map((item, i) => {
                     return (
                         <div
                             key={i}
@@ -23,8 +20,7 @@ const OurEngagement = () => {
                             </div>
                         </div>
                     );
-                })
-                }
+                })}
             </div>
         </div>
     );
