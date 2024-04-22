@@ -61,11 +61,7 @@ const CustomerLove = () => {
                         <img src={leftArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="left-arrow" />
                     </a>
                     <a href="" className="xs:w-10 xs:h-10 xl:w-16 xl:h-16">
-                        <img
-                            src={rightArrow}
-                            className="xs:w-10 xs:h-10 xl:w-16 xl:h-16"
-                            alt="right-arrow"
-                        />
+                        <img src={rightArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="right-arrow" />
                     </a>
                 </div>
             </div>
