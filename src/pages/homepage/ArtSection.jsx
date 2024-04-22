@@ -1,5 +1,5 @@
 import ArtSectionImg from '../../assets/images/art-card.png';
-import GridlineImage from '../../assets/images/grid-lines.png';
+import GridlineImage from '../../assets/images/grid-lines.svg';
 import NewsCard from '../../assets/images/news-card.png';
 import RightArrow from '../../assets/icons/arrow-right.svg';
 import { NavLink } from 'react-router-dom';
@@ -12,7 +12,7 @@ function ArtSection() {
                 <section>
                     <div className="pl-6 4xl:pl-8">
                         <div className="hidden lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0">
-                            <img src={GridlineImage} alt="GridLines" className="md:w-full md:h-96" />
+                            <img src={GridlineImage} alt="Grid-Lines" className="md:w-full md:h-96" />
                         </div>
                         <span className="text-blue-500 lg:text-white lg:bg-blue-900 md:text-blue-800 lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 4xl:text-4xl">
                             The Art of the Possible
@@ -46,7 +46,7 @@ function ArtSection() {
                                     <div className="w-56 lg:w-auto md:w-full">
                                         <img
                                             src={NewsCard}
-                                            alt="Newscard"
+                                            alt="News-card"
                                             className=" w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
@@ -62,7 +62,7 @@ function ArtSection() {
                                 </div>
                                 <div className="w-full mr-4">
                                     <div className="w-56 lg:w-auto md:w-full">
-                                        <img src={NewsCard} alt="Newscard" className="w-full rounded-lg bg-slate-300" />
+                                        <img src={NewsCard} alt="News-card" className="w-full rounded-lg bg-slate-300" />
                                         <div className="mt-2">
                                             <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
@@ -76,7 +76,7 @@ function ArtSection() {
                                 </div>
                                 <div className="w-full mr-4 3xl:mr-6">
                                     <div className="w-56 lg:w-auto md:w-full">
-                                        <img src={NewsCard} alt="Newscard" className="w-full rounded-lg bg-slate-300" />
+                                        <img src={NewsCard} alt="News-card" className="w-full rounded-lg bg-slate-300" />
                                         <div className="mt-2 pb-28">
                                             <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
@@ -102,7 +102,7 @@ function ArtSection() {
                             ALL OUR SERVICES
                         </h1>
                         <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r  hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
-                            <img src={RightArrow} alt="rightArrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
+                            <img src={RightArrow} alt="Right-Arrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
                         </div>
                     </NavLink>
                 </div>
