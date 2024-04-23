@@ -73,21 +73,20 @@ export default {
                 '7.7xl': '5.3125rem'
             },
             lineHeight: {
-                    11: '3rem',
-                    12: '3.25rem',
-                    13: '3.5rem', 
-                    14: '3.75rem', 
-                    15: '4.25rem',
-                    16: '4.5rem',
-                    17: '5rem',
-                    18: '5.8125rem',
-                    19: '6rem',
-
+                11: '3rem',
+                12: '3.25rem',
+                13: '3.5rem',
+                14: '3.75rem',
+                15: '4.25rem',
+                16: '4.5rem',
+                17: '5rem',
+                18: '5.8125rem',
+                19: '6rem'
             },
             borderRadius: {
                 40: '2.5rem',
                 8: '2rem'
-            },
+            }
         }
     },
     plugins: []

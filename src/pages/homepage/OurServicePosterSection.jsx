@@ -1,13 +1,12 @@
-import gridImage from '../../assets/images/grid-image.svg'
+import gridImage from '../../assets/images/grid-image.svg';
 import PropTypes from 'prop-types';
-
 
 function OurServicePosterSection({ screenSize }) {
     return (
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 w-full">
             <div
                 className="absolute left-0 top-2.5 image bg-cover bg-center bg-no-repeat object-cover w-full h-1/2 scale-x-150 scale-y-100 md:w-1/2 lg:w-1/2 2xl:w-1/2 3xl:w-1/2 3xl:opacity-100"
-                style={{ backgroundImage: `url(${gridImage})` }}></div> 
+                style={{ backgroundImage: `url(${gridImage})` }}></div>
 
             <div className="flex flex-col item-center justify-center mt-24 ">
                 <div
