@@ -9,94 +9,85 @@ export default {
                 serif: ['DM Serif Display', 'serif']
             },
             screens: {
-                xs: '425px', // 12px
-                // => @media (min-width: 425px) { ... }
-
-                sm: '640px', // 12px
-                // => @media (min-width: 640px) { ... }
-
-                md: '768px', // 15px
-                // => @media (min-width: 768px) { ... }
-
-                lg: '1024px', // 18px
-                // => @media (min-width: 1024px) { ... }
-
-                xl: '1280px', //21px
-                // => @media (min-width: 1280px) { ... }
-
-                '2xl': '1536px', // 24px
-                // => @media (min-width: 1536px) { ... }
-
-                '3xl': '1920px' //28px
-                // => @media (min-width: 1920px) { ... }
-            },
-            height: {
-                // for main div heights
-                100: '25rem' // for height 400px
-            },
-            width: {
-                // for main div width
-                '3/10': '30%', // for width 30%
-                '6/10': '60%', //for width 60%
-                '13/20': '65%', // for width 65%
-                '5/10': '50%', //for width 50%
-                '7/10': '70%', // for width 70%
-                '8/10': '80%', // for width 80%
-                93.5: '23.375rem', // for width 374
-                100: '25rem' // for width 400px
+                ss: '280px',
+                xs: '428px',
+                '3xl': '1920px',
+                '4xl': '2560px'
             },
             spacing: {
-                2.5: '0.625rem', // for 10px
-                14: '3.5rem', // for 56px  padding
-                20: '5rem', // for 80px padding
-                25.25: '6.3125rem', // for 101px space
-                25: '6.25rem', // for 100px padding
-                27.5: '6.875rem', // for 110px or margin
-                30: '7.5rem', // for 120px padding
-                45.5: '11.375rem' // for padding 182px
+                45.5: '11.375rem',
+                101.5: '25.375rem',
+                106.7: '26.5rem',
+                110: '27.5rem',
+                112.5: '28.125rem',
+                116.25: '29.0625rem',
+                127: '31.75rem',
+                131: '32.75rem',
+                137: '34.25rem',
+                142.4: '35.625rem',
+                144.5: '36.125rem',
+                159.5: '39.875rem',
+                162.5: '40.625rem',
+                175: '43.75rem',
+                192.5: '48.125rem',
+                210: '52.5rem',
+                230.25: '57.5625rem',
+                250: '62.5rem',
+                270: '67.5rem',
+                287.5: '71.875rem',
+                330: '82.5rem',
+                344.5: '86.125rem',
+                389: '97.25rem'
             },
             colors: {
-                '#253F9C': '#253F9C', // for service background color
-                '#696969': '#696969' // for text color
+                gray: {
+                    75: '#F7F7F7',
+                    425: '#828796',
+                    475: '#7B7B7B',
+                    525: '#707070'
+                },
+                slate: {
+                    550: '#696969',
+                    725: '#2F3750',
+                    925: '#0B1226'
+                },
+                zinc: {
+                    75: '#F4F8FF',
+                    850: '#272727'
+                },
+                blue: {
+                    575: '#0A66EC',
+                    850: '#253F9C'
+                },
+                neutral: {
+                    575: '#555555'
+                }
             },
             fontSize: {
-                3.25: '0.8125rem', // for 13px font size
-                3.75: '0.9375rem', // for 15px font size
-                4.5: '1.125rem', // for 18px font size
-                5: '1.25rem', // for 20px font size
-                5.25: '1.3125rem', // for 21px font size
-                5.5: '1.375rem', // for 22px font size
-                5.75: '1.4375rem', // for 23px font size
-                6: '1.5rem', // for 24px font size
-                6.25: '1.5625rem', // for 25px font size
-                7: '1.75rem', // for 28px font size
-                8.75: '2.1875rem', // for 35px of font size
-                10: '2.5rem', // for 40px font size
-                11.5: '2.875rem', // for 46px of font size
-                12.5: '3.125rem', // for 50px of font size
-                15: '3.75rem', // for 60px of font size
-                17.5: '4.375rem', // for 70px of font size
-                20: '5rem', // for 80px of font size
-                21.25: '5.3125rem' //for 85px of font size
+                '2.5xl': '1.6875rem',
+                '4.5xl': '2.5rem',
+                '4.7xl': '2.75rem',
+                '5.5xl': '3.25rem',
+                '5.7xl': '3.5rem',
+                '7.5xl': '5rem',
+                '7.7xl': '5.3125rem'
             },
             lineHeight: {
-                5.5: '1.375rem', // for 22px line height
-                5.75: '1.4375rem', // for 23px line height
-                6: '1.5rem', // for 24px of line height
-                6.5: '1.625rem', // for 26px of line height
-                7: '1.75rem', // for 28px of line height
-                7.25: '1.8125rem', // for 29px of line height
-                7.5: '1.875rem', // for 30px of line height
-                9.5: '2.375rem', // for 38px of line height
-                11.25: '2.8125rem', // for 45px of font size
-                12: '3rem', // for 48px of line height
-                13: '3.25rem', // for 52px of line height
-                15.25: '3.8125rem', // for 61px of line height
-                16.75: '4.1875rem', // for 67px of line height
-                17.5: '4.375rem', // for 70px of line height
-                20: '5rem', // for 80px of line height
-                24: '6rem' // for 96px of line height
-            }
+                    11: '3rem',
+                    12: '3.25rem',
+                    13: '3.5rem', 
+                    14: '3.75rem', 
+                    15: '4.25rem',
+                    16: '4.5rem',
+                    17: '5rem',
+                    18: '5.8125rem',
+                    19: '6rem',
+
+            },
+            borderRadius: {
+                40: '2.5rem',
+                8: '2rem'
+            },
         }
     },
     plugins: []
