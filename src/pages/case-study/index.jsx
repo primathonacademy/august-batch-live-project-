@@ -1,5 +1,5 @@
-const CaseStudy = () => {
-    return <div>CaseStudy</div>;
-};
+function CaseStudy() {
+    return <div></div>;
+}
 
 export default CaseStudy;

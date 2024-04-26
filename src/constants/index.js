@@ -22,5 +22,30 @@ export const OUR_ENGAGEMENT_DATA = [
         heading: 'Fixed Price',
         discription:
             'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    }]
+export const NAV_ITEMS = [
+    {
+        title: 'Work',
+        link: ROUTES.WORK
+    },
+    {
+        title: 'services',
+        link: ROUTES.SERVICE
+    },
+    {
+        title: 'Insights',
+        link: ROUTES.INSIGHT
+    },
+    {
+        title: 'About Us',
+        link: ROUTES.ABOUT
+    },
+    {
+        title: 'Labs',
+        link: ROUTES.CASE_STUDY
+    },
+    {
+        title: 'Contact Us',
+        link: ROUTES.CONTACT
     }
 ];

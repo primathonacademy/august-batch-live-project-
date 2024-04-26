@@ -1,11 +1,5 @@
-import OurEngagement from './OurEngagement';
-
-const Service = () => {
-    return (
-        <>
-            <OurEngagement />
-        </>
-    );
-};
+function Service() {
+    return <div></div>;
+}
 
 export default Service;
