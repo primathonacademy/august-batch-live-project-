@@ -1,9 +1,11 @@
-import BrandSection from "./BrandSection";
+import BrandSection from './BrandSection';
 
 function About() {
-    return <div>
-        <BrandSection/>
-    </div>;
+    return (
+        <div>
+            <BrandSection />
+        </div>
+    );
 }
 
 export default About;
