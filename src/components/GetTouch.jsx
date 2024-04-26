@@ -5,10 +5,10 @@ const GetTouch = () => {
     return (
         <div className="bg-white  md:pb-16 md:px-14 lg:pb-20 xl:pb-24 xl:px-24 lg:px-20 2xl:pb-28 2xl:px-28 px-5 mt-24 3xl:px-45.5 ">
             <section className="flex  flex-row w-full bg-blue-900 p-3 rounded-lg md:rounded-xl relative overflow-hidden">
-                <div className="absolute left-0  top-28 lg:top-20 xl:top-32 2xl:top-40 3xl:top-43.5 flex flex-col gap-11 md:gap-11 lg:gap-16 xl:gap-16 2xl:gap-24 w-full border-fade-white opacity-20"></div>
+                <div className="absolute left-0  top-28 lg:top-20 xl:top-32 2xl:top-40 3xl:top-43.5  gap-11 md:gap-11 lg:gap-16 xl:gap-16 2xl:gap-24 w-full border-fade-white opacity-20"></div>
                 <div className="absolute top-0 -left-32  md:left-7 lg:left-8 xl:left-9 2xl:left-10 flex items-center gap-2 lg:gap-5 xl:gap-6 2xl:gap-7"></div>
                 <div
-                    className="flex flex-col gap-1 xl:items-start py-16 xl:py-24 2xl:py-32 lg:pl-24 2xl:pl-28 lg:pr-10 xl:gap-1 2xl:gap-4 items-center w-full relative bg-cover"
+                    className=" gap-1 xl:items-start py-16 xl:py-24 2xl:py-32 lg:pl-24 2xl:pl-28 lg:pr-10 xl:gap-1 2xl:gap-4 items-center w-full relative bg-cover"
                     style={{ backgroundImage: `url(${HeroBackground})`, opacity: 1 }}>
                     <p className="font-poppins text-white opacity-80 lg:self-start text-start text-sm lg:text-2xl xl:text-2.5xl w-48 lg:w-72 xl:w-full md:leading-6 lg:leading-8">
                         Have a dream for a better world?
