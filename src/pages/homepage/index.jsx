@@ -1,11 +1,5 @@
-import ArtSection from './ArtSection';
-
-function Homepage() {
-    return (
-        <div>
-            <ArtSection />
-        </div>
-    );
+function HomePage() {
+    return <div></div>;
 }
 
-export default Homepage;
+export default HomePage;
