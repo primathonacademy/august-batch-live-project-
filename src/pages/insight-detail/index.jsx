@@ -1,5 +1,5 @@
 function InsightDetail() {
-    return <div>{/* <Article/> */}</div>;
+    return <div></div>;
 }
 
 export default InsightDetail;
