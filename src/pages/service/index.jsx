@@ -1,5 +1,11 @@
+import SelectedProject from './SelectedProject';
+
 function Service() {
-    return <div></div>;
+    return (
+        <>
+            <SelectedProject />
+        </>
+    );
 }
 
 export default Service;
