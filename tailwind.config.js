@@ -86,7 +86,7 @@ export default {
                 16: '4.5rem',
                 17: '5rem',
                 18: '5.8125rem',
-                19: '6rem',
+                19: '6rem'
             }
         }
     },

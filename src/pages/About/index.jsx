@@ -5,7 +5,7 @@ function About() {
         <div>
             <FounderSection />
         </div>
-    )
+    );
 }
 
 export default About;
