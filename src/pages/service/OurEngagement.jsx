@@ -7,9 +7,7 @@ const OurEngagement = () => {
             <div className="grid grid-cols-1 gap-y-5 md:grid-cols-2 md:gap-x-5">
                 {OUR_ENGAGEMENT_DATA.map((item, i) => {
                     return (
-                        <div
-                            key={i}
-                            className=" flex flex-col items-center rounded-lg border p-16 bg-gray-75 w-full 3xl:py-20">
+                        <div key={i} className="rounded-lg border p-16 bg-gray-75 w-full 3xl:py-20">
                             <div className="pt-14 pr-18 2xl:pr-24">
                                 <h3 className=" text-left font-poppins font-medium text-2.5xl mb-4 w-10 2xl:text-4xl">
                                     {item.heading}
