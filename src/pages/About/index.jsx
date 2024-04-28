@@ -1,5 +1,11 @@
+import FounderSection from './FounderSection';
+
 function About() {
-    return <div></div>;
+    return (
+        <div>
+            <FounderSection />
+        </div>
+    )
 }
 
 export default About;
