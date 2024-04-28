@@ -1,5 +1,5 @@
-const Service = () => {
-    return <div>Service</div>;
-};
+function Service() {
+    return <div></div>;
+}
 
 export default Service;
