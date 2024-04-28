@@ -1,9 +1,11 @@
 import projectImg from '../assets/images/project-mobile-img.png';
+import projectDesktopImg from '../assets/images/project-desktop-img.png';
 
 export const projectData = [
     {
         id: 1,
         imgSrc: projectImg,
+        deskImg: projectDesktopImg,
         hash1: '# UX/UI',
         hash2: '# DEVELOPMENT',
         heading: 'Simplicontract',
@@ -13,6 +15,7 @@ export const projectData = [
     {
         id: 2,
         imgSrc: projectImg,
+        deskImg: projectDesktopImg,
         hash1: '# UX/UI',
         hash2: '# DEVELOPMENT',
         heading: 'Simplicontract2',
@@ -22,6 +25,7 @@ export const projectData = [
     {
         id: 3,
         imgSrc: projectImg,
+        deskImg: projectDesktopImg,
         hash1: '# UX/UI',
         hash2: '# DEVELOPMENT',
         heading: 'Simplicontract3',

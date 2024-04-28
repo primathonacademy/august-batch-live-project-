@@ -1,11 +1,21 @@
-import SelectedProjects from "./SelectedProjects"
+import { useState, useEffect } from 'react';
+import SelectedProjects from './SelectedProjects';
 
 const Service = () => {
-  return (
-    <div>
-      <SelectedProjects />
-    </div>
-  )
-}
+    const [screenSize, setScreenSize] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenSize(window.innerWidth);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
-export default Service
+    return (
+        <>
+            <SelectedProjects screenSize={screenSize} />
+        </>
+    );
+};
+
+export default Service;
