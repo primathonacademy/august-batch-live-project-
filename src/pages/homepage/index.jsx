@@ -1,6 +1,6 @@
 import CustomerLove from './CustomerLove';
 
-const HomePage = () => {
+const Homepage = () => {
     return (
         <div>
             <CustomerLove />
@@ -8,4 +8,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Homepage;

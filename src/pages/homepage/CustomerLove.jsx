@@ -1,18 +1,18 @@
-import gridImg from '../../assets/images/grid-img.svg';
-import quoteIcon from '../../assets/images/double-quote-sans-left.svg';
-import ellipseImg from '../../assets/images/ellipse-gradient.svg';
-import profileIcon from '../../assets/images/profile-img.png';
-import leftArrow from '../../assets/images/left-arrow.svg';
-import rightArrow from '../../assets/images/right-arrow.svg';
+import GridImg from '../../assets/images/grid-img.svg';
+import QuoteIcon from '../../assets/images/double-quote-sans-left.svg';
+import EllipseImg from '../../assets/images/ellipse-gradient.svg';
+import ProfileIcon from '../../assets/images/profile-img.png';
+import LeftArrow from '../../assets/images/left-arrow.svg';
+import RightArrow from '../../assets/images/right-arrow.svg';
 
 const CustomerLoveCard = () => {
     return (
         <div className="flex flex-col pt-13 pb-14">
             <div className="lg:flex items-start">
                 <div className="mt-10">
-                    <img src={quoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quote-icon" />
+                    <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quote-icon" />
                 </div>
-                <blockquote className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-60 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
+                <blockquote className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-50 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
                     “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale
                     through fail-proof design innovation systems. “
                 </blockquote>
@@ -20,9 +20,9 @@ const CustomerLoveCard = () => {
             <div className="flex items-center w-60 xs:w-96 lg:w-1/2 xl:w-2/5 3xl:w-1/3 lg:ml-20 xl:ml-20">
                 <div
                     className="w-20 h-20 xs:w-28 xs:h-28 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 rounded-full bg-no-repeat bg-center bg-cover"
-                    style={{ backgroundImage: `url(${ellipseImg})` }}></div>
+                    style={{ backgroundImage: `url(${EllipseImg})` }}></div>
                 <img
-                    src={profileIcon}
+                    src={ProfileIcon}
                     alt="profile-image"
                     className="absolute left-14 xs:left-16 lg:left-52 md:left-28  xl:left-44 3xl:left-60 xl:ml-20 w-14 h-14 xs:w-20 xs:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28"
                 />
@@ -45,7 +45,7 @@ const CustomerLove = () => {
             <div className="w-full">
                 <div
                     className="absolute left-0 hidden 2xl:block w-3/4 h-45.5 scale-x-100 bg-cover bg-center"
-                    style={{ backgroundImage: `url(${gridImg})` }}></div>
+                    style={{ backgroundImage: `url(${GridImg})` }}></div>
                 <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:my-4">
                     Customer Love
                 </div>
@@ -55,13 +55,13 @@ const CustomerLove = () => {
             </div>
             <CustomerLoveCard />
             <div className="flex items-center w-full">
-                <div className="w-full h-0.5 bg-black opacity-6"></div>
+                <div className="w-full h-0.5 bg-black opacity-5"></div>
                 <div className="flex justify-end">
                     <a href="" className="mx-2">
-                        <img src={leftArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="left-arrow" />
+                        <img src={LeftArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="left-arrow" />
                     </a>
                     <a href="" className="xs:w-10 xs:h-10 xl:w-16 xl:h-16">
-                        <img src={rightArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="right-arrow" />
+                        <img src={RightArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="right-arrow" />
                     </a>
                 </div>
             </div>

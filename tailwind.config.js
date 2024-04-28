@@ -86,9 +86,6 @@ export default {
             borderRadius: {
                 40: '2.5rem',
                 8: '2rem'
-            },
-            opacity: {
-                6: '0.06'
             }
         }
     },
