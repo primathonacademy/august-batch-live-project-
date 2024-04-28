@@ -33,13 +33,13 @@ const FormSection = ({ screenSize }) => {
                         style={{ backgroundImage: `url(${GridLineFormImage})` }}></div>
 
                     <div className="pt-5">
-                        <h2 className="w-36 bg-blue-850 text-center text-xl text-white mt-28 lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44">
+                        <h2 className="w-36 bg-blue-850 text-center text-xl text-white mt-28 xl:text-xl lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44">
                             Contact Us
                         </h2>
-                        <h4 className="w-131 font-poppins lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 font-medium  text-5xl mt-7">
+                        <h4 className="w-131 font-poppins lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 font-medium xl:text-6xl text-5xl mt-7">
                             Let us make it real
                         </h4>
-                        <p className="w-101.5 h-28 lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 tracking-tight text-base  font-roboto mt-10 text-slate-550">
+                        <p className="w-101.5 h-28 lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 tracking-tight text-base xl:text-xl font-roboto mt-10 text-slate-550">
                             Here in &quot;the pond&quot; we&apos;re driven by creativity ,curiosity and a passion for
                             challenging the status quo in everything we do
                         </p>
@@ -68,7 +68,7 @@ const FormSection = ({ screenSize }) => {
 
                     <div className="flex mt-9 gap-5   w-56 lg:w-96 xl:w-116.25 2xl:w-144.5 3xl:w-175 h-32">
                         <input type="checkbox" className="w-6 h-6"></input>
-                        <p className="text-gray-525 font-normal  tracking-normal text-base  font-roboto">
+                        <p className="text-gray-525 font-normal  tracking-normal text-base xl:text-xl  font-roboto">
                             I agree to frog collecting and processing my personal data to allow me to receive
                             information on frog services.
                         </p>
