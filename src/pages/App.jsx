@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
 import Layout from '../Layout';
-import About from './About';
+import About from './about';
 import Contact from './contact';
 import CaseStudy from './case-study';
 import Insight from './insight';
@@ -9,7 +8,8 @@ import InsightDetail from './insight-detail';
 import Work from './work';
 import Service from './service';
 import Homepage from './homepage';
-import { ROUTES } from '../constants/index';
+import { ROUTES } from '../constants';
+
 
 const App = () => {
     return (

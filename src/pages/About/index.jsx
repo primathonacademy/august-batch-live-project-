@@ -1,5 +1,11 @@
-function About() {
-    return <div></div>;
+import PartnerSection from "./PartnerSection"
+
+function index() {
+  return (
+    <>
+            <PartnerSection />
+    </>
+  )
 }
 
-export default About;
+export default index
