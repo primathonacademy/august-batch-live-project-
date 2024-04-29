@@ -1,5 +1,11 @@
-function HomePage() {
-    return <div></div>;
-}
+import CustomerLove from './CustomerLove';
 
-export default HomePage;
+const Homepage = () => {
+    return (
+        <div>
+            <CustomerLove />
+        </div>
+    );
+};
+
+export default Homepage;

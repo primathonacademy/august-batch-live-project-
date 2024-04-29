@@ -7,7 +7,6 @@ export default {
                 ss: '280px',
                 xs: '428px',
                 '3xl': '1920px',
-                // => @media (min-width: 1920px) { ... },
                 '4xl': '2560px'
             },
             fontFamily: {
@@ -64,10 +63,6 @@ export default {
                     575: '#555555'
                 }
             },
-            borderRadius: {
-                40: '2.5rem',
-                8: '2rem'
-            },
             fontSize: {
                 '2.5xl': '1.6875rem',
                 '4.5xl': '2.5rem',
@@ -80,13 +75,17 @@ export default {
             lineHeight: {
                 11: '3rem',
                 12: '3.25rem',
-                13: '3.5rem', 
-                14: '3.75rem', 
+                13: '3.5rem',
+                14: '3.75rem',
                 15: '4.25rem',
                 16: '4.5rem',
                 17: '5rem',
                 18: '5.8125rem',
-                19: '6rem',
+                19: '6rem'
+            },
+            borderRadius: {
+                40: '2.5rem',
+                8: '2rem'
             }
         }
     },

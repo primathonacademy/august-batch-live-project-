@@ -1,15 +1,14 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../Layout';
-import About from './About';
-import Contact from './contact';
+import About from './about';
 import CaseStudy from './case-study';
-import Insight from './insight';
-import InsightDetail from './insight-detail';
-import Work from './work';
-import Service from './service';
+import Contact from './contact';
 import Homepage from './homepage';
-import { ROUTES } from '../constants/index';
+import InsightDetail from './insight-detail';
+import Insight from './insights';
+import Service from './service';
+import Work from './work';
+import { ROUTES } from '../constants/app-constant';
 
 const App = () => {
     return (
