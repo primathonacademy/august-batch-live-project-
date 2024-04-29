@@ -11,14 +11,12 @@ import Work from './work';
 import Service from './service';
 import HomePage from './homepage';
 
-
-
 const App = () => {
     return (
         <>
             <Routes>
                 <Route element={<Layout />}>
-                    <Route path={ROUTES.HOME} element={<HomePage/>} />
+                    <Route path={ROUTES.HOME} element={<HomePage />} />
                     <Route path={ROUTES.ABOUT} element={<About />} />
                     <Route path={ROUTES.CONTACT} element={<Contact />} />
                     <Route path={ROUTES.CASE_STUDY} element={<Casestudy />} />
@@ -30,8 +28,6 @@ const App = () => {
                     <Route path="*" element={<h1>404 — Page Not Found</h1>} />
                 </Route>
             </Routes>
-
-           
         </>
     );
 };

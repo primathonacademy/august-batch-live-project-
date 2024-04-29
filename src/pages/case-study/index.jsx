@@ -1,9 +1,5 @@
-import React from 'react'
-
 function Casestudy() {
-  return (
-    <div>case-study</div>
-  )
+    return <div>case-study</div>;
 }
 
-export default Casestudy
+export default Casestudy;
