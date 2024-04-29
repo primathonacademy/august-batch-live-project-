@@ -24,6 +24,7 @@ const App = () => {
                     <Route path={ROUTES.INSIGHT_DETAIL} element={<InsightDetail />} />
                     <Route path={ROUTES.WORK} element={<Work />} />
                     <Route path={ROUTES.SERVICE} element={<Service />} />
+                    {/* 404 */}
                     <Route path="*" element={<h1>404 — Page Not Found</h1>} />
                 </Route>
             </Routes>

@@ -8,7 +8,7 @@ const CoFounder = () => {
     return (
         <div className=" px-5 mt-10  md:px-14  lg:px-20  xl:px-24  2xl:px-28  3xl:px-45.5 ">
             <div className="flex    lg:gap-24 xl:gap-55 2xl:gap-75 3xl:gap-94 md:w-full      ">
-                <div className=" flex flex-col  lg:flex-row  w-96  md:w-110 lg:w-127 xl:w-142.4  2xl:w-175 3xl:w-192.5 h-80 3xl:h-80">
+                <div className="   lg:flex  w-96  md:w-110 lg:w-127 xl:w-142.4 lg:gap-3 2xl:w-175 3xl:w-192.5 h-80 3xl:h-80">
                     <div className=" xl:mr-10 2xl:mr-14 3xl:mr-16  mb-7 w-14   xl:w-16 3xl:w-16 h-9 md:h-10 xl:h-11 3xl:h-12">
                         <img src={DoubleQuoteImage} alt="double-quote-image" />
                     </div>
@@ -54,8 +54,8 @@ const CoFounder = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-96 md:w-112.5 lg:w-210 xl:w-250 2xl:w-330 3xl:w-389  h-9.75 3xl:h-16 flex lg:pr-24 xl:pr-16 2xl:pr-72 3xl:pr-56 ">
-                <hr className="w-60 md:w-116.25 lg:w-175 xl:w-230.25 2xl:w-287.5 3xl:w-344.5 mr-2 border opacity-1 h-0 mt-6 3xl:mt-7"></hr>{' '}
+            <div className="w-full flex   ">
+                <hr className="w-full mr-2 border opacity-1 h-0 mt-6 3xl:mt-7"></hr>{' '}
                 <img src={ArrowLeftIcon} alt="left-arrow-image" className="mr-2 w-14 h-14"></img>{' '}
                 <img src={ArrowRightIcon} alt="right-arrow-image" className="w-14 h-14"></img>{' '}
             </div>

@@ -1,6 +1,5 @@
-
-
-const Work = () => {
+function Work() {
     return <div></div>;
-};
+}
+
 export default Work;

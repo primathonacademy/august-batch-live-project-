@@ -3,40 +3,17 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
-            colors: {
-                gray: {
-                    75: '#F7F7F7',
-                    425: '#828796',
-                    475: '#7B7B7B',
-                    525: '#707070'
-                },
-                slate: {
-                    550: '#696969',
-                    725: '#2F3750',
-                    925: '#0B1226'
-                },
-                zinc: {
-                    75: '#F4F8FF',
-                    850: '#272727'
-                },
-                blue: {
-                    575: '#0A66EC',
-                    850: '#253F9C'
-                },
-                neutral: {
-                    575: '#555555'
-                }
+            screens: {
+                ss: '280px',
+                xs: '428px',
+                '3xl': '1920px',
+                // => @media (min-width: 1920px) { ... },
+                '4xl': '2560px'
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans'],
                 roboto: ['Roboto', 'sans-serif'],
                 serif: ['DM Serif Display', 'serif']
-            },
-            screens: {
-                ss: '280px',
-                xs: '428px',
-                '3xl': '1920px',
-                '4xl': '2560px'
             },
             spacing: {
                 45.5: '11.375rem',
@@ -63,6 +40,34 @@ export default {
                 344.5: '86.125rem',
                 389: '97.25rem'
             },
+            colors: {
+                gray: {
+                    75: '#F7F7F7',
+                    425: '#828796',
+                    475: '#7B7B7B',
+                    525: '#707070'
+                },
+                slate: {
+                    550: '#696969',
+                    725: '#2F3750',
+                    925: '#0B1226'
+                },
+                zinc: {
+                    75: '#F4F8FF',
+                    850: '#272727'
+                },
+                blue: {
+                    575: '#0A66EC',
+                    850: '#253F9C'
+                },
+                neutral: {
+                    575: '#555555'
+                }
+            },
+            borderRadius: {
+                40: '2.5rem',
+                8: '2rem'
+            },
             fontSize: {
                 '2.5xl': '1.6875rem',
                 '4.5xl': '2.5rem',
@@ -75,17 +80,13 @@ export default {
             lineHeight: {
                 11: '3rem',
                 12: '3.25rem',
-                13: '3.5rem',
-                14: '3.75rem',
+                13: '3.5rem', 
+                14: '3.75rem', 
                 15: '4.25rem',
                 16: '4.5rem',
                 17: '5rem',
                 18: '5.8125rem',
-                19: '6rem'
-            },
-            borderRadius: {
-                40: '2.5rem',
-                8: '2rem'
+                19: '6rem',
             }
         }
     },
