@@ -1,5 +1,11 @@
+import Branding from './Branding';
+
 function CaseStudy() {
-    return <div></div>;
+    return (
+        <div>
+            <Branding />
+        </div>
+    );
 }
 
 export default CaseStudy;
