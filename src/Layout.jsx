@@ -1,9 +1,11 @@
 import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
 const Layout = () => {
     return (
         <>
-            <main className=" overflow-hidden">
+            <Header />
+            <main className="overflow-hidden">
                 <Outlet />
             </main>
         </>
@@ -11,3 +13,4 @@ const Layout = () => {
 };
 
 export default Layout;
+
