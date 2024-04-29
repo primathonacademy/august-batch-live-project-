@@ -10,7 +10,6 @@ import Insight from './insights';
 import Service from './service';
 import Work from './work';
 
-
 const App = () => {
     return (
         <BrowserRouter>

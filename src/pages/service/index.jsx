@@ -1,4 +1,3 @@
-
 import CoFounder from './CoFounder';
 
 const Service = () => {
