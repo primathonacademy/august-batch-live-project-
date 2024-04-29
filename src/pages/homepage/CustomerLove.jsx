@@ -7,8 +7,8 @@ import RightArrow from '../../assets/images/right-arrow.svg';
 
 const CustomerLoveCard = () => {
     return (
-        <div className="flex flex-col pt-13 pb-14">
-            <div className="lg:flex items-start">
+        <div className="pt-13 pb-14">
+            <div className="">
                 <div className="mt-10">
                     <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quote-icon" />
                 </div>
@@ -26,7 +26,7 @@ const CustomerLoveCard = () => {
                     alt="profile-image"
                     className="absolute left-14 xs:left-16 lg:left-52 md:left-28  xl:left-44 3xl:left-60 xl:ml-20 w-14 h-14 xs:w-20 xs:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28"
                 />
-                <div className="flex-1 flex-col pl-6 xs:pl-10 lg:pl-14 xl:pl-14">
+                <div className="flex-1 pl-6 xs:pl-10 lg:pl-14 xl:pl-14">
                     <h6 className="text-sm xs:text-lg md:text-xl xl:text-2xl font-medium font-poppins lg:py-2">
                         Mrs. Regina Christy
                     </h6>
@@ -60,7 +60,7 @@ const CustomerLove = () => {
                     <a href="" className="mx-2">
                         <img src={LeftArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="left-arrow" />
                     </a>
-                    <a href="" className="xs:w-10 xs:h-10 xl:w-16 xl:h-16">
+                    <a href="" className="">
                         <img src={RightArrow} className="xs:w-10 xs:h-10 xl:w-16 xl:h-16" alt="right-arrow" />
                     </a>
                 </div>
