@@ -39,7 +39,7 @@ const CustomerLoveCard = () => {
     );
 };
 
-const CustomerLove = () => {
+const CustomerLoveSection = () => {
     return (
         <div className="w-full gap-1 py-32 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 bg-gray-400 bg-transparent">
             <div className="w-full">
@@ -76,4 +76,4 @@ const CustomerLove = () => {
     );
 };
 
-export default CustomerLove;
+export default CustomerLoveSection;
