@@ -42,8 +42,8 @@ const Branding = () => {
                         </div>
                         <div className="grid md:grid-cols-2 grid-cols-1 gap-2 md:gap-4 md:w-3/4 ">
                             <div className="flex gap-3 md:flex-col mt-12 ">
-                                <p className="">60 pt</p>
-                                <p className="">Work Sans Regular</p>
+                                <p>60 pt</p>
+                                <p>Work Sans Regular</p>
                             </div>
                             <div>
                                 <h2 className="text-4.5xl font-bold">Heading 1</h2>
@@ -59,7 +59,7 @@ const Branding = () => {
 
                             <div className="flex gap-3 md:flex-col mt-10 md:mt-0">
                                 <p className="md:mb-0">36 pt</p>
-                                <p className="">Work Sans bold</p>
+                                <p>Work Sans bold</p>
                             </div>
                             <div>
                                 <h3 className="text-2xl font-bold">Heading 3</h3>
@@ -107,7 +107,7 @@ const Branding = () => {
             <div className="py-28">
                 <img src={LoginImg} className="w-full mb-4 h-96 -mt-16 md:h-full" />
                 <div className="md:flex gap-4  w-full h-full">
-                    <div style={{ backgroundImage: `url(${CaseStudyBg})` }} className="">
+                    <div style={{ backgroundImage: `url(${CaseStudyBg})` }}>
                         <img src={CaseStudy} alt="Case-Study-Work" className="object-contain" />
                     </div>
                     <div>
