@@ -7,7 +7,7 @@ import RightArrow from '../../assets/images/right-arrow-image.svg';
 
 const CustomerLoveCard = () => {
     return (
-        <div className="mt-72 mb-14 lg:mt-14">
+        <div className="mt-72 mb-14 lg:mt-0">
             <div className="mt-10">
                 <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
             </div>
@@ -24,7 +24,7 @@ const CustomerLoveCard = () => {
                 <img
                     src={ProfileIcon}
                     alt="profile image"
-                    className="absolute left-14 xs:left-16 lg:left-52 md:left-28 xl:left-44 3xl:left-60 xl:ml-20 w-14 h-14 xs:w-20 xs:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28"
+                    className="absolute left-14 xs:left-16 lg:left-52 md:left-24 xl:left-40 3xl:left-60 xl:ml-20 w-14 h-14 xs:w-20 xs:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28"
                 />
                 <div className="flex-1 pl-6 xs:pl-10 lg:pl-14 xl:pl-14">
                     <h6 className="text-sm xs:text-lg md:text-xl xl:text-2xl font-medium font-poppins lg:py-2">
