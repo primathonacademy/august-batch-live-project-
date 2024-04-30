@@ -1,9 +1,9 @@
-import GridImg from '../../assets/images/grid-img.svg';
-import QuoteIcon from '../../assets/images/double-quote-sans-left.svg';
-import EllipseImg from '../../assets/images/ellipse-gradient.svg';
-import ProfileIcon from '../../assets/images/profile-img.png';
-import LeftArrow from '../../assets/images/left-arrow.svg';
-import RightArrow from '../../assets/images/right-arrow.svg';
+import GridImg from '../../assets/images/grid-line-image.svg';
+import QuoteIcon from '../../assets/images/double-quote-image.svg';
+import EllipseImg from '../../assets/images/ellipse-gradient-image.svg';
+import ProfileIcon from '../../assets/images/profile-image.png';
+import LeftArrow from '../../assets/images/left-arrow-image.svg';
+import RightArrow from '../../assets/images/right-arrow-image.svg';
 
 const CustomerLoveCard = () => {
     return (
