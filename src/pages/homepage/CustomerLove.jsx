@@ -12,11 +12,15 @@ const CustomerLoveCard = () => {
                 <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
             </div>
             <p className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-50 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
-                “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale
-                through fail-proof design innovation systems. “
+                “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through
+                fail-proof design innovation systems. “
             </p>
             <div className="flex items-center w-60 xs:w-96 lg:w-1/2 xl:w-2/5 3xl:w-1/3 lg:ml-20 xl:ml-20">
-                <img src={EllipseImg} className="relative w-20 h-20 xs:w-28 xs:h-28 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 rounded-full bg-no-repeat bg-center bg-cover" alt="blue colored gradient image" />
+                <img
+                    src={EllipseImg}
+                    className="relative w-20 h-20 xs:w-28 xs:h-28 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-36 xl:h-36 rounded-full bg-no-repeat bg-center bg-cover"
+                    alt="blue colored gradient image"
+                />
                 <img
                     src={ProfileIcon}
                     alt="profile image"
@@ -39,11 +43,15 @@ const CustomerLove = () => {
     return (
         <div className="w-full gap-1 py-32 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 bg-gray-400 bg-transparent">
             <div className="w-full">
-                <img src={GridImg} className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 bg-cover bg-center" alt="grid background image" />
+                <img
+                    src={GridImg}
+                    className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 bg-cover bg-center"
+                    alt="grid background image"
+                />
                 {/* <div
                     className="absolute left-0 hidden 2xl:block w-3/4 h-52 scale-x-100 bg-cover bg-center"
                     style={{ backgroundImage: `url(${GridImg})` }}></div> */}
-                <div className='absolute top-40'>
+                <div className="absolute top-40">
                     <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
                         Customer Love
                     </div>
