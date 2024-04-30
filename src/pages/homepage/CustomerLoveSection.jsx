@@ -7,14 +7,16 @@ import RightArrow from '../../assets/images/right-arrow-image.svg';
 
 const CustomerLoveCard = () => {
     return (
-        <div className="mt-72 mb-14 lg:mt-0">
-            <div className="mt-10">
-                <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
+        <div className="mt-72 mb-14 lg:mt-0 ">
+            <div className='lg:flex'>
+                <div className="mt-10">
+                    <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
+                </div>
+                <p className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-50 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
+                    “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through
+                    fail-proof design innovation systems. “
+                </p>
             </div>
-            <p className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-50 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
-                “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through
-                fail-proof design innovation systems. “
-            </p>
             <div className="flex items-center w-60 xs:w-96 lg:w-1/2 xl:w-2/5 3xl:w-1/3 lg:ml-20 xl:ml-20">
                 <img
                     src={EllipseImg}
@@ -48,9 +50,6 @@ const CustomerLoveSection = () => {
                     className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 bg-cover bg-center"
                     alt="grid background image"
                 />
-                {/* <div
-                    className="absolute left-0 hidden 2xl:block w-3/4 h-52 scale-x-100 bg-cover bg-center"
-                    style={{ backgroundImage: `url(${GridImg})` }}></div> */}
                 <div className="absolute top-40">
                     <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
                         Customer Love
