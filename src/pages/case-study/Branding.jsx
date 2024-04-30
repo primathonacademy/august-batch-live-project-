@@ -8,15 +8,13 @@ import ColorPaletteSm from '../../assets/images/color-palette-sm.png';
 const Branding = () => {
     return (
         <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 text-gray-600 font-roboto ">
-            <h2 className="font-serif italic text-lg md:text-3xl inline bg-blue-800  px-4 text-white md:px-8">
+            <h2 className="font-serif italic text-lg md:text-3xl bg-blue-800  px-4 text-white md:px-8 inline">
                 Branding
             </h2>
-            <div className="border-b-2 border-gray-200 md:mt-1.2 -mt-1"></div>
+            <div className="border-b-2 border-gray-200 -mt-1"></div>
             <div className=" pt-2 md:pt-24 md:gap-10 gap-2  md:flex">
                 <div className="md:w-1/3">
-                    <h2 className="zinc-950 text-2.5xl md:text-4xl font-poppins font-medium w-45.5">
-                        Typography & Color
-                    </h2>
+                    <h2 className=" text-2.5xl md:text-4xl font-poppins font-medium w-45.5">Typography & Color</h2>
                 </div>
                 <div className="md:w-2/3 ">
                     <p className="pr-20">
@@ -26,7 +24,7 @@ const Branding = () => {
                         sophisticated touch to the design.
                     </p>
                     <div className="md:py-16 py-8">
-                        <div className=" gap-2 flex-col  font-medium text-white text-base">
+                        <div className=" gap-2 font-medium text-white text-base">
                             <img src={ColorPaletteLg} alt="Color-Palette-Lg" className="hidden lg:block" />
                             <img src={ColorPaletteSm} alt="Color-palette-Sm" className="lg:hidden" />
                         </div>
