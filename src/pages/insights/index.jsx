@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Insight = () => {
-  return (
-    <div>Insight</div>
-  )
-}
+    return <div>Insight</div>;
+};
 
-export default Insight
+export default Insight;
