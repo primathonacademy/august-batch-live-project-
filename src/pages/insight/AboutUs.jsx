@@ -86,11 +86,11 @@ function AboutUs() {
                 </div>
             </section>
 
-            <div className="mt-10 ">
+            <div className="mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5 ">
                 <img
                     src={AboutHeroSection}
                     alt="company workplace environment poster"
-                    className=" object-cover bg-cover bg-center  3xl:min-w-389  2xl:min-w-330  2xl:max-w-389 xl:min-w-270    xl:max-w-330 lg:min-w-210 lg:max-w-270 md:min-w-162.5 md:max-w-210  xl:h-127 lg:h-116.25  md:h-116.25 2xl:h-127   md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:mx-45.5 w-full  "
+                    className=" object-cover bg-cover bg-center  3xl:min-w-389  2xl:min-w-330  2xl:max-w-389 xl:min-w-270    xl:max-w-330 lg:min-w-210 lg:max-w-270 md:min-w-162.5 md:max-w-210  xl:h-127 lg:h-116.25  md:h-116.25 2xl:h-127    w-full  "
                 />
             </div>
 
