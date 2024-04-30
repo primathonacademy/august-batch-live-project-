@@ -8,13 +8,13 @@ import RightArrow from '../../assets/images/right-arrow-image.svg';
 const CustomerLoveCard = () => {
     return (
         <div className="mt-72 mb-14 lg:mt-0 ">
-            <div className='lg:flex'>
+            <div className="lg:flex">
                 <div className="mt-10">
                     <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
                 </div>
                 <p className="text-slate-925 lg:mt-10 text-lg xs:text-2xl 2xl:text-3xl 3xl:text-4xl opacity-50 font-light italic font-roboto py-12 lg:pt-0 lg:px-10 xs:w-4/5 md:w-11/12 lg:w-5/6 xl:w-3/5 2xl:w-4/6 3xl:w-4/6">
-                    “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through
-                    fail-proof design innovation systems. “
+                    “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale
+                    through fail-proof design innovation systems. “
                 </p>
             </div>
             <div className="flex items-center w-60 xs:w-96 lg:w-1/2 xl:w-2/5 3xl:w-1/3 lg:ml-20 xl:ml-20">
