@@ -4,7 +4,7 @@ import Layout from '../Layout';
 import About from './about';
 import Contact from './contact';
 import CaseStudy from './case-study';
-import Insight from './insight';
+import Insight from './insights';
 import InsightDetail from './insight-detail';
 import Work from './work';
 import Service from './service';

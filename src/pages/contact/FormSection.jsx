@@ -1,4 +1,4 @@
-import GridLineFormImage from '../../assets/images/grid-image-form.svg';
+import GridLineFormImage from '../../assets/images/bg-grid-lines.svg';
 import DoubleQuoteImage from '../../assets/images/double-quote.svg';
 import ProfileImage from '../../assets/images/profileimage.png';
 import Ellipse from '../../assets/images/ellipse.svg';
@@ -11,16 +11,14 @@ const FormSection = ({ screenSize }) => {
         <div className=" px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-40 w-full ">
             {screenSize < 1024 ? (
                 <div>
-                    <div
-                        className="w-106.7 h-137 bg-transparent  absolute bg-center   "
-                        style={{ backgroundImage: `url(${GridLineFormImage})` }}></div>
+                    <img src={GridLineFormImage} alt='grid-image-form' className='w-106.7 h-137  bg-transparent absolute bg-center object-cover inset-0  mt-28 '></img>
 
-                    <div className="pt-5">
-                        <h2 className="w-36 bg-blue-850 text-center text-white mt-28 ml-8">Our Services </h2>
-                        <h4 className="w-80 font-poppins ml-8 font-medium  text-3xl mt-6">
+                    <div>
+                        <h2 className="w-36 bg-blue-850 text-base text-center text-white mt-28 ml-6">Our Services </h2>
+                        <h4 className="w-80 font-poppins ml-6 font-medium  text-4xl mt-6">
                             Feel at home among brave dreamers and curious rebels.
                         </h4>
-                        <p className="w-72 h-28 ml-8 tracking-tight text-base  font-roboto mt-10 text-slate-550">
+                        <p className="w-72 h-28 ml-6 tracking-tight text-base  font-roboto mt-10 text-slate-550">
                             High-potential global brands trust Yume Labs for better customer advocacy, stronger investor
                             trust, and higher media love.
                         </p>
@@ -28,18 +26,17 @@ const FormSection = ({ screenSize }) => {
                 </div>
             ) : (
                 <div>
-                    <div
-                        className=" lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent  absolute bg-center   "
-                        style={{ backgroundImage: `url(${GridLineFormImage})` }}></div>
+                    <img src={GridLineFormImage} alt='grid-image-form' className=" lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent inset-0 absolute bg-center mt-72  object-cover "></img>
 
                     <div className="pt-5">
-                        <h2 className="w-36 bg-blue-850 text-center text-xl text-white mt-28 xl:text-xl lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44">
+                        <h2 className="w-36 bg-blue-850 xl:ml-4 3xl:ml-0 text-center text-xl text-white mt-32 xl:text-xl  ">
                             Contact Us
                         </h2>
-                        <h4 className="w-131 font-poppins lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 font-medium xl:text-6xl text-5xl mt-7">
+
+                        <h4 className="w-131 font-poppins xl:ml-4 3xl:ml-0 font-medium  text-6xl mt-14">
                             Let us make it real
                         </h4>
-                        <p className="w-101.5 h-28 lg:ml-20 xl:ml-28 2xl:ml-36 3xl:ml-44 tracking-tight text-base xl:text-xl font-roboto mt-10 text-slate-550">
+                        <p className="w-101.5 h-28 xl:ml-4 3xl:ml-0 tracking-tight text-base xl:text-xl font-roboto mt-14 text-slate-550">
                             Here in &quot;the pond&quot; we&apos;re driven by creativity ,curiosity and a passion for
                             challenging the status quo in everything we do
                         </p>
@@ -47,24 +44,24 @@ const FormSection = ({ screenSize }) => {
                 </div>
             )}
 
-            <div className="flex flex-col lg:flex-row-reverse lg:gap-10 xl:gap-28  2xl:gap-36  3xl:gap-72  mt-7 justify-end lg:ml-20 xl:ml-28 2xl:ml-32 3xl:ml-40 ">
+            <div className="flex flex-col lg:flex-row-reverse lg:gap-10 xl:gap-28  2xl:gap-36  3xl:gap-52  mt-7 justify-end  ">
                 <div className="mt-40 ml-8 w-80 h-210 ">
                     <input
                         type="text"
                         placeholder="* Name"
-                        className="border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 placeholder:font-medium "></input>
+                        className="lg:placeholder:text-2xl border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 placeholder:font-medium "></input>
                     <input
                         type="text"
                         placeholder="* Phone number "
-                        className="border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 mt-4"></input>
+                        className="lg:placeholder:text-2xl border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 mt-4"></input>
                     <input
                         type="text"
                         placeholder="* Email"
-                        className="border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 mt-4"></input>
+                        className="lg:placeholder:text-2xl border pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-20 mt-4"></input>
                     <input
                         type="text"
                         placeholder="* Message"
-                        className="border pb-56 pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-64    mt-4"></input>
+                        className="lg:placeholder:text-2xl border pb-56 pl-4 w-80 lg:w-96  xl:w-116.25  2xl:w-162.5 3xl:w-175 h-64    mt-4"></input>
 
                     <div className="flex mt-9 gap-5   w-56 lg:w-96 xl:w-116.25 2xl:w-144.5 3xl:w-175 h-32">
                         <input type="checkbox" className="w-6 h-6"></input>
