@@ -1,11 +1,5 @@
-import CustomerLove from './CustomerLove';
+function HomePage() {
+    return <div></div>;
+}
 
-const Homepage = () => {
-    return (
-        <div>
-            <CustomerLove />
-        </div>
-    );
-};
-
-export default Homepage;
+export default HomePage;
