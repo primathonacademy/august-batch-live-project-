@@ -1,16 +1,15 @@
 import LoginImg from '../../assets/images/login.png';
 import OptionForm from '../../assets/images/option-form.png';
 import CaseStudy from '../../assets/images/case-study.png';
-import CaseStudyBg from '../../assets/images/case-study-bg.png';
 import ColorPaletteLg from '../../assets/images/color-palette-lg.png';
 import ColorPaletteSm from '../../assets/images/color-palette-sm.png';
 
 const Branding = () => {
     return (
         <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 text-gray-600 font-roboto ">
-            <h2 className="font-serif italic text-lg md:text-3xl bg-blue-800  px-4 text-white md:px-8 inline">
+            <h1 className="font-serif italic text-lg md:text-3xl bg-blue-800  px-4 text-white md:px-8 inline">
                 Branding
-            </h2>
+            </h1>
             <div className="border-b-2 border-gray-200 -mt-1"></div>
             <div className=" pt-2 md:pt-24 md:gap-10 gap-2  md:flex">
                 <div className="md:w-1/3">
@@ -50,7 +49,7 @@ const Branding = () => {
                             </div>
 
                             <div className="flex gap-3 md:flex-col mt-10 md:mt-0">
-                                <p className=" md:mb-0">42 pt</p>
+                                <p>42 pt</p>
                                 <p className="">Work Sans Regular</p>
                             </div>
                             <div>
@@ -58,7 +57,7 @@ const Branding = () => {
                             </div>
 
                             <div className="flex gap-3 md:flex-col mt-10 md:mt-0">
-                                <p className="md:mb-0">36 pt</p>
+                                <p>36 pt</p>
                                 <p>Work Sans bold</p>
                             </div>
                             <div>
@@ -66,7 +65,7 @@ const Branding = () => {
                             </div>
 
                             <div className="flex gap-3 md:flex-col mt-10 md:mt-0">
-                                <p className=" md:mb-0">21 pt</p>
+                                <p>21 pt</p>
                                 <p className="">Work Sans Regular</p>
                             </div>
                             <div>
@@ -74,7 +73,7 @@ const Branding = () => {
                             </div>
 
                             <div className="flex gap-3 md:flex-col mt-10 md:mt-0">
-                                <p className=" md:mb-0">14 pt</p>
+                                <p>14 pt</p>
                                 <p className="">Work Sans Regular</p>
                             </div>
                             <div>
@@ -107,7 +106,7 @@ const Branding = () => {
             <div className="py-28">
                 <img src={LoginImg} className="w-full mb-4 h-96 -mt-16 md:h-full" />
                 <div className="md:flex gap-4  w-full h-full">
-                    <div style={{ backgroundImage: `url(${CaseStudyBg})` }}>
+                    <div className="bg-gradient-to-r from-purple-200 to-blue-200 ">
                         <img src={CaseStudy} alt="Case-Study-Work" className="object-contain" />
                     </div>
                     <div>
