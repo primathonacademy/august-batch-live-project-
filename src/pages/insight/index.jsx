@@ -1,5 +1,11 @@
+import AboutUs from './AboutUs';
+
 function Insights() {
-    return <div></div>;
+    return (
+        <div>
+            <AboutUs />
+        </div>
+    );
 }
 
 export default Insights;
