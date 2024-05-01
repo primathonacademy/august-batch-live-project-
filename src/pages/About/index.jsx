@@ -1,11 +1,9 @@
-import FounderSection from './FounderSection';
+import FounderSection from "./FounderSection"
 
-function About() {
+const About = () => {
     return (
-        <div>
-            <FounderSection />
-        </div>
-    );
+        <FounderSection />
+    )
 }
 
-export default About;
+export default About
