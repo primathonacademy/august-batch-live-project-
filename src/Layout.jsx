@@ -1,11 +1,15 @@
 import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
-export default function Layout() {
+const Layout = () => {
     return (
-        <div>
-            <main className="overflow-hiden">
+        <>
+            <Header />
+            <main className="overflow-hidden">
                 <Outlet />
             </main>
-        </div>
+        </>
     );
-}
+};
+
+export default Layout;
