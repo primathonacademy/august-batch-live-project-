@@ -1,5 +1,5 @@
-const Contact = () => {
-    return <div>Contact</div>;
-};
+function Contact() {
+    return <div></div>;
+}
 
 export default Contact;

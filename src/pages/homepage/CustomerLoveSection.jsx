@@ -47,10 +47,10 @@ const CustomerLoveSection = () => {
             <div className="w-full">
                 <img
                     src={GridImg}
-                    className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 bg-cover bg-center"
+                    className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 scale-y-150 bg-cover bg-center"
                     alt="grid background image"
                 />
-                <div className="absolute top-40">
+                <div className="absolute top-60">
                     <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
                         Customer Love
                     </div>

@@ -1,13 +1,14 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import Layout from '../Layout';
 import About from './about';
-import CaseStudy from './case-study';
 import Contact from './contact';
-import Homepage from './homepage';
+import CaseStudy from './case-study';
 import Insights from './insights';
 import InsightDetail from './insight-detail';
-import Service from './service';
 import Work from './work';
+import Service from './service';
+import HomePage from './homepage';
 import { ROUTES } from '../constants/index';
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout />}>
-                    <Route path={ROUTES.HOME} element={<Homepage />} />
+                    <Route path={ROUTES.HOME} element={<HomePage />} />
                     <Route path={ROUTES.CONTACT} element={<Contact />} />
                     <Route path={ROUTES.ABOUT} element={<About />} />
                     <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
