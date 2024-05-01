@@ -1,9 +1,7 @@
-import FounderSection from "./FounderSection"
+import FounderSection from './FounderSection';
 
 const About = () => {
-    return (
-        <FounderSection />
-    )
-}
+    return <FounderSection />;
+};
 
-export default About
+export default About;
