@@ -16,4 +16,4 @@ export const PARTNERS_DATA = [
         heading: 'Approlabs',
         discription: 'Our values guide our choices and actions daily, built on the three pillars of:'
     }
-]
+];

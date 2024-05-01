@@ -38,8 +38,7 @@ const Header = () => {
                         <button onClick={toggleMenu}>{isMenuOpen ? <FaTimes /> : <FaBars />}</button>
                     </div>
                 </div>
-                <nav
-                    className={`md:flex items-center  ${isMenuOpen ? 'block' : 'hidden'}`}>
+                <nav className={`md:flex items-center  ${isMenuOpen ? 'block' : 'hidden'}`}>
                     <ul className=" uppercase flex flex-col md:gap-4 lg:gap-6 xl:gap-12 2xl:gap-16 md:mt-0  3xl:gap-20 4xl:gap-24 md:flex-row  text-2.5xl md:text-sm lg:text-xl  2xl:text-lg 3xl:text-base 4xl:text-xl md:items-center   md:leading-14  2xl:leading-15 3xl:leading-16 4xl:leading-17 leading-18 mt-40 font-normal not-italic font-poppins text-gray-425 md:text-slate-725">
                         {NAVBAR_ITEMS_EXCLUDING_LAST.map((item) => (
                             <li key={item.title}>
