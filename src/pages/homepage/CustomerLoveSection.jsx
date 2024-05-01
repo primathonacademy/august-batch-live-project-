@@ -54,7 +54,7 @@ const CustomerLoveSection = () => {
                     <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
                         Customer Love
                     </div>
-                    <h3 className="text-3xl xs:text-4xl sm:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-9 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6">
+                    <h3 className="text-3xl xs:text-4xl sm:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-9 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6 lg:py-5">
                         Our customer brands see consistent return on design investment
                     </h3>
                 </div>
