@@ -1,3 +1,4 @@
+
 const Insights = () => {
     return <div></div>;
 };
