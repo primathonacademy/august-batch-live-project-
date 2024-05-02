@@ -3,19 +3,17 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            screens: {
+                ss: '280px',
+                xs: '428px',
+                '3xl': '1920px',
+                '4xl': '2560px'
+            },
             fontFamily: {
                 poppins: ['Poppins', 'sans'],
                 roboto: ['Roboto', 'sans-serif'],
                 serif: ['DM Serif Display', 'serif']
             },
-            screens: {
-                ss: '280px',
-                xs: '428px',
-                '3xl': '1920px',
-
-                '4xl': '2560px'
-            },
-
             spacing: {
                 45.5: '11.375rem',
                 101.5: '25.375rem',
@@ -65,7 +63,10 @@ export default {
                     575: '#555555'
                 }
             },
-
+            borderRadius: {
+                40: '2.5rem',
+                8: '2rem'
+            },
             fontSize: {
                 '2.5xl': '1.6875rem',
                 '4.5xl': '2.5rem',
@@ -85,10 +86,6 @@ export default {
                 17: '5rem',
                 18: '5.8125rem',
                 19: '6rem'
-            },
-            borderRadius: {
-                40: '2.5rem',
-                8: '2rem'
             }
         }
     },
