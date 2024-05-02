@@ -1,10 +1,10 @@
 import PartnerSection from './PartnerSection';
-function About(){
-  return(
-    <>
-    <PartnerSection />
-    </>
-    )
+function About() {
+    return (
+        <>
+            <PartnerSection />
+        </>
+    );
 }
 
-export default PartnerSection
+export default About;
