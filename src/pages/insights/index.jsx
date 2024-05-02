@@ -1,5 +1,5 @@
-const Insights = () => {
-    return <div>Insights</div>;
-};
+function Insights() {
+    return <div>insights</div>;
+}
 
 export default Insights;
