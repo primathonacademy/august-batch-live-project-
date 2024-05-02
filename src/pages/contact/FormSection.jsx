@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 const FormSection = ({ screenSize }) => {
     return (
-        <div className=" px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-40 w-full ">
+        <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-40 w-full ">
             {screenSize < 1024 ? (
                 <div>
                     <img
