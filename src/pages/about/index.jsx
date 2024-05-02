@@ -1,5 +1,5 @@
 import PartnerSection from './PartnerSection';
-function About(){
+function About() {
     return (
         <>
             <PartnerSection />
@@ -7,4 +7,4 @@ function About(){
     );
 }
 
-export default About
+export default About;
