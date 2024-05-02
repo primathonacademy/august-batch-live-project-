@@ -1,5 +1,5 @@
-const Insight = () => {
-    return <div>Insights</div>;
-};
+function Insights() {
+    return <div>insights</div>;
+}
 
-export default Insight;
+export default Insights;
