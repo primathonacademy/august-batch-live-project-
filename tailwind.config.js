@@ -7,7 +7,6 @@ export default {
                 ss: '280px',
                 xs: '428px',
                 '3xl': '1920px',
-                // => @media (min-width: 1920px) { ... },
                 '4xl': '2560px'
             },
             fontFamily: {
