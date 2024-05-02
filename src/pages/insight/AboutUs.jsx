@@ -1,41 +1,41 @@
 import { useState, useEffect } from 'react';
-import AboutHeroSection from '../../assets/images/about-herosection-image.png';
-import AboutSurveyCards from '../../assets/images/about-survey-cards.png';
+import AboutPosterSection from '../../assets/images/about-postersection-image.png';
+import NewsTechSurveyCards from '../../assets/images/news-tech-survey-cards.png';
 import BgGridLine from '../../assets/images/bg-gridline.svg';
 
 const contentData = [
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     },
     {
-        image: AboutSurveyCards,
+        image: NewsTechSurveyCards,
         date: '/01 / News Technology / 03 March 2022',
         title: 'Great Place to Work 2022 Survey: Vincit is the best place to work in Finland, again!'
     }
@@ -46,14 +46,14 @@ function AboutUs() {
 
     useEffect(() => {
         function handleResize() {
-            setIsMobileView(window.innerWidth <= 768); // Assuming md screen size is 768px, adjust as needed
+            setIsMobileView(window.innerWidth <= 768); 
         }
 
         handleResize(); // Check initial screen size
-        window.addEventListener('resize', handleResize); // Add event listener for resize
+        window.addEventListener('resize', handleResize); 
 
         return () => {
-            window.removeEventListener('resize', handleResize); // Clean up event listener
+            window.removeEventListener('resize', handleResize); 
         };
     }, []);
 
@@ -88,8 +88,8 @@ function AboutUs() {
 
             <div className="mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5 ">
                 <img
-                    src={AboutHeroSection}
-                    alt="company workplace environment poster"
+                    src={AboutPosterSection}
+                    alt="newstech poster image "
                     className=" object-cover bg-cover bg-center  3xl:min-w-389  2xl:min-w-330  2xl:max-w-389 xl:min-w-270    xl:max-w-330 lg:min-w-210 lg:max-w-270 md:min-w-162.5 md:max-w-210  xl:h-127 lg:h-116.25  md:h-116.25 2xl:h-127    w-full  "
                 />
             </div>
@@ -101,15 +101,15 @@ function AboutUs() {
                         key={index}>
                         <img
                             src={item.image}
-                            alt="survey cards "
+                            alt=" NewsTech survey cards image "
                             className="3xl:w-127 3xl:h-80 md:w-96 md:h-60 lg:w-106.7 lg:h-64 xl:w-112.5 xl:h-72 2xl:w-116.25 2xl:h-80 bg-cover object-cover bg-center "
                         />
                         <div>
-                            <p className="mt-6 font-poppins font-semibold text-base text-gray-475 text-left 2xl:text-xl ">
+                            <p className="mt-6 font-poppins font-semibold text-base text-neutral-500 text-left 2xl:text-xl ">
                                 {item.date}
                             </p>
                             <div className="min-w-72 max-w-96 md:min-w-full md:max-w-full">
-                                <h2 className="mt-4 font-roboto text-2.5xl leading-8 pr-8 md:pr-0 2xl:text-4xl xl:text-3xl ">
+                                <h2 className="mt-4 font-roboto text-2.5xl text-black leading-8 pr-8 md:pr-0 2xl:text-4xl xl:text-3xl ">
                                     {item.title}
                                 </h2>
                             </div>
@@ -118,7 +118,7 @@ function AboutUs() {
                 </div>
             ))}
 
-            <button className="block mx-auto px-5 py-2 mt-10 bg-transparent rounded-8 border-2 border-red-300 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900">
+            <button className="block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8  w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900">
                 LOAD MORE
             </button>
         </>
