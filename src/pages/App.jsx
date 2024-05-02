@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
 import Layout from '../Layout';
 import About from './about';
 import Contact from './contact';
