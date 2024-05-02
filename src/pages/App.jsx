@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homepage from './homepage';
 import About from './about';
 import Contact from './contact';
 import CaseStudy from './case-study';
@@ -9,6 +8,7 @@ import Work from './work';
 import Service from './service';
 import { ROUTES } from '../constants';
 import Layout from '../Layout';
+import Homepage from './homepage';
 function App() {
     return (
         <BrowserRouter>

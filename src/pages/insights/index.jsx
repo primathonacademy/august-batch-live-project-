@@ -1,5 +1,5 @@
-function Insight() {
-    return <h1>Insighs</h1>;
+function Insights() {
+    return <div>insights</div>;
 }
 
-export default Insight;
+export default Insights;
