@@ -8,7 +8,7 @@ import InsightDetail from './insight-detail';
 import Insight from './insights';
 import Service from './service';
 import Work from './work';
-import { ROUTES } from '../constants/app-constant';
+import { ROUTES } from '../constants';
 
 const App = () => {
     return (
