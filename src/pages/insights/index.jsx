@@ -1,5 +1,5 @@
 function Insights() {
-    return <div> </div>
+    return <div></div>;
 }
 
-export default Insights
+export default Insights;
