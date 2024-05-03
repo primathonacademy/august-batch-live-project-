@@ -1,7 +1,7 @@
 import OurServicePosterSection from './OurServicePosterSection';
 import { useEffect, useState } from 'react';
 
-function Homepage() {
+function HomePage() {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
     useEffect(() => {
         const handleResize = () => {
@@ -11,11 +11,7 @@ function Homepage() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    return (
-        <div>
-            <OurServicePosterSection screenSize={screenSize} />
-        </div>
-    );
+    return <OurServicePosterSection screenSize={screenSize} />;
 }
 
-export default Homepage;
+export default HomePage;

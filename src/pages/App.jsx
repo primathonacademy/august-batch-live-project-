@@ -4,29 +4,32 @@ import Layout from '../Layout';
 import About from './about';
 import Contact from './contact';
 import CaseStudy from './case-study';
-import Insight from './insights';
+import Insights from './insights';
 import InsightDetail from './insight-detail';
 import Work from './work';
 import Service from './service';
-import Homepage from './homepage';
-import { ROUTES } from '../constants/app-constant';
+import HomePage from './homepage';
+import { ROUTES } from '../constants/index';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
     return (
-        <Routes>
-            <Route element={<Layout />}>
-                <Route path={ROUTES.HOME} element={<Homepage />} />
-                <Route path={ROUTES.ABOUT} element={<About />} />
-                <Route path={ROUTES.CONTACT} element={<Contact />} />
-                <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
-                <Route path={ROUTES.INSIGHT} element={<Insight />} />
-                <Route path={ROUTES.INSIGHT_DETAIL} element={<InsightDetail />} />
-                <Route path={ROUTES.WORK} element={<Work />} />
-                <Route path={ROUTES.SERVICE} element={<Service />} />
-                {/* 404 */}
-                <Route path="*" element={<h1>404 — Page Not Found</h1>} />
-            </Route>
-        </Routes>
+        <BrowserRouter>
+            <Routes>
+                <Route element={<Layout />}>
+                    <Route path={ROUTES.HOME} element={<HomePage />} />
+                    <Route path={ROUTES.ABOUT} element={<About />} />
+                    <Route path={ROUTES.CONTACT} element={<Contact />} />
+                    <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
+                    <Route path={ROUTES.INSIGHT} element={<Insights />} />
+                    <Route path={ROUTES.INSIGHT_DETAIL} element={<InsightDetail />} />
+                    <Route path={ROUTES.WORK} element={<Work />} />
+                    <Route path={ROUTES.SERVICE} element={<Service />} />
+                    {/* 404 */}
+                    <Route path="*" element={<h1>404 — Page Not Found</h1>} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     );
 };
 
