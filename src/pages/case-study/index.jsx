@@ -1,5 +1,11 @@
+import StatementSection from './StatementSection';
+
 function CaseStudy() {
-    return <div></div>;
+    return (
+        <div>
+            <StatementSection />
+        </div>
+    );
 }
 
 export default CaseStudy;

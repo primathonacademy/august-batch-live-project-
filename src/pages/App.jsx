@@ -8,7 +8,7 @@ import Insights from './insights';
 import InsightDetail from './insight-detail';
 import Work from './work';
 import Service from './service';
-import Homepage from './homepage';
+import HomePage from './homepage';
 import { ROUTES } from '../constants/index';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout />}>
-                    <Route path={ROUTES.HOME} element={<Homepage />} />
+                    <Route path={ROUTES.HOME} element={<HomePage />} />
                     <Route path={ROUTES.ABOUT} element={<About />} />
                     <Route path={ROUTES.CONTACT} element={<Contact />} />
                     <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
