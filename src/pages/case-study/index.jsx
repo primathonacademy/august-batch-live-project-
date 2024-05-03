@@ -12,12 +12,11 @@ function CaseStudy() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-
-        return (
-            <>
-                <ProductDesign screenSize={screenSize} />
-            </>
-        );
-    }
+    return (
+        <>
+            <ProductDesign screenSize={screenSize} />
+        </>
+    );
+}
 
 export default CaseStudy;

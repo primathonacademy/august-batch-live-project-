@@ -4,7 +4,7 @@ import DoubleQuoteImg from '../../assets/images/double-quote.svg';
 import EllipseImg from '../../assets/images/user-bg-img.png';
 import ProfileImage from '../../assets/images/user-image.png';
 import BgGridImg from '../../assets/images/bg-grid-lines.png';
-import DesktopMaivenTestImg from '../../assets/images/main-analysis-portrait.png';
+import DesktopMaivenTestImg from '../../assets/images/main-analysis-potrait.png';
 import SelectedProject from '../service/SelectedProject';
 
 const ProductCard = () => {
@@ -58,7 +58,7 @@ const UnbiasedCard = () => {
                             <img
                                 src={item.imgSrc3}
                                 alt="image of two white boxes"
-                                className="rounded-lg h-144.5 w-full lg:h-full lg:col-span-2 "
+                                className="h-96 rounded-lg xs:h-144.5 w-full lg:h-full lg:col-span-2"
                             />
                         </div>
                     </div>
@@ -163,7 +163,7 @@ const ProductDesign = ({ screenSize }) => {
 };
 
 ProductDesign.propTypes = {
-    screenSize: PropTypes.number.isRequired,
-  };
+    screenSize: PropTypes.number.isRequired
+};
 
 export default ProductDesign;
