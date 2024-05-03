@@ -1,11 +1,7 @@
 import Ourservices from './Ourservices';
 
 const HomePage = () => {
-    return (
-        <div>
-            <Ourservices />
-        </div>
-    );
+    return <Ourservices />;
 };
 
 export default HomePage;
