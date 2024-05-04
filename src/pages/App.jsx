@@ -2,13 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ROUTES } from '../constants';
 import Layout from '../Layout';
 import About from './about';
-
 import CaseStudy from './case-study';
 import Contact from './contact';
 import HomePage from './homepage';
-
-
-
 import InsightDetail from './insight-detail';
 import Insights from './insights';
 import Service from './service';
