@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Layout from '../Layout';
-import About from './about/Index';
+import About from './about';
 import Contact from './contact';
 import CaseStudy from './case-study';
 import Insight from './insights';

@@ -1,12 +1,11 @@
-import AboutUs from "./AboutUs"
-
+import AboutUs from './AboutUs';
 
 function Insight() {
-  return (
-    <div>
-        <AboutUs/>
-     </div>
-  )
+    return (
+        <div>
+            <AboutUs />
+        </div>
+    );
 }
 
-export default Insight
+export default Insight;

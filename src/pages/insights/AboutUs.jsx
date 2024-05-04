@@ -46,14 +46,14 @@ function AboutUs() {
 
     useEffect(() => {
         function handleResize() {
-            setIsMobileView(window.innerWidth <= 768); 
+            setIsMobileView(window.innerWidth <= 768);
         }
 
         handleResize();
-        window.addEventListener('resize', handleResize); 
+        window.addEventListener('resize', handleResize);
 
         return () => {
-            window.removeEventListener('resize', handleResize); 
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
 
@@ -65,9 +65,9 @@ function AboutUs() {
                     src={BgGridLine}
                     alt="background grid line"
                 />
-                <div className=" pt-24 pb-12">
+                <div className="pt-24 pb-12">
                     <div className="w-36 md:w-40 lg:w-45.5 xl:w-48 2xl:w-52 h-7 flex items-center justify-center bg-blue-700">
-                        <h3 className="text-white italic text-xl lg:text-2xl 2xl:text-3xl ">
+                        <h3 className="text-white italic text-xl lg:text-2xl 2xl:text-3xl">
                             {isMobileView ? 'Our Services' : 'About us'}
                         </h3>
                     </div>
@@ -86,7 +86,7 @@ function AboutUs() {
                 </div>
             </section>
 
-            <div className="mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5 ">
+            <div className="mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5">
                 <img
                     src={AboutPosterSection}
                     alt="newstech poster image "
@@ -118,7 +118,7 @@ function AboutUs() {
                 </div>
             ))}
 
-            <button className="block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8  w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900">
+            <button className="block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900">
                 LOAD MORE
             </button>
         </>
