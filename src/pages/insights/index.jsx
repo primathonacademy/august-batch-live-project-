@@ -8,4 +8,3 @@ function Insight() {
     );
 }
 
-export default Insight;

@@ -1,5 +1,11 @@
+import Postersection from './PosterSection';
+
 function HomePage() {
-    return <div></div>;
+    return (
+        <div>
+            <Postersection />
+        </div>
+    );
 }
 
 export default HomePage;
