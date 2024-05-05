@@ -21,7 +21,7 @@ function Research() {
                     through fail-proof design innovation systems.
                 </p>
             </div>
-            <div className="ml-9 mr-9 h-472 mt-14 text-sm lg:text-xl  text-gray-500 lg:">
+            <div className="ml-9 mr-9  mt-14 text-sm lg:text-xl  text-gray-500 lg:">
                 {researchItems.map((item, index) => (
                     <div key={index} className="gap-4 items-center justify-between mt-2">
                         <div className="flex justify-between items-center w-full lg:w-508 3xl:w-800 mx-auto">
@@ -86,7 +86,7 @@ function Research() {
                         className="flex items-center justify-center cursor-pointer gap-8 py-1 xl:py-2 pl-5 xl:pl-12 bg-gray-200 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-200">
                         <h1 className="text-blue-600 text-sm md:text-base xl:text-xl font-semibold">ALL OUR SERVICE</h1>
                         <div className="flex items-center justify-center rounded-full p-4 xl:p-6 bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-pink-500">
-                            <img src={ArrowRightIcon} alt="ArrowRightIcon" className="w-4 h-4 hover:scale-125 " />
+                            <img src={ArrowRightIcon} alt="ArrowRightIcon" className="w-4 h-4 hover:scale-125" />
                         </div>
                     </span>
                 </div>
