@@ -7,18 +7,18 @@ const TestsSection = () => {
         <div>
             <div className="mt-20">
                 <img
-                    className=" object-cover w-full h-175 scale-110 3xl:scale-y-110 bg-center bg-cover"
+                    className="object-cover w-full h-175 scale-110 3xl:scale-y-110 bg-center bg-cover"
                     src={MaivenChargingImg}
                     alt="charging the future image"
                 />
             </div>
 
-            <div className="w-80 px-5 md:px-14 lg:px-20  xl:px-24 2xl:px-28 3xl:px-45.5 mt-28 lg:flex lg:w-full lg:justify-between ">
-                <div className="font-poppins font-medium text-2.5xl lg:text-3xl 3xl:text-4xl leading-8">
-                    <span className=" inline-block lg:w-40 3xl:w-80">Strategy & Implementing</span>
-                    <p className=" lg:w-72 xl:w-64 2xl:w-72 3xl:w-80"> Design solutions.</p>
+            <div className="w-80 px-5 md:px-14 lg:px-20  xl:px-24 2xl:px-28 3xl:px-45.5 mt-28 lg:flex lg:w-full lg:justify-between">
+                <div className="text-slate-925 font-poppins font-medium text-2.5xl lg:text-3xl 3xl:text-4xl leading-8">
+                    <span className="inline-block lg:w-40 3xl:w-80">Strategy & Implementing</span>
+                    <p className="lg:w-72 xl:w-64 2xl:w-72 3xl:w-80"> Design solutions.</p>
                 </div>
-                <div className=" ss:w-60 xs:w-72 mt-5 text-lg md:w-142.4 lg:text-xl xl:min-w-175 3xl:text-2xl 2xl:w-250 3xl:w-270 lg:mt-0">
+                <div className="text-gray-475 ss:w-60 xs:w-72 mt-5 text-lg md:w-142.4 lg:text-xl xl:min-w-175 3xl:text-2xl 2xl:w-250 3xl:w-270 lg:mt-0">
                     <p>
                         The core AI feature will be meticulously honed to provide accurate and unbiased content
                         analysis, allowing businesses to gain valuable insights into consumer preferences. In parallel,
@@ -49,7 +49,7 @@ const TestsSection = () => {
                 <img
                     src={BoxDesignImg}
                     alt="image of two white boxes"
-                    className=" ss:h-110 rounded-lg h-144.5 w-full lg:h-full lg:col-span-2 "
+                    className="ss:h-110 rounded-lg h-144.5 w-full lg:h-full lg:col-span-2"
                 />
             </div>
         </div>
