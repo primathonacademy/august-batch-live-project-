@@ -9,17 +9,17 @@ import NewsCards from './NewsCards';
 function OurService() {
     return (
         <>
-            <div className="px-5 md:px-14 lg:px-20 xl:px-24  2xl:px-28 3xl:px-45.5 lg:pt-12 4xl:text-2xl">
+            <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 lg:pt-12 4xl:text-2xl">
                 <section>
                     <div className="pl-4 4xl:pl-8">
-                        <div className="  lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0 hidden">
+                        <div className="lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0 hidden">
                             <img src={GridlineImage} alt="Grid-Lines-Insight-detail" className="md:w-full md:h-96" />
                         </div>
 
-                        <span className="max-w-52 md:block  bg-blue-700 text-white text-center italic text-2xl font-normal  mb-4 font-serif hidden">
+                        <span className="max-w-52 md:block bg-blue-700 text-white text-center italic text-2xl font-normal mb-4 font-serif hidden">
                             Article
                         </span>
-                        <span className="max-w-44 block bg-blue-700 text-white text-center italic text-sm font-normal -mt-3 mb-20 font-serif md:hidden relative top-20 ">
+                        <span className="max-w-44 block bg-blue-700 text-white text-center italic text-sm font-normal -mt-3 mb-20 font-serif md:hidden relative top-20">
                             Our Services
                         </span>
                         <h1 className="text-4xl text-black sm:text-4xl font-poppins font-medium 2xl:text-6xl lg:text-4xl sm:mb-6 xl:mb-6 leading-9 pt-4 w-10/12 3xl:text-6xl 4xl:text-8xl">
@@ -32,27 +32,27 @@ function OurService() {
                     </div>
                 </section>
 
-                <div className="bg-cover  object-cover  w-auto md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl">
+                <div className="bg-cover object-cover w-auto md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl">
                     <img src={ArticleSectionImg} alt="Article-section" />
                 </div>
 
                 <div className="">
-                    <section className="md:flex  gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
+                    <section className="md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
                         <div className="md:w-2/5"></div>
                         <div className="md:w-3/5">
                             <Article />
                         </div>
                     </section>
                     <section className="md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
-                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl ">
+                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl">
                             What is a Design System?
                         </div>
                         <div className="md:w-3/5">
                             <Article />
                         </div>
                     </section>
-                    <section className=" md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
-                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl ">
+                    <section className="md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
+                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl">
                             The Handover Concern
                         </div>
                         <div className="md:w-3/5">
@@ -80,8 +80,8 @@ function OurService() {
                             </p>
                         </div>
                     </section>
-                    <section className=" md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
-                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl ">
+                    <section className="md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
+                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl">
                             Why Should You Use a Design System?
                         </div>
                         <div className="md:w-3/5">
@@ -158,8 +158,8 @@ function OurService() {
                             </p>
                         </div>
                     </section>
-                    <section className=" md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
-                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl ">Conclusion</div>
+                    <section className="md:flex gap-12 my-12 md:my-20 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
+                        <div className="md:w-2/5 text-3xl font-medium font-poppins lg:text-4xl">Conclusion</div>
                         <div className="md:w-3/5">
                             <p className="text-lg lg:text-xl text-gray-500 mb-8 font-roboto font-normal">
                                 Rather than rethinking the basis of each new experience for your goods, a Design System
@@ -169,26 +169,26 @@ function OurService() {
                             </p>
                         </div>
                     </section>
-                    <hr className="font-bold text-black mt-12 " />
+                    <hr className="font-bold text-black mt-12" />
                     <div className="text-3xl font-medium font-poppins mt-12 mr-20">
-                        <h1 className=" md:w-2/5 text-3xl lg:mt-24 font-medium font-poppins lg:text-4xl px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
+                        <h1 className="md:w-2/5 text-3xl lg:mt-24 font-medium font-poppins lg:text-4xl px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
                             Authors
                         </h1>
                         <div className="lg:flex justify-between  gap-16 my-12 md:my-10 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
                             {authors.map((author, index) => (
-                                <div key={index} className="text-3xl font-medium font-poppins mt-12  md:auto ">
-                                    <div className="md:flex md:justify-center ">
+                                <div key={index} className="text-3xl font-medium font-poppins mt-12 md:auto">
+                                    <div className="md:flex md:justify-center">
                                         <img
                                             src={AuthorImage}
                                             alt="Author-Image"
-                                            className="rounded-full mt-7 w-40 h-40 "
+                                            className="rounded-full mt-7 w-40 h-40"
                                         />
-                                        <p className=" lg:pt-24  md:flex flex-col md:w-full">
+                                        <p className="lg:pt-24  md:flex flex-col md:w-full">
                                             {' '}
-                                            <h2 className="text-xl lg:text-2xl font-poppins font-medium mt-6 md:mt-6 ">
+                                            <h2 className="text-xl lg:text-2xl font-poppins font-medium mt-6 md:mt-6">
                                                 {author.name}
                                             </h2>
-                                            <h2 className="text-sm text-gray-475 mt-2  font-roboto font-normal">
+                                            <h2 className="text-sm text-gray-475 mt-2 font-roboto font-normal">
                                                 {author.role}
                                             </h2>
                                         </p>
