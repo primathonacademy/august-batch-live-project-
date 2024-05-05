@@ -41,13 +41,13 @@ function ArtSection() {
                 <div>
                     <div className="flex overflow-x-auto lg:overflow-hidden lg:scrollbar-hide gap-4 w-full md:px-0 font-poppins">
                         <div className="w-full flex sm:px-4">
-                            <div className="flex flex-no-wrap w-auto sm:px-0 md:px-0 xl:px-5  3xl:px-6">
+                            <div className="flex flex-no-wrap w-auto sm:px-0 md:px-0 xl:px-5 3xl:px-6">
                                 <div className="w-full mr-4">
                                     <div className="w-56 lg:w-auto md:w-full">
                                         <img
                                             src={NewsCard}
                                             alt="News-card"
-                                            className=" w-full rounded-lg bg-slate-300"
+                                            className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
                                             <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
@@ -109,7 +109,7 @@ function ArtSection() {
                         <h1 className="text-blue-500 text-xs sm:text-sm md:text-base xl:text-xl font-semibold hover:scale-110 transition-all duration-300">
                             ALL OUR SERVICES
                         </h1>
-                        <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r  hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
+                        <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
                             <img src={RightArrow} alt="Right-Arrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
                         </div>
                     </NavLink>
