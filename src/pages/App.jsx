@@ -9,6 +9,7 @@ import Work from './work';
 import Service from './service';
 import Homepage from './homepage';
 import { ROUTES } from '../constants/index';
+import GetTouch from '../components/GetTouch';
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                     <Route path="*" element={<h1>404 — Page Not Found</h1>} />
                 </Route>
             </Routes>
+            <GetTouch />
         </BrowserRouter>
     );
 };
