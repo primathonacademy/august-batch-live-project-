@@ -12,7 +12,7 @@ function ArtSection() {
                 <section>
                     <div className="pl-6 4xl:pl-8">
                         <div className="hidden lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0">
-                            <img src={GridlineImage} alt="Grid-Lines-Art-section" className="md:w-full md:h-96" />
+                            <img src={GridlineImage} alt="Grid-Lines-Art-section" className="md:w-full md:h-96"/>
                         </div>
                         <span className="text-blue-500 lg:text-white lg:bg-blue-900 md:text-blue-800 lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 4xl:text-4xl">
                             The Art of the Possible
@@ -110,7 +110,7 @@ function ArtSection() {
                             ALL OUR SERVICES
                         </h1>
                         <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
-                            <img src={RightArrow} alt="Right-Arrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
+                            <img src={RightArrow} alt="Right-Arrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100"/>
                         </div>
                     </NavLink>
                 </div>
