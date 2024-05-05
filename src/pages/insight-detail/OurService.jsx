@@ -13,7 +13,7 @@ function OurService() {
                 <section>
                     <div className="pl-4 4xl:pl-8">
                         <div className="lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0 hidden">
-                            <img src={GridlineImage} alt="Grid-Lines-Insight-detail" className="md:w-full md:h-96" />
+                            <img src={GridlineImage} alt="Grid-Lines-Insight-detail" className="md:w-full md:h-96"/>
                         </div>
 
                         <span className="max-w-52 md:block bg-blue-700 text-white text-center italic text-2xl font-normal mb-4 font-serif hidden">
@@ -169,7 +169,7 @@ function OurService() {
                             </p>
                         </div>
                     </section>
-                    <hr className="font-bold text-black mt-12" />
+                    <hr className="font-bold text-black mt-12"/>
                     <div className="text-3xl font-medium font-poppins mt-12 mr-20">
                         <h1 className="md:w-2/5 text-3xl lg:mt-24 font-medium font-poppins lg:text-4xl px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
                             Authors
