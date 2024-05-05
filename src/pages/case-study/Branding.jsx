@@ -6,14 +6,14 @@ import ColorPaletteSm from '../../assets/images/color-palette-sm.png';
 
 const Branding = () => {
     return (
-        <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 text-gray-600 font-roboto ">
-            <h1 className="font-serif italic text-lg md:text-3xl bg-blue-800  px-4 text-white md:px-8 inline">
+        <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 text-gray-600 font-roboto">
+            <h1 className="font-serif italic text-lg md:text-3xl bg-blue-800 px-4 text-white md:px-8 inline">
                 Branding
             </h1>
             <div className="border-b-2 border-gray-200 -mt-1"></div>
-            <div className=" pt-2 md:pt-24 md:gap-10 gap-2  md:flex">
+            <div className="pt-2 md:pt-24 md:gap-10 gap-2 md:flex">
                 <div className="md:w-1/3">
-                    <h2 className=" text-2.5xl md:text-4xl font-poppins font-medium w-45.5">Typography & Color</h2>
+                    <h2 className="text-2.5xl md:text-4xl font-poppins font-medium w-45.5">Typography & Color</h2>
                 </div>
                 <div className="md:w-2/3 ">
                     <p className="pr-20">
@@ -23,7 +23,7 @@ const Branding = () => {
                         sophisticated touch to the design.
                     </p>
                     <div className="md:py-16 py-8">
-                        <div className=" gap-2 font-medium text-white text-base">
+                        <div className="gap-2 font-medium text-white text-base">
                             <img src={ColorPaletteLg} alt="Color-Palette-Lg" className="hidden lg:block" />
                             <img src={ColorPaletteSm} alt="Color-palette-Sm" className="lg:hidden" />
                         </div>
@@ -39,8 +39,8 @@ const Branding = () => {
                                 </span>
                             </h2>
                         </div>
-                        <div className="grid md:grid-cols-2 grid-cols-1 gap-2 md:gap-4 md:w-3/4 ">
-                            <div className="flex gap-3 md:flex-col mt-12 ">
+                        <div className="grid md:grid-cols-2 grid-cols-1 gap-2 md:gap-4 md:w-3/4">
+                            <div className="flex gap-3 md:flex-col mt-12">
                                 <p>60 pt</p>
                                 <p>Work Sans Regular</p>
                             </div>
@@ -84,7 +84,7 @@ const Branding = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="py-20 pr-20 ">
+                    <div className="py-20 pr-20">
                         <p>
                             During the design evolution, a concerted effort was made to synchronize all design elements
                             with the carefully chosen color palette. This cohesion was extended to the realm of
@@ -106,7 +106,7 @@ const Branding = () => {
             <div className="py-28">
                 <img src={LoginImg} className="w-full mb-4 h-96 -mt-16 md:h-full" />
                 <div className="md:flex gap-4  w-full h-full">
-                    <div className="bg-gradient-to-r from-purple-200 to-blue-200 ">
+                    <div className="bg-gradient-to-r from-purple-200 to-blue-200">
                         <img src={CaseStudy} alt="Case-Study-Work" className="object-contain" />
                     </div>
                     <div>
