@@ -8,12 +8,12 @@ function Arrowbtn() {
                 <button
                     className="flex justify-center items-center cursor-pointer rounded-full border-none bg-white w-16 h-16"
                     type="button">
-                    <img src={LeftArrow} alt="Left-Arrow" className="w-16 h-16" />
+                    <img src={LeftArrow} alt="Left Arrow" className="w-16 h-16" />
                 </button>
                 <button
                     className="w-11 h-11 rounded-full border-none bg-blue-700 flex items-center justify-center align-middle"
                     type="button">
-                    <img src={RightArrow} alt="Right-Arrow" className="text-center lg:w-6 lg:h-6 sm:w-4 sm:h-4" />
+                    <img src={RightArrow} alt="Right Arrow" className="text-center lg:w-6 lg:h-6 sm:w-4 sm:h-4" />
                 </button>
             </div>
         </div>
