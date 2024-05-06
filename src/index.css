@@ -8,12 +8,4 @@
     html {
         font-family: 'Roboto', system-ui, sans-serif;
     }
-    body {
-       font-size: 100%;  /* Reset browser's default font size */
-    }
-    #root{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
 }

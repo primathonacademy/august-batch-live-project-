@@ -3,16 +3,16 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
-            fontFamily: {
-                poppins: ['Poppins', 'sans'],
-                roboto: ['Roboto', 'sans-serif'],
-                serif: ['DM Serif Display', 'serif']
-            },
             screens: {
                 ss: '280px',
                 xs: '428px',
                 '3xl': '1920px',
                 '4xl': '2560px'
+            },
+            fontFamily: {
+                poppins: ['Poppins', 'sans'],
+                roboto: ['Roboto', 'sans-serif'],
+                serif: ['DM Serif Display', 'serif']
             },
             spacing: {
                 45.5: '11.375rem',
@@ -73,21 +73,20 @@ export default {
                 '7.7xl': '5.3125rem'
             },
             lineHeight: {
-                    11: '3rem',
-                    12: '3.25rem',
-                    13: '3.5rem', 
-                    14: '3.75rem', 
-                    15: '4.25rem',
-                    16: '4.5rem',
-                    17: '5rem',
-                    18: '5.8125rem',
-                    19: '6rem',
-
+                11: '3rem',
+                12: '3.25rem',
+                13: '3.5rem',
+                14: '3.75rem',
+                15: '4.25rem',
+                16: '4.5rem',
+                17: '5rem',
+                18: '5.8125rem',
+                19: '6rem'
             },
             borderRadius: {
                 40: '2.5rem',
                 8: '2rem'
-            },
+            }
         }
     },
     plugins: []
