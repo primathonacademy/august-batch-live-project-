@@ -62,7 +62,7 @@ function Research() {
                             <div className="flex-1">
                                 <img
                                     src={ResearchCardImage}
-                                    alt="Research-Card-Image"
+                                    alt="Research Card Image"
                                     className="rounded-md w-full h-40 object-cover"
                                 />
                                 <div className="pt-6">
