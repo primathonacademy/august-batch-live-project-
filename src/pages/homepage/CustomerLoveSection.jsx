@@ -7,7 +7,7 @@ import RightArrow from '../../assets/images/right-arrow-image.svg';
 
 const CustomerLoveCard = () => {
     return (
-        <div className="mt-72 mb-14 lg:mt-0">
+        <div className="">
             <div className="lg:flex">
                 <div className="mt-10">
                     <img src={QuoteIcon} className="w-10 h-10 xl:w-16 xl:h-12" alt="quotes icon" />
@@ -43,21 +43,19 @@ const CustomerLoveCard = () => {
 
 const CustomerLoveSection = () => {
     return (
-        <div className="w-full gap-1 py-32 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 bg-gray-400 bg-transparent">
+        <div className="relative w-full gap-1 py-32 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 bg-gray-400 bg-transparent">
             <div className="w-full">
                 <img
                     src={GridImg}
-                    className="relative left-0 hidden lg:block w-210 h-72 scale-x-150 scale-y-150 bg-cover bg-center"
+                    className="absolute left-0 hidden lg:block w-210 h-60 scale-x-150 scale-y-150 bg-cover bg-center"
                     alt="grid background image"
                 />
-                <div className="absolute top-60">
-                    <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
-                        Customer Love
-                    </div>
-                    <h3 className="text-3xl xs:text-4xl sm:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-9 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6 lg:py-5">
-                        Our customer brands see consistent return on design investment
-                    </h3>
+                <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
+                    Customer Love
                 </div>
+                <h3 className="text-3xl xs:text-4xl sm:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-9 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6 lg:py-5">
+                    Our customer brands see consistent return on design investment
+                </h3>
             </div>
             <CustomerLoveCard />
             <div className="flex items-center w-full">
@@ -71,7 +69,7 @@ const CustomerLoveSection = () => {
                     </button>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

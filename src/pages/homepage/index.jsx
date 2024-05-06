@@ -1,8 +1,10 @@
 import CustomerLoveSection from './CustomerLoveSection';
+import PosterSection from './PosterSection';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='h-auto'>
+            <PosterSection />
             <CustomerLoveSection />
         </div>
     );
