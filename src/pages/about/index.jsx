@@ -1,5 +1,7 @@
-function About() {
-    return <div></div>;
-}
+import FounderSection from './FounderSection';
+
+const About = () => {
+    return <FounderSection />;
+};
 
 export default About;
