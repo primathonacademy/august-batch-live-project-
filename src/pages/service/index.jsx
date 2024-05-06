@@ -14,9 +14,7 @@ function Service() {
         <div>
             <OurServicePosterSection screenSize={screenSize} />;
         </div>
-        
     );
-   
 }
 
 export default Service;
