@@ -1,11 +1,11 @@
-import Postersection from './PosterSection';
+import ArtSection from './ArtSection';
 
-function HomePage() {
+function Homepage() {
     return (
         <div>
-            <Postersection />
+            <ArtSection />
         </div>
     );
 }
 
-export default HomePage;
+export default Homepage;
