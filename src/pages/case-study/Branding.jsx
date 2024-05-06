@@ -24,8 +24,8 @@ const Branding = () => {
                     </p>
                     <div className="md:py-16 py-8">
                         <div className="gap-2 font-medium text-white text-base">
-                            <img src={ColorPaletteLg} alt="Color-Palette-Lg" className="hidden lg:block" />
-                            <img src={ColorPaletteSm} alt="Color-palette-Sm" className="lg:hidden" />
+                            <img src={ColorPaletteLg} alt="Color Palette" className="hidden lg:block" />
+                            <img src={ColorPaletteSm} alt="Color palette" className="lg:hidden" />
                         </div>
                     </div>
                     <div className="md:flex mt-12">
@@ -107,10 +107,10 @@ const Branding = () => {
                 <img src={LoginImg} className="w-full mb-4 h-96 -mt-16 md:h-full" />
                 <div className="md:flex gap-4  w-full h-full">
                     <div className="bg-gradient-to-r from-purple-200 to-blue-200">
-                        <img src={CaseStudy} alt="Case-Study-Work" className="object-contain" />
+                        <img src={CaseStudy} alt="Case Study Work" className="object-contain" />
                     </div>
                     <div>
-                        <img src={OptionForm} alt="Option-Form" />
+                        <img src={OptionForm} alt="Option Form" />
                     </div>
                 </div>
             </div>
