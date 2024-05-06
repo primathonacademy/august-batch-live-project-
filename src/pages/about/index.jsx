@@ -1,4 +1,5 @@
 import PartnerSection from './PartnerSection';
+
 function About() {
     return (
         <>
