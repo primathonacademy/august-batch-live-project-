@@ -3,7 +3,7 @@ import PosterSection from './PosterSection';
 
 const HomePage = () => {
     return (
-        <div className='h-auto'>
+        <div className="h-auto">
             <PosterSection />
             <CustomerLoveSection />
         </div>

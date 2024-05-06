@@ -69,7 +69,7 @@ const CustomerLoveSection = () => {
                     </button>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 
