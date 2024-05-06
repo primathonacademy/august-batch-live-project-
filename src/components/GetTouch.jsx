@@ -21,7 +21,7 @@ const GetTouch = () => {
                     <span className="flex items-center justify-center cursor-pointer gap-8 xs:gap-14 2xl:gap-16 py-1 xl:py-2 pl-5 xl:pl-12 2xl:pl-16 bg-gray-200 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-200">
                         <h1 className="text-blue-600 text-sm md:text-base xl:text-xl font-semibold">GET IN TOUCH</h1>
                         <div className="flex items-center justify-center rounded-full p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-pink-500">
-                            <img src={RightArrowIcon} alt="RightArrowIcon" className="w-4 h-4 hover:scale-125" />
+                            <img src={RightArrowIcon} alt="Right Arrow Icon" className="w-4 h-4 hover:scale-125" />
                         </div>
                     </span>
                 </div>
