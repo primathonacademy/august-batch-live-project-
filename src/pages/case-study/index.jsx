@@ -17,6 +17,6 @@ function CaseStudy() {
             <ProductDesign screenSize={screenSize} />
         </>
     );
-}
+
 
 export default CaseStudy;
