@@ -25,7 +25,6 @@ export const NAV_ITEMS = [
         title: 'Insights',
         link: ROUTES.INSIGHT
     },
-
     {
         title: 'About Us',
         link: ROUTES.ABOUT

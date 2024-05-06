@@ -3,16 +3,16 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
-            fontFamily: {
-                poppins: ['Poppins', 'sans'],
-                roboto: ['Roboto', 'sans-serif'],
-                serif: ['DM Serif Display', 'serif']
-            },
             screens: {
                 ss: '280px',
                 xs: '428px',
                 '3xl': '1920px',
                 '4xl': '2560px'
+            },
+            fontFamily: {
+                poppins: ['Poppins', 'sans'],
+                roboto: ['Roboto', 'sans-serif'],
+                serif: ['DM Serif Display', 'serif']
             },
             spacing: {
                 45.5: '11.375rem',

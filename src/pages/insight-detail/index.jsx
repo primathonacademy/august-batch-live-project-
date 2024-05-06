@@ -1,5 +1,5 @@
 function InsightDetail() {
-    return <div>Insight Details</div>;
+    return <div></div>;
 }
 
 export default InsightDetail;

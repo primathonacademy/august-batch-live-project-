@@ -1,5 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from '../Layout';
 import About from './about';
 import Contact from './contact';
@@ -10,7 +9,6 @@ import Work from './work';
 import Service from './service';
 import HomePage from './homepage';
 import { ROUTES } from '../constants/index';
-import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
     return (

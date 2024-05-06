@@ -10,7 +10,13 @@ function Service() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    return <OurServicePosterSection screenSize={screenSize} />;
+    return (
+        <div>
+            <OurServicePosterSection screenSize={screenSize} />;
+        </div>
+        
+    );
+   
 }
 
 export default Service;

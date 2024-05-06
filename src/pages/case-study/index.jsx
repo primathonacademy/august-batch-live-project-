@@ -1,5 +1,5 @@
 function CaseStudy() {
-    return <div>Case Study</div>;
+    return <div></div>;
 }
 
 export default CaseStudy;
