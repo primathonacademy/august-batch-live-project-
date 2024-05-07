@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -63,10 +64,6 @@ export default {
                     575: '#555555'
                 }
             },
-            borderRadius: {
-                40: '2.5rem',
-                8: '2rem'
-            },
             fontSize: {
                 '2.5xl': '1.6875rem',
                 '4.5xl': '2.5rem',
@@ -86,6 +83,10 @@ export default {
                 17: '5rem',
                 18: '5.8125rem',
                 19: '6rem'
+            },
+            borderRadius: {
+                40: '2.5rem',
+                8: '2rem'
             }
         }
     },

@@ -1,11 +1,11 @@
-import OurEngagement from './OurEngagement';
+import OurEngagement from "./OurEngagement";
 
-const Service = () => {
-    return (
+function Service() {
+    return(
         <>
-            <OurEngagement />
+<OurEngagement/>
         </>
     );
-};
+}
 
 export default Service;
