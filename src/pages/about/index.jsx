@@ -1,5 +1,11 @@
-const About = () => {
-    return <div>About</div>;
-};
+import PartnerSection from './PartnerSection';
+
+function About() {
+    return (
+        <>
+            <PartnerSection />
+        </>
+    );
+}
 
 export default About;
