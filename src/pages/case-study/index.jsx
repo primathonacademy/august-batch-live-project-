@@ -1,3 +1,4 @@
+import Branding from './Branding';
 import { useEffect, useState } from 'react';
 import ProductDesign from './ProductDesign';
 
@@ -14,9 +15,9 @@ function CaseStudy() {
 
     return (
         <>
+            <Branding />
             <ProductDesign screenSize={screenSize} />
         </>
     );
-
-
+}
 export default CaseStudy;

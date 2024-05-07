@@ -1,13 +1,11 @@
-import { PRODUCT_DATA } from "../../constants/product-design-data";
+import { PRODUCT_DATA } from '../../constants/product-design-data';
 
 const ProductCard = () => {
     return (
         <>
             {PRODUCT_DATA.map((item, i) => {
                 return (
-                    <div
-                        key={`index-${i}`}
-                        className="w-full rounded-lg bg-gray-75 backdrop-blur-2xl md:mt-8 xl:mt-32">
+                    <div key={`index-${i}`} className="w-full rounded-lg bg-gray-75 backdrop-blur-2xl md:mt-8 xl:mt-32">
                         <img
                             src={item.imgSrc}
                             alt="maiven tests page image"
