@@ -1,4 +1,4 @@
-export const authors = [
+export const AUTHORS = [
     {
         name: 'Abhinav Kr.',
         role: 'Cheif Technology Officer',

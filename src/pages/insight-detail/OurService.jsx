@@ -2,7 +2,7 @@ import ArticleSectionImg from '../../assets/images/article-card.png';
 import GridlineImage from '../../assets/images/grid-lines.svg';
 import AuthorImage from '../../assets/images/author-cto.png';
 import Arrowbtn from './Arrowbtn';
-import { authors } from '../../constants/ServiceAuthordata';
+import { AUTHORS } from '../../constants/ServiceAuthordata';
 import Article from './Article';
 import NewsCards from './NewsCards';
 
@@ -175,12 +175,12 @@ function OurService() {
                             Authors
                         </h1>
                         <div className="lg:flex justify-between  gap-16 my-12 md:my-10 px-5md:px-16 lg:px-20 xl:px-28 2xl:px-36">
-                            {authors.map((author, index) => (
+                            {AUTHORS.map((author, index) => (
                                 <div key={index} className="text-3xl font-medium font-poppins mt-12 md:auto">
                                     <div className="md:flex md:justify-center">
                                         <img
                                             src={AuthorImage}
-                                            alt="Author-Image"
+                                            alt="Author Image"
                                             className="rounded-full mt-7 w-40 h-40"
                                         />
                                         <p className="lg:pt-24  md:flex flex-col md:w-full">
