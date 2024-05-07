@@ -1,5 +1,6 @@
 import Research from './Research';
 import { useState, useEffect } from 'react';
+import CoFounder from './CoFounder';
 import SelectedProjects from './SelectedProjects';
 
 const Service = () => {
@@ -15,9 +16,9 @@ const Service = () => {
     return (
         <>
             <Research />
+            <CoFounder />
             <SelectedProjects screenSize={screenSize} />
         </>
     );
 };
-
 export default Service;
