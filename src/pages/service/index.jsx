@@ -1,3 +1,4 @@
+import Research from './Research';
 import { useState, useEffect } from 'react';
 import CoFounder from './CoFounder';
 import SelectedProjects from './SelectedProjects';
@@ -14,6 +15,7 @@ const Service = () => {
 
     return (
         <>
+            <Research />
             <OurEngagement />
             <CoFounder />
             <SelectedProjects screenSize={screenSize} />
