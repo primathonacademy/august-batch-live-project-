@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import YumiLogo from '../assets/images/header-logo.svg';
+import yumiLabsNameLogo from '../assets/images/yumi-labs-name-logo.svg';
 import BrandName from '../assets/images/header-logo-name-image.svg';
 import { NAV_ITEMS } from '../constants';
 import { ROUTES } from '../constants';
@@ -40,14 +40,14 @@ const Header = () => {
     return (
         <>
             <header
-                className={`w-full sticky top-0 px-5 md:px-16 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 md:flex md:items-center md:justify-between md:h-20 lg:h-20 xl:h-20 2xl:h-24 3xl:h-24 ${
+                className={`w-full z-50 sticky top-0 px-5 md:px-16 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 md:flex md:items-center md:justify-between md:h-20 lg:h-20 xl:h-20 2xl:h-24 3xl:h-24 ${
                     isMenuOpen ? 'menu-open' : ''
                 } ${isScrolled ? 'backdrop-blur-md bg-opacity-75' : ''}`}>
                 <div className="flex h-16 md:border-0 justify-between items-center">
                     <div className="flex gap-4 items-center md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-4 3xl:gap-5">
                         <div>
                             <img
-                                src={YumiLogo}
+                                src={yumiLabsNameLogo}
                                 alt="yumi lab logo "
                                 className="h-6 w-4 md:h-6 md:w-4 lg:h-7 lg:w-5 xl:h-7 xl:w-5 2xl:h-8 2xl:w-5 3xl:h-8 3xl:w-6 4xl:h-9 4xl:w-7"
                             />
