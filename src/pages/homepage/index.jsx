@@ -4,7 +4,7 @@ import ArtSection from './ArtSection';
 
 const HomePage = () => {
     return (
-        <div className="h-auto">
+        <div>
             <PosterSection />
             <CustomerLoveSection />
             <ArtSection />
