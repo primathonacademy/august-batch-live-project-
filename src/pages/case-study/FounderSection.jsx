@@ -18,8 +18,8 @@ const FounderSection = () => {
                         <img src={DoubleQuoteImg} alt="double quote image" className="mb-5" />
                     </div>
                     <p className="text-2xl italic font-light mt-11 lg:mt-0 w-80 md:w-96 lg:w-137 xl:w-210 text-slate-925 opacity-60">
-                        “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business
-                        scale through fail-proof design innovation systems. “
+                        “ Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale
+                        through fail-proof design innovation systems. “
                     </p>
                 </div>
 
@@ -40,7 +40,7 @@ const FounderSection = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default FounderSection
+export default FounderSection;

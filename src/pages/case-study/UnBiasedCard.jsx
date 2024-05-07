@@ -1,4 +1,4 @@
-import { UNBIASED_ANALYSIS_DATA } from "../../constants/product-design-data";
+import { UNBIASED_ANALYSIS_DATA } from '../../constants/product-design-data';
 
 const UnBiasedCard = () => {
     return (
@@ -24,7 +24,7 @@ const UnBiasedCard = () => {
                                 alt="maiven tests desktop screen image"
                                 className="rounded-lg w-full"
                             />
-                            <img src={item.imgSrc2} alt="maiven tests mobile screen image" className="h-full"/>
+                            <img src={item.imgSrc2} alt="maiven tests mobile screen image" className="h-full" />
                             <img
                                 src={item.imgSrc3}
                                 alt="image of two white boxes"

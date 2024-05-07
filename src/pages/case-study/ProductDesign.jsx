@@ -6,7 +6,6 @@ import FounderSection from './FounderSection';
 import ProductCard from './ProductCard';
 import UnBiasedCard from './UnBiasedCard';
 
-
 const ProductDesign = ({ screenSize }) => {
     return (
         <>
@@ -42,7 +41,7 @@ const ProductDesign = ({ screenSize }) => {
                 />
 
                 <div className="flex justify-center gap-3 md:grid md:grid-cols-3">
-                    <ProductCard /> 
+                    <ProductCard />
                 </div>
             </section>
 
@@ -50,8 +49,7 @@ const ProductDesign = ({ screenSize }) => {
                 <UnBiasedCard />
             </section>
 
-           <FounderSection />
-
+            <FounderSection />
 
             <div className="relative overflow-hidden md:mt-10 2xl:mt-20 3xl:mt-36 mb-10">
                 <img
