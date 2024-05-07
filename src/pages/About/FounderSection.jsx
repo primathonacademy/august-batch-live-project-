@@ -1,5 +1,5 @@
 import LinkedInIcon from '../../assets/images/linkedin-img.svg';
-import GridImg from '../../assets/images/grid-image.svg';
+import GridImg from '../../assets/images/grid-image.png';
 import FOUNDER_DATA from '../../constants/founder-data';
 
 const FounderSection = () => {
@@ -10,7 +10,7 @@ const FounderSection = () => {
             </h3>
             <div className="relative">
                 <img
-                    className="absolute lg:w-full lg:h-full lg:scale-x-150 lg:object-cover opacity-100"
+                    className="absolute lg:w-full lg:h-full lg:scale-x-150 lg:bg-center lg:object-cover opacity-100"
                     src={GridImg}
                 />
                 <div className="lg:flex lg:flex-row lg:gap-16 xl:gap-20 items-center justify-center">
