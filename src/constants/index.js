@@ -11,6 +11,7 @@ export const ROUTES = {
     TERMS_OF_USE: '/terms-of-use',
     COPYRIGHT: '/copyright-yume-labs'
 };
+
 export const NAV_ITEMS = [
     {
         title: 'Work',

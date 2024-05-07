@@ -1,10 +1,10 @@
 import ArtSection from './ArtSection';
-import PosterSection from './PosterSection';
+import Postersection from './PosterSection';
 
 function Homepage() {
     return (
         <div>
-            <PosterSection />
+            <Postersection />
             <ArtSection />
         </div>
     );
