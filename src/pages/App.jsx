@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './about';
-import Contact from './contact';
 import CaseStudy from './case-study';
-import Insights from './insights';
+import Contact from './contact';
 import InsightDetail from './insight-detail';
 import Work from './work';
+import Insights from './insights';
 import Service from './service';
 import HomePage from './homepage';
 import { ROUTES } from '../constants';
