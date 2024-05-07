@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import CoFounder from './CoFounder';
 import SelectedProjects from './SelectedProjects';
 import OurEngagement from './OurEngagement';
-
 const Service = () => {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
     useEffect(() => {
