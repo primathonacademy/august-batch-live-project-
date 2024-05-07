@@ -6,15 +6,16 @@ import Insights from './insights';
 import InsightDetail from './insight-detail';
 import Work from './work';
 import Service from './service';
+import HomePage from './homepage';
 import { ROUTES } from '../constants';
 import Layout from '../Layout';
-import Homepage from './homepage';
+
 function App() {
     return (
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout />}>
-                    <Route path={ROUTES.HOME} element={<Homepage />} />
+                    <Route path={ROUTES.HOME} element={<HomePage />} />
                     <Route path={ROUTES.ABOUT} element={<About />} />
                     <Route path={ROUTES.CONTACT} element={<Contact />} />
                     <Route path={ROUTES.CASE_STUDY} element={<CaseStudy />} />
