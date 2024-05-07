@@ -1,11 +1,23 @@
 import Research from './Research';
+import { useState, useEffect } from 'react';
+import SelectedProjects from './SelectedProjects';
 
-function Service() {
+const Service = () => {
+    const [screenSize, setScreenSize] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenSize(window.innerWidth);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <>
             <Research />
+            <SelectedProjects screenSize={screenSize} />
         </>
     );
-}
+};
 
 export default Service;
