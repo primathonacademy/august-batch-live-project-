@@ -1,5 +1,11 @@
+import PartnerSection from './PartnerSection';
+
 function About() {
-    return <h1>About</h1>;
+    return (
+        <>
+            <PartnerSection />
+        </>
+    );
 }
 
 export default About;
