@@ -13,7 +13,7 @@ const FormSection = ({ screenSize }) => {
                 <div>
                     <img
                         src={GridLineFormImage}
-                        alt="grid-image-form"
+                        alt="grid image form"
                         className="w-106.7 md:w-116.25 h-137 bg-transparent absolute bg-center object-cover inset-0 mt-28 md:mt-32"></img>
                     <div>
                         <h2 className="w-36 md:w-40 bg-blue-850 text-base text-center text-white ml-6 md:ml-0">
@@ -32,7 +32,7 @@ const FormSection = ({ screenSize }) => {
                 <div>
                     <img
                         src={GridLineFormImage}
-                        alt="grid-image-form"
+                        alt="grid image form"
                         className="lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent inset-0 absolute bg-center mt-72  object-cover "></img>
 
                     <div className="pt-5">
@@ -85,7 +85,7 @@ const FormSection = ({ screenSize }) => {
                 <div className="mt-28">
                     <div className="mt-10 w-96 lg:w-101.5 xl:w-106.7 2xl:w-116.25 3xl:w-127 h-80 lg:h-96 xl:h-106.7 2xl:h-116.25 3xl:h-131">
                         <div className="mb-7 w-14 h-9">
-                            <img src={DoubleQuoteImage} alt="double-quote-image" />
+                            <img src={DoubleQuoteImage} alt="double quote image" />
                         </div>
                         <div>
                             <p
@@ -99,11 +99,11 @@ const FormSection = ({ screenSize }) => {
                                 <div className="relative w-24 h-24 mr-2">
                                     <img
                                         src={Ellipse}
-                                        alt="ellipse-image"
+                                        alt="ellipse image"
                                         className="w-24 h-24 absolute right-3 bottom-1 top-0.5"></img>
                                     <img
                                         src={ProfileImage}
-                                        alt="Profile-image"
+                                        alt="profile image"
                                         className="w-17.75 h-17.75 absolute right-1 top-3"></img>
                                 </div>
                                 <div className="mt-2">
@@ -121,8 +121,8 @@ const FormSection = ({ screenSize }) => {
 
                     <div className="w-96 lg:hidden h-9.75 flex">
                         <hr className="w-60 mr-2 border opacity-1 h-0 mt-6"></hr>
-                        <img src={ArrowLeftIcon} alt="left-arrow-icon" className="mr-2 w-14 h-14"></img>
-                        <img src={ArrowRightIcon} alt="right-arrow-icon" className="w-14 h-14"></img>
+                        <img src={ArrowLeftIcon} alt="left arrow icon" className="mr-2 w-14 h-14"></img>
+                        <img src={ArrowRightIcon} alt="right arrow icon" className="w-14 h-14"></img>
                     </div>
                 </div>
             </div>

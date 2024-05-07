@@ -51,4 +51,3 @@ export const IMPORTANT_PAGES = [
         link: ROUTES.COPYRIGHT
     }
 ];
-
