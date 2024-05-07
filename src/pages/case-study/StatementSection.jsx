@@ -5,10 +5,10 @@ const StatementSection = () => {
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
             <img
                 src={StatementPoster}
-                className="w-full h-110 xs:h-137 sm:h-110 object-cover rounded-2xl my-4"
+                className="w-full h-192.5 object-cover rounded-2xl my-4"
                 alt="statement poster image"
             />
-            <div className="">
+            <div>
                 <div className="lg:flex justify-between items-center py-8">
                     <h3 className="text-slate-925 text-2.5xl lg:text-4xl leading-8 font-medium font-poppins w-40 py-4">
                         Problem Statement
