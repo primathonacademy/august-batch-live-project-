@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import yumiLabsNameLogo from '../assets/images/yumi-labs-name-logo.svg';
+import yumeLabsNameLogo from '../assets/images/yume-labs-name-logo.svg';
 import BrandName from '../assets/images/header-logo-name-image.svg';
 import { NAV_ITEMS } from '../constants';
 import { ROUTES } from '../constants';
@@ -47,7 +47,7 @@ const Header = () => {
                     <div className="flex gap-4 items-center md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-4 3xl:gap-5">
                         <div>
                             <img
-                                src={yumiLabsNameLogo}
+                                src={yumeLabsNameLogo}
                                 alt="yumi lab logo "
                                 className="h-6 w-4 md:h-6 md:w-4 lg:h-7 lg:w-5 xl:h-7 xl:w-5 2xl:h-8 2xl:w-5 3xl:h-8 3xl:w-6 4xl:h-9 4xl:w-7"
                             />
