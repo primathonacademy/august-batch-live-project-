@@ -29,7 +29,7 @@ const FounderSection = () => {
                                         {founder.desc}
                                     </p>
                                 </div>
-                                <div className="p-5">
+                                <div className="p-5 bg-white">
                                     <div className="absolute right-5 bottom-24 xs:right-5 xs:bottom-28 w-10 h-10">
                                         <img src={LinkedInIcon} className="" alt="linkedin icon" />
                                     </div>

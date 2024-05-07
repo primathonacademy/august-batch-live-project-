@@ -1,7 +1,13 @@
 import FounderSection from './FounderSection';
+import PartnerSection from './PartnerSection';
 
 const About = () => {
-    return <FounderSection />;
+    return (
+        <div>
+            <FounderSection />
+            <PartnerSection />
+        </div>
+    );
 };
 
 export default About;
