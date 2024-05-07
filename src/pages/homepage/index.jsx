@@ -4,9 +4,8 @@ import Postersection from './PosterSection';
 function Homepage() {
     return (
         <div>
-            <Postersection/>
+            <Postersection />
             <ArtSection />
-
         </div>
     );
 }

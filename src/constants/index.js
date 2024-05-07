@@ -51,3 +51,18 @@ export const NAV_ITEMS = [
         link: ROUTES.CONTACT
     }
 ];
+
+export const IMPORTANT_PAGES = [
+    {
+        title: 'Privacy Policy',
+        link: ROUTES.PRIVACY_POLICY
+    },
+    {
+        title: 'Terms of Use',
+        link: ROUTES.TERMS_OF_USE
+    },
+    {
+        title: 'Copyright Yume Labs',
+        link: ROUTES.COPYRIGHT
+    }
+];
