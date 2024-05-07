@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
+import CoFounder from './CoFounder';
 import SelectedProjects from './SelectedProjects';
+
 
 const Service = () => {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -13,9 +15,9 @@ const Service = () => {
 
     return (
         <>
+            <CoFounder />
             <SelectedProjects screenSize={screenSize} />
         </>
     );
 };
-
 export default Service;
