@@ -10,7 +10,7 @@ const CoFounder = () => {
             <div className="flex lg:gap-24 xl:gap-55 2xl:gap-75 3xl:gap-94 md:w-full">
                 <div className="lg:flex w-96 md:w-110 lg:w-127 xl:w-142.4 lg:gap-3 2xl:w-175 3xl:w-192.5 h-80 3xl:h-80">
                     <div className=" xl:mr-10 2xl:mr-14 3xl:mr-16 mb-7 w-14 xl:w-16 3xl:w-16 h-9 md:h-10 xl:h-11 3xl:h-12">
-                        <img src={DoubleQuoteImage} alt="double-quote-image" />
+                        <img src={DoubleQuoteImage} alt="double quote image" />
                     </div>
                     <div className="w-89 md:w-101.5 lg:w-116.25 xl:w-131 2xl:w-144.5 3xl:w-159.5 h-36  lg:h-40 xl:h-40 3xl:h-40 ">
                         <p
@@ -24,11 +24,11 @@ const CoFounder = () => {
                             <div className="relative w-24 md:w-28 lg:w-28 xl:w-28 2xl:w-32 3xl:w-32 h-24 md:h-24 lg:h-28   3xl:h-32 mr-2 ">
                                 <img
                                     src={Ellipse}
-                                    alt="ellipse-image"
+                                    alt="ellipse image"
                                     className="w-24 md:w-28 3xl:w-32 h-24 md:h-24 lg:h-28 3xl:h-32 absolute right-3 bottom-1 xl:right-5 2xl:right-5 3xl:right-7 3xl:top-2 lg:top-px  md:top-px md:right-8 top-0.5"></img>
                                 <img
                                     src={ProfileImage}
-                                    alt="Profile-image"
+                                    alt="profile image"
                                     className="w-17.75 md:w-20 lg:w-21 xl:w-22 2xl:w-22 3xl:w-24 h-17.75 md:h-20  xl:h-24  3xl:h-24 absolute right-1 lg:bottom-5 top-3 3xl:top-5"></img>
                             </div>
                             <div className="mt-2 3xl:mt-5 ">
@@ -56,8 +56,8 @@ const CoFounder = () => {
             </div>
             <div className="w-full flex">
                 <hr className="w-full mr-2 border opacity-1 h-0 mt-6 3xl:mt-7"></hr>
-                <img src={ArrowLeftIcon} alt="left-arrow-image" className="mr-2 w-14 h-14"></img>
-                <img src={ArrowRightIcon} alt="right-arrow-image" className="w-14 h-14"></img>
+                <img src={ArrowLeftIcon} alt="left arrow image" className="mr-2 w-14 h-14"></img>
+                <img src={ArrowRightIcon} alt="right arrow image" className="w-14 h-14"></img>
             </div>
         </div>
     );
