@@ -7,4 +7,5 @@ const Insights = () => {
         </div>
     );
 };
+
 export default Insights;
