@@ -12,6 +12,19 @@ export const ROUTES = {
     COPYRIGHT: '/copyright-yume-labs'
 };
 
+export const OUR_ENGAGEMENT_DATA = [
+    {
+        heading: 'Monthly Retainer',
+        discription:
+            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    },
+    {
+        heading: 'Fixed Price',
+        discription:
+            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    }
+];
+
 export const NAV_ITEMS = [
     {
         title: 'Work',
@@ -36,5 +49,20 @@ export const NAV_ITEMS = [
     {
         title: 'Contact Us',
         link: ROUTES.CONTACT
+    }
+];
+
+export const IMPORTANT_PAGES = [
+    {
+        title: 'Privacy Policy',
+        link: ROUTES.PRIVACY_POLICY
+    },
+    {
+        title: 'Terms of Use',
+        link: ROUTES.TERMS_OF_USE
+    },
+    {
+        title: 'Copyright Yume Labs',
+        link: ROUTES.COPYRIGHT
     }
 ];

@@ -1,6 +1,11 @@
+import { useState, useEffect } from 'react';
 import OurServicePosterSection from './OurServicePosterSection';
-import { useEffect, useState } from 'react';
-function Service() {
+import Research from './Research';
+import OurEngagement from './OurEngagement';
+import CoFounder from './CoFounder';
+import SelectedProjects from './SelectedProjects';
+
+const Service = () => {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
     useEffect(() => {
         const handleResize = () => {
@@ -11,10 +16,13 @@ function Service() {
     }, []);
 
     return (
-        <div>
-            <OurServicePosterSection screenSize={screenSize} />;
-        </div>
+        <>
+            <OurServicePosterSection screenSize={screenSize} />
+            <Research />
+            <OurEngagement />
+            <CoFounder />
+            <SelectedProjects screenSize={screenSize} />
+        </>
     );
-}
-
+};
 export default Service;
