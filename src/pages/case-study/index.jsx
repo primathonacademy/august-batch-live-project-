@@ -1,5 +1,11 @@
+import HeroSection from './HeroSection';
+
 function CaseStudy() {
-    return <div></div>;
+    return (
+        <div>
+            <HeroSection />
+        </div>
+    );
 }
 
 export default CaseStudy;
