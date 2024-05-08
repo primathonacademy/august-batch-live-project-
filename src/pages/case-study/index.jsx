@@ -1,7 +1,8 @@
-import Branding from './Branding';
 import { useEffect, useState } from 'react';
-import ProductDesign from './ProductDesign';
+import StatementSection from './StatementSection';
 import TestsSection from './TestsSection';
+import Branding from './Branding';
+import ProductDesign from './ProductDesign';
 
 function CaseStudy() {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -16,6 +17,7 @@ function CaseStudy() {
 
     return (
         <>
+            <StatementSection />
             <TestsSection />
             <Branding />
             <ProductDesign screenSize={screenSize} />
