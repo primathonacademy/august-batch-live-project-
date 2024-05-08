@@ -4,7 +4,7 @@ import CaseStudy from './case-study';
 import Contact from './contact';
 import InsightDetail from './insight-detail';
 import Work from './work';
-import Insights from './insights'
+import Insights from './insights';
 import Service from './service';
 import HomePage from './homepage';
 import { ROUTES } from '../constants';

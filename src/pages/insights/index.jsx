@@ -2,7 +2,6 @@ import AboutUs from './AboutUs';
 const Insights = () => {
     return (
         <div>
-            {' '}
             <AboutUs />
         </div>
     );
