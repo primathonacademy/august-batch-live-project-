@@ -1,10 +1,6 @@
 import AboutUs from './AboutUs';
-
-function Insight() {
-    return (
-        <div>
-            <AboutUs />
-        </div>
-    );
-}
+const Insights = () => {
+    return <div> <AboutUs /></div>;
+};
+export default Insights;
 
