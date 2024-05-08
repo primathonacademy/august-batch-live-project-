@@ -118,7 +118,7 @@ function AboutUs() {
                 </div>
             ))}
 
-            <button className="block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900">
+            <button className="block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900 mb-52">
                 LOAD MORE
             </button>
         </>
