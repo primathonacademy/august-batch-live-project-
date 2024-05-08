@@ -1,5 +1,10 @@
+import AboutUs from './AboutUs';
 const Insights = () => {
-    return <div></div>;
+    return (
+        <div>
+            <AboutUs />
+        </div>
+    );
 };
 
 export default Insights;
