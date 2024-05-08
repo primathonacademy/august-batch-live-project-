@@ -1,12 +1,15 @@
+import PosterSection from './PosterSection';
+import CustomerLoveSection from './CustomerLoveSection';
 import ArtSection from './ArtSection';
-import Postersection from './PosterSection';
-function Homepage() {
+
+const HomePage = () => {
     return (
         <div>
-            <Postersection />
+            <PosterSection />
+            <CustomerLoveSection />
             <ArtSection />
         </div>
     );
-}
+};
 
-export default Homepage;
+export default HomePage;
