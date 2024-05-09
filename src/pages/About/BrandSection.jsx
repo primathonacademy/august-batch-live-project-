@@ -1,8 +1,8 @@
-import brandimg from '../../assets/images/brandvalue.png';
+import BrandImg from '../../assets/images/brandvalue.png';
 function BrandSection() {
     return (
         <>
-            <div className="">
+            <div>
                 <div className=" max-w-344.5 mx-auto text-left font-medium text-midnight-blue font-Poppins text-6xl py-24 pl-9">
                     Give your brand the “Yume Labs Edge”
                 </div>
@@ -30,7 +30,7 @@ function BrandSection() {
                     </div>
                 </div>
                 <div className="max-w-344.5 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 px-5">
-                    <div className="">
+                    <div>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-6xl pl-9 pb-2">%</h1>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-3xl pl-9 ">
                             Excellence
@@ -39,7 +39,7 @@ function BrandSection() {
                             Choose to go beyond “enough” to deliver at the edge of what’s “possible”.
                         </p>
                     </div>
-                    <div className="">
+                    <div>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-6xl pl-9 pb-2">%</h1>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-3xl pl-9 ">
                             Simplification
@@ -48,7 +48,7 @@ function BrandSection() {
                             Embrace first-principles thinking to reduce non-essential complexity.
                         </p>
                     </div>
-                    <div className="">
+                    <div>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-6xl pl-9 pb-5">%</h1>
                         <h1 className="text-left font-medium text-midnight-blue font-Roboto text-3xl pl-9 ">
                             Co-creation{' '}
@@ -59,7 +59,7 @@ function BrandSection() {
                     </div>
                 </div>
                 <div className="py-16">
-                    <img className="w-full " src={brandimg} alt="" />
+                    <img className="w-full " src={BrandImg} alt="team standup call img" />
                 </div>
             </div>
         </>
