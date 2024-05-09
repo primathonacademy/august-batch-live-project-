@@ -1,13 +1,17 @@
-import Postersection from './PosterSection';
+import PosterSection from './PosterSection';
 import Ourservices from './Ourservices';
+import CustomerLoveSection from './CustomerLoveSection';
+import ArtSection from './ArtSection';
 
-function HomePage() {
+const HomePage = () => {
     return (
         <div>
-            <Postersection />
+            <PosterSection />
             <Ourservices />
+            <CustomerLoveSection />
+            <ArtSection />
         </div>
     );
-}
+};
 
 export default HomePage;

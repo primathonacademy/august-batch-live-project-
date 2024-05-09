@@ -1,5 +1,5 @@
 function Work() {
-    return <div></div>;
+    return <h1>work</h1>;
 }
 
 export default Work;
