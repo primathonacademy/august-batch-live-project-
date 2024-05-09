@@ -31,7 +31,7 @@ const Header = () => {
     };
 
     const handleNavItemClick = () => {
-        setIsMenuOpen(false); 
+        setIsMenuOpen(false);
     };
 
     const NAVBAR_ITEMS_EXCLUDING_LAST = NAV_ITEMS.slice(0, -1);
@@ -43,14 +43,10 @@ const Header = () => {
                     isMenuOpen ? 'menu-open' : ''
                 } ${isScrolled ? 'backdrop-blur-md bg-opacity-75' : ''}`}>
                 <div className="flex h-16 md:border-0 justify-between items-center">
-                        <Link to="/">
-                            <img
-                                src={yumeLabsNameLogo}
-                                alt="yumi lab logo "
-                                className="w-36 md:w-40 lg:h-8 lg:w-60"
-                            />
-                       </Link>
-                        
+                    <Link to="/">
+                        <img src={yumeLabsNameLogo} alt="yumi lab logo " className="w-36 md:w-40 lg:h-8 lg:w-60" />
+                    </Link>
+
                     <div className="md:hidden">
                         <button onClick={toggleMenu}>{isMenuOpen ? <FaTimes /> : <FaBars />}</button>
                     </div>
