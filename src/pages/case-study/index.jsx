@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import HeroSection from './HeroSection';
 import StatementSection from './StatementSection';
 import TestsSection from './TestsSection';
 import Branding from './Branding';
@@ -17,6 +18,7 @@ function CaseStudy() {
 
     return (
         <>
+            <HeroSection />
             <StatementSection />
             <TestsSection />
             <Branding />
