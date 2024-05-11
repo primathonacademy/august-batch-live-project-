@@ -1,5 +1,12 @@
+import WorkSection from './WorkSection';
+import GetTouch from '../../components/GetTouch';
 function Work() {
-    return <h1>work</h1>;
+    return (
+        <div>
+            <WorkSection />
+            <GetTouch />
+        </div>
+    );
 }
 
 export default Work;
