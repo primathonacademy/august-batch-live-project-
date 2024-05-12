@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import AboutSection from './AboutSection';
+import BrandSection from './BrandSection';
+import FounderSection from './FounderSection';
+import PartnerSection from './PartnerSection';
 
 const About = () => {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -13,6 +16,9 @@ const About = () => {
     return (
         <>
             <AboutSection screenSize={screenSize} />
+            <BrandSection />
+            <FounderSection />
+            <PartnerSection />
         </>
     );
 };

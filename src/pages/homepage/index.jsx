@@ -1,11 +1,17 @@
-import CustomerLove from './CustomerLove';
+import PosterSection from './PosterSection';
+import Ourservices from './Ourservices';
+import CustomerLoveSection from './CustomerLoveSection';
+import ArtSection from './ArtSection';
 
-const Homepage = () => {
+const HomePage = () => {
     return (
         <div>
-            <CustomerLove />
+            <PosterSection />
+            <Ourservices />
+            <CustomerLoveSection />
+            <ArtSection />
         </div>
     );
 };
 
-export default Homepage;
+export default HomePage;
