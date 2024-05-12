@@ -14,7 +14,7 @@ function AboutSection({ screenSize }) {
             </div>
 
             <div className="pt-24 pb-12 absolute top-16 2xl:top-20 w-full">
-                <h4 className="w-36 md:w-40 md:mt-4 lg:w-45.5 xl:w-48 2xl:w-52 bg-blue-700 text-white py-2 text-center font-serif italic text-xl lg:text-2xl 2xl:text-3xl">
+                <h4 className="w-36 md:w-40 md:mt-4 lg:w-45.5 xl:w-48 2xl:w-52 bg-blue-850 text-white py-2 text-center font-serif italic text-xl lg:text-2xl 2xl:text-3xl">
                     {screenSize < 768 ? 'Our Services' : 'About us'}
                 </h4>
                 <h3 className="font-poppins font-normal leading-13 text-5xl mt-3 sm:mt-5 sm:w-3/4 2xl:text-7.5xl 2xl:leading-18 w-full">
