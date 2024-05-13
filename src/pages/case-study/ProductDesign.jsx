@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import BgGridImg from '../../assets/images/bg-grid-lines.png';
 import DesktopMaivenTestImg from '../../assets/images/main-analysis-potrait.png';
-import SelectedProject from '../service/SelectedProject';
+import SelectedProjects from '../service/SelectedProjects';
 import FounderSection from './FounderSection';
 import ProductCard from './ProductCard';
 import UnBiasedCard from './UnBiasedCard';
@@ -60,7 +60,7 @@ const ProductDesign = ({ screenSize }) => {
             </div>
 
             <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
-                <SelectedProject />
+                <SelectedProjects />
             </div>
         </>
     );
