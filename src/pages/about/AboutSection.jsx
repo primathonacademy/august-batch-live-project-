@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import AboutImage from '../../assets/images/about-image.png';
+import AboutGroupMeetingImage from '../../assets/images/group-meeting-img.png';
 import BgGridLine from '../../assets/images/grid-image.svg';
 
 function AboutSection({ screenSize }) {
@@ -29,10 +29,10 @@ function AboutSection({ screenSize }) {
                 </p>
             </div>
 
-            <div className="mt-110 w-full rounded-lg lg:h-137 md:py-0 xl:h-175">
+            <div className="mt-110 h-137 w-full rounded-lg md:py-0 xl:h-175">
                 <img
-                    src={AboutImage}
-                    alt="some peoples are doing group meeting"
+                    src={AboutGroupMeetingImage}
+                    alt="some people are taking meeting on desk with laptops, tablets and mobiles"
                     className="w-full bg-cover bg-center object-cover rounded-lg h-full"
                 />
             </div>
