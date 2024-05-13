@@ -1,4 +1,4 @@
-import FounderSection from './FounderSection';
+import FounderSection from '../case-study/FounderSection';
 import PartnerSection from './PartnerSection';
 
 const About = () => {
@@ -9,4 +9,5 @@ const About = () => {
         </div>
     );
 };
+
 export default About;
