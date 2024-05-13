@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import PosterSection from './PosterSection';
+import Ourservices from './Ourservices';
 import CustomerLoveSection from './CustomerLoveSection';
 import ArtSection from './ArtSection';
 import ExploreServiceSection from './ExploreServiceSection';
@@ -17,6 +18,7 @@ const HomePage = () => {
         <div>
             <PosterSection />
             <ExploreServiceSection screenSize={screenSize} />
+            <Ourservices />
             <CustomerLoveSection />
             <ArtSection />
         </div>
