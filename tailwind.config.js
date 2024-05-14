@@ -61,6 +61,9 @@ export default {
                 },
                 neutral: {
                     575: '#555555'
+                },
+                orange: {
+                    light: '#E5C090'
                 }
             },
             fontSize: {
