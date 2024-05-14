@@ -1,8 +1,8 @@
 import GridLineImg from '../../assets/images/bg-grid-lines.png';
-import GroupMeetngImgOne from '../../assets/images/group-meeting-two.png';
-import GroupMeetngImgTwo from '../../assets/images/group-meeting-three.png';
-import GroupMeetngImgThree from '../../assets/images/group-meeting-one.png';
-import GroupMeetngImgFour from '../../assets/images/group-meeting-four.png';
+import MeetingImgOne from '../../assets/images/group-meeting-two.png';
+import MeetingImgTwo from '../../assets/images/group-meeting-three.png';
+import MeetingImgThree from '../../assets/images/group-meeting-one.png';
+import MeetingImgFour from '../../assets/images/group-meeting-four.png';
 import { PARTNERS_DATA } from '../../constants/about-page';
 
 const PartnerCard = () => {
@@ -27,7 +27,7 @@ const PartnerCard = () => {
 
 const PartnerSection = () => {
     return (
-        <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+        <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mb-52">
             <h1 className="text-4.7xl font-poppins font-medium w-80 leading-12">Partners at Yume Labs</h1>
 
             <section className="w-full relative mt-8 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
@@ -44,25 +44,25 @@ const PartnerSection = () => {
 
             <div className="mt-56 grid gap-y-3 mx-auto md:grid-cols-3 md:gap-x-3 md:mt-12 xl:mt-20">
                 <img
-                    src={GroupMeetngImgOne}
+                    src={MeetingImgOne}
                     alt="two boys and two girls standing with card boards"
                     className="w-full h-116.25 sm:h-137 object-cover bg-center bg-cover md:order-1 xl:h-fit xl:object-contain"
                 />
 
                 <img
-                    src={GroupMeetngImgTwo}
+                    src={MeetingImgTwo}
                     alt="some guys sitting on tables and discussing"
                     className="w-full h-116.25 sm:h-137 object-cover md:col-span-2 md:order-3 xl:h-fit xl:object-contain"
                 />
 
                 <img
-                    src={GroupMeetngImgThree}
+                    src={MeetingImgThree}
                     alt="some girls and boys something watching in laptop"
                     className="w-full h-116.25 sm:h-137 object-cover md:order-2 md:col-span-2 xl:h-fit xl:object-contain"
                 />
 
                 <img
-                    src={GroupMeetngImgFour}
+                    src={MeetingImgFour}
                     alt="some people taking an meeting"
                     className="w-full h-116.25 sm:h-137 object-cover bg-center bg-cover md:order-4 xl:h-fit xl:object-contain"
                 />
