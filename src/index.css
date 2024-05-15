@@ -11,19 +11,18 @@
 
 @layer components {
     .button-div {
-      @apply transition-all duration-300 ease-in-out;
+        @apply transition-all duration-300 ease-in-out;
     }
-  
+
     .button-div:hover {
-      background: linear-gradient(to right, #F4F8FF, #FFEAF1);
+        background: linear-gradient(to right, #f4f8ff, #ffeaf1);
     }
-  
+
     .button-div:hover .button-arrow {
-      background: linear-gradient(to right, #F46997, #0A66EC);
+        background: linear-gradient(to right, #f46997, #0a66ec);
     }
-  
+
     .button-div:hover .button-arrow img {
-      transform: translateX(1px);
+        transform: translateX(1px);
     }
-  }
-  
+}
