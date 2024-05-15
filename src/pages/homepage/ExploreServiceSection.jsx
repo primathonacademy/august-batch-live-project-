@@ -6,8 +6,8 @@ import ArrowRightIcon from '../../assets/icons/arrow-right-icon.svg';
 
 const ExploreServiceSection = ({ screenSize }) => {
     return (
-        <div className="grid gap-y-2 lg:gap-x-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 my-40 lg:flex">
-            <div className="w-full min-h-110 bg-gray-75 grid grid-cols-1 p-10 xl:p-20 xl:pt-32 text-left rounded">
+        <div className="grid gap-y-2 lg:gap-x-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 my-40 lg:flex ">
+            <div className="w-full h-auto bg-gray-75 grid grid-cols-1 p-14 xl:p-18 xl:pt-32 text-left rounded flex-col justify-items-center">
                 <h2 className="text-4xl text-slate-925 font-medium font-poppins xl:px-20">
                     Innovation is the New Marketing.
                 </h2>
@@ -17,13 +17,15 @@ const ExploreServiceSection = ({ screenSize }) => {
                         : 'Build your brand moat with us and leave the competition in the dust.'}
                 </p>
 
-                <div className="flex items-center justify-center hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-200  bg-white rounded-full">
-                    <button className="text-md text-blue-850 font-poppins font-semibold">
+                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-60 button-div mt-32">
+                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
                         {screenSize < 1024 ? 'ALL OUR SERVICES' : 'EXPLORE SERVICES'}
                     </button>
 
-                    <div className="w-10 h-10 bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-pink-500 rounded-full flex justify-center item-center ml-2">
-                        <img src={ArrowRightIcon} alt="right direction arrow" className="hover:scale-110 text-xs w-5" />
+                    <div
+                        className="w-12 h-12 bg-blue-600 
+                    rounded-full flex justify-center item-center ml-3 button-arrow">
+                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
                     </div>
                 </div>
             </div>
