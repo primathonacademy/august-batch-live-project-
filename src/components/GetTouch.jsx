@@ -10,7 +10,7 @@ const GetTouch = ({ screenSize }) => {
                     <img
                         src={HeroBackground}
                         alt="get in touch background grid lines"
-                        className="absolute top-0 object-cover bg-center h-full"
+                        className="absolute top-0 object-cover bg-center h-full md:left-0"
                     />
 
                     <div className="h-full flex flex-col justify-around items-center mt-10 lg:flex-row lg:items-center lg:pb-20">
