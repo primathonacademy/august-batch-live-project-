@@ -33,7 +33,7 @@ const FormSection = ({ screenSize }) => {
                     <img
                         src={GridLineFormImage}
                         alt="grid image form"
-                        className="lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent inset-0 absolute bg-center mt-72  object-cover "></img>
+                        className="lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent inset-0 absolute bg-center mt-72 object-cover  "></img>
 
                     <div className="pt-5">
                         <h2 className="w-36 bg-blue-850 xl:ml-4 3xl:ml-0 text-center text-xl text-white mt-32 xl:text-xl 2xl:mt-28">
