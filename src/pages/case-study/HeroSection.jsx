@@ -2,12 +2,12 @@ const HeroSection = () => {
     return (
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 w-10/12">
             <div className="pt-36">
-                <div className="text-xl italic font-normal w-fit px-5 font-serif text-white bg-blue-850">
+                <div className="text-xl italic font-normal w-fit px-5 font-serif text-white bg-blue-850 ">
                     <p className="hidden md:block">Minits</p>
                     <p className="md:hidden">Our Services</p>
                 </div>
                 <div className="text-4xl md:text-5xl font-medium not-italic text-blue-black pt-5">
-                    <p className="hidden md:block">Simplifying the Next.</p>
+                    <p className="hidden md:block w-1/2 2xl:w-2/5">Simplifying the Next.</p>
                     <p className="md:hidden">Feel at home among brave dreamers and curious rebels.</p>
                 </div>
                 <div className="font-roboto font-normal not-italic text-lg md:text-xl text-neutral-575 opacity-100 pt-11 pb-7 md:pb-12">
