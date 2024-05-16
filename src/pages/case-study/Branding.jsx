@@ -6,8 +6,8 @@ import ColorPaletteSm from '../../assets/images/color-palette-sm.png';
 
 const Branding = () => {
     return (
-        <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 text-gray-600 font-roboto">
-            <h1 className="font-serif italic text-lg md:text-3xl bg-blue-800 px-4 text-white md:px-8 inline">
+        <section className="px-5 md:px-14 3xl:px-45.5 lg:px-20 xl:px-28 2xl:px-36 font-roboto">
+            <h1 className="font-serif italic text-lg md:text-3xl bg-blue-850 px-4 text-white md:px-8 inline">
                 Branding
             </h1>
             <div className="border-b-2 border-gray-200 -mt-1"></div>
@@ -15,7 +15,7 @@ const Branding = () => {
                 <div className="md:w-1/3">
                     <h2 className="text-2.5xl md:text-4xl font-poppins font-medium w-45.5">Typography & Color</h2>
                 </div>
-                <div className="md:w-2/3 ">
+                <div className="md:w-2/3 text-gray-600">
                     <p className="pr-20">
                         The color palette artfully blends shades of blue, violet, and green, evoking a harmonious and
                         visually engaging experience. This palette conveys a sense of trustworthiness, innovation, and

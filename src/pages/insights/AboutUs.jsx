@@ -97,9 +97,9 @@ function AboutUs() {
                     alt="background grid line"
                 />
                 <div className="pt-24 pb-12">
-                    <div className="w-36 md:w-40 lg:w-45.5 xl:w-48 2xl:w-52 h-7 flex items-center justify-center bg-blue-850">
-                        <h3 className="text-white italic text-xl lg:text-2xl 2xl:text-3xl">
-                            {isMobileView ? 'Our Services' : 'About us'}
+                    <div className="w-fit px-5 py-1 flex items-center justify-center bg-blue-850">
+                        <h3 className="text-white font-serif italic text-xl lg:text-2xl">
+                            {isMobileView ? 'Our Services' : 'About Us'}
                         </h3>
                     </div>
                     <h1 className="font-medium text-4.5xl md:text-5xl lg:text-5.7xl xl:text-7xl 2xl:text-7.5xl 3xl:text-7.5xl pr-20 md:pr-28 lg:pr-40 xl:pr-52 2xl:pr-60 leading-12 md:leading-13 lg:leading-14 xl:leading-15 2xl:leading-16 3xl:leading-18 3xl:pr-72 mt-7">
@@ -107,7 +107,7 @@ function AboutUs() {
                             ? 'Simplyfying the Next'
                             : 'Feel at home among brave dreamers and curious rebels.'}
                     </h1>
-                    <p className="text-lg xl:text-xl 2xl:text-2xl mt-10 pr-20 md:pr-40 lg:pr-60 xl:pr-80 2xl:pr-96 3xl:pr-131">
+                    <p className="text-neutral-575 text-lg xl:text-xl 2xl:text-2xl mt-10 pr-20 md:pr-40 lg:pr-60 xl:pr-80 2xl:pr-96 3xl:pr-131">
                         {isMobileView
                             ? 'High-potential global brands trust Yume Labs for better customer advocacy, stronger investor trust, and higher media love.'
                             : 'Here in “the pond” we’re driven by creativity, curiosity and a passion for challenging the status quo in everything we do'}
@@ -115,9 +115,9 @@ function AboutUs() {
                 </div>
             </section>
 
-            <div className="relative flex items-center pb-8 overflow-x-hidden mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5 md:rounded-3xl mb-24">
+            <div className="relative flex items-center pb-8 overflow-x-hidden mt-10 md:mx-14 lg:mx-20 xl:mx-24 2xl:mx-28 3xl:mx-45.5 mb-24">
                 <div
-                    className="bg-cover w-full  object-cover scale-x-110 scale-y-110 overflow-hidden  md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl"
+                    className="bg-cover w-full  object-cover scale-x-110 scale-y-110 overflow-hidden rounded-3xl bg-center 3xl:rounded-3xl"
                     style={{ backgroundImage: `url(${AboutPosterSection})` }}>
                     <div className="lg:pt-64 lg:pl-32 md:pt-32 md:pl-12 pt-16 pl-9 lg:pb-4 pr-2 p-20">
                         <div className="mt-2 mr-6 md:pb-28">
@@ -133,8 +133,8 @@ function AboutUs() {
             </div>
 
             {contentData.slice(0, visibleContentCount).map((item, index) => (
-                <div>
-                    <div key={index} className="flex justify-center m-auto md:flex md:justify-start ">
+                <div key={index}>
+                    <div className="flex justify-center m-auto md:flex md:justify-start ">
                         <div
                             className="md:flex 3xl:gap-x-36 2xl:gap-x-32 xl:gap-x-28 lg:gap-x-24 md:gap-x-12 md:items-center mt-8 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 pb-8"
                             key={index}>
@@ -163,7 +163,7 @@ function AboutUs() {
 
             {visibleContentCount < contentData.length && (
                 <button
-                    className={`block mx-auto px-5 py-2 mt-10 bg-sky-50 rounded-8 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900 mb-52 hover:bg-gradient-to-r from-blue-200 to-pink-200 ${
+                    className={`block mx-auto font-semibold px-5 py-2 mt-10 bg-sky-50 rounded-8 w-52 h-14 3xl:w-60 3xl:h-20 text-blue-900 mb-52 hover:bg-gradient-to-r from-blue-200 to-pink-200 ${
                         visibleContentCount >= contentData.length ? 'hidden' : ''
                     }`}
                     onClick={handleLoadMore}>

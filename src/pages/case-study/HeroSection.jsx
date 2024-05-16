@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <p className="hidden md:block w-1/2 2xl:w-2/5">Simplifying the Next.</p>
                     <p className="md:hidden">Feel at home among brave dreamers and curious rebels.</p>
                 </div>
-                <div className="font-roboto font-normal not-italic text-lg md:text-xl text-gray-700 opacity-100 pt-11 pb-7 md:pb-12">
+                <div className="font-roboto font-normal not-italic text-lg md:text-xl text-neutral-575 opacity-100 pt-11 pb-7 md:pb-12">
                     <p className="hidden md:block">
                         Maiven is a cutting-edge AI-powered software designed to assist companies by analyzing audience
                         engagement through a combination of eye tracking and facial recognition technologies. This
@@ -25,19 +25,19 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:pt-10">
                 <div className="mb-5 md:mb-0">
-                    <p className="text-blue-700 text-xs font-poppins font-semibold">Services</p>
+                    <p className="text-blue-850 text-xs font-poppins font-semibold">Services</p>
                     <h1 className="font-medium font-poppins not-italic text-lg md:text-2xl leading-6 md:leading-10 text-gray-900">
                         Product
                     </h1>
                 </div>
                 <div className="mb-5 md:mb-0 md:ml-10">
-                    <p className="text-blue-700 text-xs font-poppins font-semibold">Industry</p>
+                    <p className="text-blue-850 text-xs font-poppins font-semibold">Industry</p>
                     <h1 className="font-medium font-poppins not-italic text-lg md:text-2xl leading-6 md:leading-10 text-gray-900">
                         Product
                     </h1>
                 </div>
                 <div className="mb-5 md:mb-0 md:ml-10">
-                    <p className="text-blue-700 text-xs font-poppins font-semibold">Location</p>
+                    <p className="text-blue-850 text-xs font-poppins font-semibold">Location</p>
                     <h1 className="font-medium font-poppins not-italic text-lg md:text-2xl leading-6 md:leading-10 text-gray-900">
                         Product
                     </h1>

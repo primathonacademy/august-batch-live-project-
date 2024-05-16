@@ -16,10 +16,10 @@ function OurService() {
                             <img src={GridlineImage} alt="Grid Lines Insight detail" className="md:w-full md:h-96" />
                         </div>
 
-                        <span className="max-w-52 md:block bg-blue-700 text-white text-center italic text-2xl font-normal mb-4 font-serif hidden">
+                        <span className="w-fit px-8 py-1 md:block bg-blue-850 text-white text-center italic text-2xl font-normal mb-4 font-serif hidden">
                             Article
                         </span>
-                        <span className="max-w-44 block bg-blue-700 text-white text-center italic text-sm font-normal -mt-3 mb-20 font-serif md:hidden relative top-20">
+                        <span className="max-w-44 block bg-blue-900 text-white text-center italic text-sm font-normal -mt-3 mb-20 font-serif md:hidden relative top-20">
                             Our Services
                         </span>
                         <h1 className="text-4xl text-black sm:text-4xl font-poppins font-medium 2xl:text-6xl lg:text-4xl sm:mb-6 xl:mb-6 leading-9 pt-4 w-10/12 3xl:text-6xl 4xl:text-8xl">
@@ -33,7 +33,11 @@ function OurService() {
                 </section>
 
                 <div className="bg-cover object-cover w-auto md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl">
-                    <img src={ArticleSectionImg} alt="Article section" />
+                    <img
+                        src={ArticleSectionImg}
+                        alt="Article section"
+                        className=" object-cover bg-cover bg-center 3xl:min-w-389 2xl:min-w-330 2xl:max-w-389 xl:min-w-270 xl:max-w-330 lg:min-w-210 lg:max-w-270 md:min-w-162.5 md:max-w-210 xl:h-127 lg:h-116.25 md:h-116.25 2xl:h-127 w-full"
+                    />
                 </div>
 
                 <div>
@@ -182,7 +186,6 @@ function OurService() {
                                             className="rounded-full mt-7 w-40 h-40"
                                         />
                                         <p className="lg:pt-24 ml-4  md:flex flex-col md:w-full">
-                                            {' '}
                                             <h2 className="text-xl lg:text-2xl font-poppins font-medium mt-6 md:mt-6 ">
                                                 {author.name}
                                             </h2>
@@ -199,6 +202,7 @@ function OurService() {
                         </div>
                     </div>
                 </div>
+                <div className="w-full h-px opacity-70 bg-gray-475 mt-40"></div>
                 <NewsCards />
                 <Arrowbtn />
             </div>

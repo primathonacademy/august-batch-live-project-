@@ -5,6 +5,7 @@ function Arrowbtn() {
         <div>
             <div className="flex items-center md:gap-5 gap-2">
                 <div className="flex-1 h-px opacity-70" />
+                <div className="w-full h-px opacity-70 bg-gray-475"></div>
                 <button
                     className="flex justify-center items-center cursor-pointer rounded-full border-none bg-white w-16 h-16"
                     type="button">

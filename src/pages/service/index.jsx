@@ -21,7 +21,9 @@ const Service = () => {
             <Research screenSize={screenSize} />
             <OurEngagement />
             <CoFounder />
-            <SelectedProjects screenSize={screenSize} />
+            <div className="px-5 py-20 md:px-14 lg:px-20 lg:pt-24 xl:px-24 2xl:px-28 2xl:pt-28 3xl:px-45.5">
+                <SelectedProjects screenSize={screenSize} />
+            </div>
         </>
     );
 };
