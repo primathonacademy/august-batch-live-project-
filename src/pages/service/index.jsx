@@ -18,7 +18,7 @@ const Service = () => {
     return (
         <>
             <OurServicePosterSection screenSize={screenSize} />
-            <Research />
+            <Research screenSize={screenSize} />
             <OurEngagement />
             <CoFounder />
             <SelectedProjects screenSize={screenSize} />
