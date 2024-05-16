@@ -13,7 +13,7 @@ function Arrowbtn() {
                 <button
                     className="w-16 h-16 rounded-full border-none  flex items-center justify-center align-middle"
                     type="button">
-                    <img src={RightArrow} alt="Right Arrow" className="text-center lg:w-10 lg:h-10 sm:w-4 sm:h-4" />
+                    <img src={RightArrow} alt="Right Arrow" className="text-center " />
                 </button>
             </div>
         </div>
