@@ -1,17 +1,18 @@
+import PropTypes from 'prop-types';
 import GridImg from '../../assets/images/grid-image.png';
 import TabImage from '../../assets/images/tablet-image.png';
 import MobileImgBlack from '../../assets/images/black-moblie-image.png';
 import MobileGraphicImg from '../../assets/images/mobile-graphic.png';
 import MobileImgBlue from '../../assets/images/blue-mobile-image.png';
-import { FaArrowRight } from 'react-icons/fa';
+import ArrowRightIcon from '../../assets/icons/arrow-right-icon.svg';
 
-const OurWork = () => {
+const OurWork = ({ screenSize }) => {
     return (
-        <div className="relative py-40 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+        <div className="relative px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
             <div>
                 <img
                     src={GridImg}
-                    className="absolute left-0 w-full lg:w-1/2 h-64 sm:h-40 object-cover scale-x-150 scale-y-100"
+                    className="absolute left-0 h-110 lg:w-1/2 object-cover scale-x-150 "
                     alt="background grid image"
                 />
                 <div className="bg-blue-850 text-white w-fit text-xl xs:text-2xl xs:leading-7 font-serif italic px-4">
@@ -79,16 +80,36 @@ const OurWork = () => {
                     </div>
                 </div>
             </div>
-            <button className="relative bg-zinc-75 mx-auto flex items-center border-0 border-transparent w-fit rounded-8 p-2 hover:bg-gradient-to-r hover:from-zinc-75 hover:from-40% hover:to-pink-200">
-                <div className="px-8 text-blue-850 text-xs xs:text-base leading-4 lg:text-xl font-poppins font-semibold">
-                    EXPLORE PORTFOLIO
+
+            {screenSize < 1024 ? (
+                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-64 mt-32 mx-auto my-20">
+                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider">
+                        EXPLORE PORTFOLIO
+                    </button>
+
+                    <div className="w-12 h-12 bg-blue-600 rounded-full flex justify-center item-center ml-3">
+                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                    </div>
                 </div>
-                <div className="p-5 bg-blue-575 text-white hover:bg-gradient-to-r rounded-full hover:from-pink-300 hover:to-blue-575">
-                    <FaArrowRight />
+            ) : (
+                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-64 button-div mt-32 my-28 mx-auto">
+                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
+                        EXPLORE PORTFOLIO
+                    </button>
+
+                    <div
+                        className="w-12 h-12 bg-blue-600 
+                    rounded-full flex justify-center item-center ml-4 button-arrow">
+                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                    </div>
                 </div>
-            </button>
+            )}
         </div>
     );
+};
+
+OurWork.propTypes = {
+    screenSize: PropTypes.number.isRequired
 };
 
 export default OurWork;

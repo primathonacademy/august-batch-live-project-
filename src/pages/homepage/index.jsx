@@ -19,10 +19,10 @@ const HomePage = () => {
         <div>
             <PosterSection />
             <ExploreServiceSection screenSize={screenSize} />
-            <OurWork />
+            <OurWork screenSize={screenSize} />
             <Ourservices />
             <CustomerLoveSection />
-            <ArtSection />
+            <ArtSection screenSize={screenSize} />
         </div>
     );
 };
