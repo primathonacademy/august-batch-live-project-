@@ -1,3 +1,4 @@
+import GridImg from '../../assets/images/grid-line-image.svg';
 import CardImage from '../../assets/images/card-image.png';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -9,42 +10,42 @@ const carouselItems = [
         image: CardImage,
         title: 'Deeper Insight',
         description:
-            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.',
+        alt: 'deeper insight card image'
     },
     {
         image: CardImage,
         title: 'Pioneering Innovation',
         description:
-            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.',
+        alt: 'pioneering innovation card image'
     },
     {
         image: CardImage,
         title: 'Compelling Design',
         description:
-            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+            'Yume Labs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.',
+        alt: 'compelling design card image'
     }
 ];
 
 OurServicesCard.propTypes = {
     title: PropTypes.any,
     description: PropTypes.any,
-    image: PropTypes.any
+    image: PropTypes.any,
+    alt: PropTypes.any
 };
 
 function OurServicesCard(props) {
     return (
-        <div className="flex justify-center">
-            <div className="flex flex-col xs:py-14 p-5 bg-white sm:items-center md:flex-row-reverse md:justify-between xl:w-4/5">
-                <img
-                    src={props.image}
-                    alt="deeper insight card image"
-                    className="w-full max-w-xs md:w-1/2 md:pr-10 xl:w-full xl:h-full"
-                />
-                <div className="flex  flex-col sm:w-1/2 md:pl-10">
-                    <h3 className=" text-slate-925 font-poppins font-medium text-3xl leading-34 pt-10 xs:w-full md:w-1/2 mb-5 md:mb-0">
+        <div className="lg:flex justify-center px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+            <div className="lg:flex rounded-lg xs:py-20 p-5 bg-white lg:flex-row-reverse md:justify-around items-end mx-auto w-full h-full xs:w-96 md:w-110 lg:w-full">
+                <img src={props.image} alt={props.alt} className="lg:w-96 lg:h-96 2xl:w-127 2xl:h-127" />
+                <div className="xl:w-2/5 2xl:w-1/3">
+                    <h3 className="text-slate-925 font-poppins font-medium text-2.5xl lg:text-4xl pt-10 xs:w-full lg:w-1/2 mb-5 md:mb-0">
                         {props.title}
                     </h3>
-                    <p className="text-lg text-left font-normal font-roboto  text-slate-550 leading-22 pt-3 xs:w-full md:w-4/5 opacity-80">
+                    <p className="text-lg lg:text-2xl text-left font-normal font-roboto text-slate-550 pt-3 xs:w-full lg:w-4/5 xl:w-full opacity-80">
                         {props.description}
                     </p>
                 </div>
@@ -55,8 +56,12 @@ function OurServicesCard(props) {
 
 function Ourservices() {
     return (
-        <div className="bg-gray-75 w-full flex flex-col justify-center items-center gap-1 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 xs:pb-23">
-            <div className="absolute left-0 hidden 2xl:block w-3/4 h-51.5 scale-x-100 bg-cover bg-center"></div>
+        <div className="w-full flex justify-center items-center gap-1 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 xs:pb-23">
+            <img
+                src={GridImg}
+                className="absolute left-0 hidden lg:block w-210 h-60 scale-x-125 scale-y-150 object-cover"
+                alt="grid background image"
+            />
             <div className="xs:pt-25 py-5">
                 <div className="text-xl italic font-normal w-fit px-2 font-serif text-white bg-blue-850">
                     Our Approach
@@ -72,14 +77,14 @@ function Ourservices() {
 
 export default function SimpleSlider() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
     };
     return (
-        <div className="bg-gray-75">
+        <div className="bg-gray-75 py-20">
             <Ourservices />
             <Slider {...settings}>
                 {carouselItems.map((item, index) => {
@@ -89,6 +94,7 @@ export default function SimpleSlider() {
                             title={item.title}
                             description={item.description}
                             image={item.image}
+                            alt={item.alt}
                         />
                     );
                 })}
