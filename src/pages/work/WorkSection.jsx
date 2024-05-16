@@ -95,7 +95,7 @@ const OurWork = () => {
                         </p>
                     </div>
                 </div>
-                <div className="mx-auto pb-16 xs:w-96 sm:w-110 md:w-127 lg:w-full lg:mt-60">
+                <div className="mx-auto pb-8 xs:w-96 sm:w-110 md:w-127 lg:w-full lg:mt-60">
                     <img src={MobileImgBlack} className="w-full lg:pl-8" alt="image showing holding mobile in hand" />
                     <div className="w-full xs:pr-8 lg:pl-8 py-5">
                         <div className="flex text-base font-semibold text-blue-850 py-2">
@@ -110,8 +110,8 @@ const OurWork = () => {
                     </div>
                 </div>
             </div>
-            <button className="relative bg-zinc-75 mx-auto flex items-center border border-transparent w-fit rounded-8 p-2">
-                <div className="px-8 text-blue-850 text-xs xs:text-base leading-4 lg:text-xl font-poppins font-semibold">
+            <button className="hidden relative bg-zinc-75 mx-auto lg:flex items-center border-0 border-transparent w-fit rounded-8 p-2 hover:bg-gradient-to-r hover:from-zinc-75 hover:from-40% hover:to-pink-200">
+                <div className="px-8 text-blue-850 text-xs xs:text-base leading-4 font-poppins font-semibold py-2">
                     Load More
                 </div>
             </button>

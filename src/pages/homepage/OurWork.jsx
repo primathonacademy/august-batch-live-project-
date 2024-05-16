@@ -3,7 +3,7 @@ import TabImage from '../../assets/images/tablet-image.png';
 import MobileImgBlack from '../../assets/images/black-moblie-image.png';
 import MobileGraphicImg from '../../assets/images/mobile-graphic.png';
 import MobileImgBlue from '../../assets/images/blue-mobile-image.png';
-import LeftArrowIcon from '../../assets/images/right-arrow-image.svg';
+import { FaArrowRight } from 'react-icons/fa';
 
 const OurWork = () => {
     return (
@@ -79,11 +79,13 @@ const OurWork = () => {
                     </div>
                 </div>
             </div>
-            <button className="relative bg-zinc-75 mx-auto flex items-center border border-transparent w-fit rounded-8 p-2">
+            <button className="relative bg-zinc-75 mx-auto flex items-center border-0 border-transparent w-fit rounded-8 p-2 hover:bg-gradient-to-r hover:from-zinc-75 hover:from-40% hover:to-pink-200">
                 <div className="px-8 text-blue-850 text-xs xs:text-base leading-4 lg:text-xl font-poppins font-semibold">
                     EXPLORE PORTFOLIO
                 </div>
-                <img src={LeftArrowIcon} alt="right arrow icon image" />
+                <div className="p-5 bg-blue-575 text-white hover:bg-gradient-to-r rounded-full hover:from-pink-300 hover:to-blue-575">
+                    <FaArrowRight />
+                </div>
             </button>
         </div>
     );

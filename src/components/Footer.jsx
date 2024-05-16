@@ -8,7 +8,7 @@ import NavLinks from './NavLinks';
 
 const Footer = () => {
     return (
-        <footer className="w-full mt-auto bg-gray-75 px-5 py-5 lg:py-0 md:w-full md:px-14 md:pt-20 lg:px-20 lg:pt-24 xl:px-24 2xl:px-28 2xl:pt-28  3xl:px-45.5">
+        <footer className="w-full mt-auto px-5 pb-5 lg:py-0 md:w-full md:px-14 lg:px-20  xl:px-24 2xl:px-28 3xl:px-45.5">
             <section className="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 border-b-2 border-opacity-80 pb-10 pt-14 text-slate-725  md:pb-20 lg:pb-24 2xl:pb-28">
                 <div className="flex items-center ">
                     <NavLinks />

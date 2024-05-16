@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { projectData } from '../../constants/project-data';
 import LeftArrowIcon from '../../assets/icons/arrow-left-icon.svg';
-import RightArrowIcon from '../../assets/icons/arrow-right-icon.svg';
+import RightArrowIcon from '../../assets/icons/arrow-right.svg';
 
 const ProjectCard = ({ screenSize }) => {
     return (
