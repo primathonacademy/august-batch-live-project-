@@ -15,13 +15,18 @@ function AboutSection({ screenSize }) {
 
             <div className="pt-24 pb-12 absolute top-16 2xl:top-20 w-full">
                 <h4 className="w-36 md:w-40 md:mt-4 lg:w-45.5 xl:w-48 2xl:w-52 bg-blue-850 text-white py-2 text-center font-serif italic text-xl lg:text-2xl 2xl:text-3xl">
-                    {screenSize < 768 ? 'Our Services' : 'About us'}
+                    {screenSize < 768 ? 'Our Services' : 'About Us'}
                 </h4>
-                <h3 className="font-poppins font-normal leading-13 text-5xl mt-3 sm:mt-5 sm:w-3/4 2xl:text-7.5xl 2xl:leading-18 w-full">
-                    {screenSize < 768
-                        ? 'Feet at home among brave dreamers and curious rebels.'
-                        : 'Stay ahead and stand apart with your extended innovation and design team.'}
-                </h3>
+                {screenSize < 1024 ? (
+                    <h3 className="font-poppins font-normal leading-13 text-5xl mt-5 sm:mt-5 pl-0 w-110 sm:w-127">
+                        Feet at home among brave dreamers and curious rebels.
+                    </h3>
+                ) : (
+                    <h3 className="font-poppins font-normal leading-13 text-5xl mt-3 sm:mt-5 lg:mt-10 2xl:text-7.5xl 2xl:leading-18 w-full">
+                        Stay ahead and stand apart with your <br /> extended innovation and design team.
+                    </h3>
+                )}
+
                 <p className="text-lg text-slate-550 w-96 sm:w-110 md:w-3/4 xl:text-xl 2xl:text-2xl mt-10 pr-20 md:pr-40 lg:pr-60 xl:pr-80 2xl:pr-96 3xl:pr-131">
                     {screenSize < 768
                         ? 'High-potential global brands trust Yume Labs for better customer advocacy, stronger investor trust, and higher media love.'
