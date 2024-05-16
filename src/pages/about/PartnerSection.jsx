@@ -12,10 +12,14 @@ const PartnerCard = () => {
                 return (
                     <div
                         key={`index-${i}`}
-                        className="w-full my-5 md:w-64 lg:mt-10 xl:mt-14  xl:w-80 xl:max-w-110 3xl:w-110">
-                        <img src={item.imgSrc} alt="rectangle image" className="w-full" />
-                        <div className="p-10  3xl:w-106.7 bg-white rounded-lg brightness-100 backdrop-blur-2xl opacity-75">
-                            <h3 className="text-2xl">{item.heading}</h3>
+                        className="w-full rounded-lg bg-gray-75 backdrop-blur-2xl md:mt-14 lg:mt-28 xl:mt-32 mt-20 2xl:">
+                        <img
+                            src={item.imgSrc}
+                            alt="rectangle image"
+                            className="w-full lg:w-80 xl:w-full rounded-tl-lg rounded-tr-lg"
+                        />
+                        <div className="p-10 3xl:w-106.7 bg-white rounded-lg backdrop-blur-2xl">
+                            <h3 className="text-2xl font-medium">{item.heading}</h3>
                             <p className="text-xl text-slate-550 mt-2">{item.discription}</p>
                         </div>
                     </div>
@@ -30,19 +34,19 @@ const PartnerSection = () => {
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mb-52">
             <h1 className="text-4.7xl font-poppins font-medium w-80 leading-12">Partners at Yume Labs</h1>
 
-            <section className="w-full relative mt-8 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+            <section className="w-full relative mt-12 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
                 <img
-                    className="absolute inset-0 bg-cover object-cover bg-center w-screen -left-5 h-270 top-80 scale-150 xs:h-330 sm:h-389 sm:mt-20 md:h-175 md:-left-16 md:top-28 lg:top-10 lg:h-96 xl:-left-24 3xl:h-110 3xl:-left-48"
+                    className="absolute inset-0 bg-cover object-cover bg-center w-screen -left-5 h-270 top-80 scale-150 xs:h-330 sm:h-389 sm:mt-20 md:h-110 md:scale-150 md:-left-16 md:top-3 lg:top-10 lg:h-96 xl:-left-24 xl:h-110 2xl:h-127 3xl:-left-48"
                     src={GridLineImg}
                     alt="background grid image"
                 />
 
-                <div className="flex flex-wrap mx-auto justify-center items-center pt-28 md:pt-10 md:w-full md:pb-24 md:gap-x-5 md:px-5 md:justify-center lg:px-0 lg:w-full">
+                <div className="flex flex-wrap justify-center gap-3 md:grid md:grid-cols-3 md:gap-x-5 w-full">
                     <PartnerCard />
                 </div>
             </section>
 
-            <div className="mt-56 grid gap-y-3 mx-auto md:grid-cols-3 md:gap-x-3 md:mt-12 xl:mt-20">
+            <div className="mt-56 grid gap-y-3 mx-auto md:grid-cols-3 md:gap-x-3 md:mt-52 xl:mt-52">
                 <img
                     src={MeetingImgOne}
                     alt="two boys and two girls standing with card boards"
