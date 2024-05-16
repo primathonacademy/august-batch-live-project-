@@ -35,7 +35,7 @@ const ProjectCard = ({ screenSize }) => {
 
 const SelectedProjects = ({ screenSize }) => {
     return (
-        <div className="px-5 py-20 md:px-14 lg:px-20 lg:pt-24 xl:px-24 2xl:px-28 2xl:pt-28 3xl:px-45.5">
+        <div>
             <h1 className="text-4xl mb-10 w-40 lg:pl-3 xl:text-5xl xl:leading-12 2xl:text-5.7xl xl:w-60 3xl:leading-15 3xl:pl-2">
                 Selected Projects
             </h1>

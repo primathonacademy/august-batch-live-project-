@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 const FormSection = ({ screenSize }) => {
     return (
-        <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-40 w-full">
+        <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-5 w-full">
             {screenSize < 1024 ? (
                 <div>
                     <img
@@ -16,7 +16,7 @@ const FormSection = ({ screenSize }) => {
                         alt="grid image form"
                         className="w-106.7 md:w-116.25 h-137 bg-transparent absolute bg-center object-cover inset-0 mt-28 md:mt-32"></img>
                     <div>
-                        <h2 className="w-36 md:w-40 bg-blue-850 text-base text-center text-white ml-6 md:ml-0">
+                        <h2 className="w-fit px-5 py-1 font-serif italic bg-blue-850 text-base text-center text-white ml-6 md:ml-0">
                             Our Services
                         </h2>
                         <h4 className="w-80 font-poppins ml-6 md:ml-0 font-medium text-4xl mt-6">
@@ -36,7 +36,7 @@ const FormSection = ({ screenSize }) => {
                         className="lg:w-131 xl:w-144.5 2xl:w-162.5 3xl:w-175 h-137 bg-transparent inset-0 absolute bg-center mt-72 object-cover  "></img>
 
                     <div className="pt-5">
-                        <h2 className="w-36 bg-blue-850 xl:ml-4 3xl:ml-0 text-center text-xl text-white mt-32 xl:text-xl 2xl:mt-28">
+                        <h2 className="w-fit px-5 py-1 font-serif italic bg-blue-850 xl:ml-4 3xl:ml-0 text-center text-xl text-white mt-32 xl:text-xl 2xl:mt-28">
                             Contact Us
                         </h2>
 

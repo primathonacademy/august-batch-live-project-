@@ -4,7 +4,7 @@ function NewsCards() {
     return (
         <div>
             <div>
-                <h1 className="text-4xl font-poppins font-medium px-5 mb-24">Latest Articles </h1>
+                <h1 className="text-4xl font-poppins font-medium mt-40 mb-24">Latest Articles </h1>
 
                 <div className="flex overflow-x-auto lg:overflow-hidden lg:scrollbar-hide gap-4 w-full md:px-0 font-poppins">
                     <div className="w-full flex sm:px-4">

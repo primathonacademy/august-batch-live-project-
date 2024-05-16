@@ -15,7 +15,7 @@ const ProductDesign = ({ screenSize }) => {
                         Branding
                     </span>
                 ) : (
-                    <span className="italic text-xl text-white bg-blue-850 py-2 px-8 tracking-normal w-64 font-serif">
+                    <span className="italic text-xl text-white bg-blue-850 py-1 px-8 tracking-normal w-64 font-serif">
                         Product Design
                     </span>
                 )}
