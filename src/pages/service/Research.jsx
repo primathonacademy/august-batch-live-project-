@@ -49,8 +49,8 @@ function Research({ screenSize }) {
                                     />
                                     <div className="pt-6">
                                         <span className="flex gap-6 text-base font-poppins text-blue-850 font-semibold">
-                                            <h4>{screenSize < 1280 ? '#UX/UI' : '# QUALITATIVE RESEARCH'}</h4>
-                                            <h4>#DEVELOPMENT</h4>
+                                            <h4>{screenSize < 1280 ? '# UX/UI' : '# QUALITATIVE RESEARCH'}</h4>
+                                            <h4># DEVELOPMENT</h4>
                                         </span>
                                         <h2 className="font-medium text-2.5xl lg:text-4xl tracking-wider my-3 text-slate-925 xl:my-5">
                                             Simplicontract
@@ -69,8 +69,8 @@ function Research({ screenSize }) {
                                     />
                                     <div className="pt-6">
                                         <span className="flex gap-6 text-base font-poppins text-blue-850 font-semibold">
-                                            <h4>{screenSize < 1280 ? '#UX/UI' : '# QUALITATIVE RESEARCH'}</h4>
-                                            <h4>#DEVELOPMENT</h4>
+                                            <h4>{screenSize < 1280 ? '# UX/UI' : '# QUALITATIVE RESEARCH'}</h4>
+                                            <h4># DEVELOPMENT</h4>
                                         </span>
                                         <h2 className="font-medium text-2.5xl lg:text-4xl tracking-wider my-3 text-slate-925 xl:my-5">
                                             Simplicontract

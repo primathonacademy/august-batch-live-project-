@@ -1,26 +1,27 @@
+import PropTypes from 'prop-types';
 import GridImg from '../../assets/images/grid-image.png';
 import TabImage from '../../assets/images/tablet-image.png';
 import MobileImgBlack from '../../assets/images/black-moblie-image.png';
 import MobileGraphicImg from '../../assets/images/mobile-graphic.png';
 import MobileImgBlue from '../../assets/images/blue-mobile-image.png';
 
-const OurWork = () => {
+const OurWork = ({ screenSize }) => {
     return (
-        <div className="relative py-40 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+        <div className="relative mb-40 mt-10 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
             <div>
                 <img
                     src={GridImg}
-                    className="absolute left-0 w-full lg:w-1/2 h-64 sm:h-40 object-cover scale-x-150 scale-y-100"
+                    className="absolute left-0 -top-10 w-210 lg:scale-150 lg:w-210 xl:w-175 xl:left-20 xl:scale-125 xl:h-110 h-96 sm:w-96 sm:scale-110 sm:h-80 object-cover scale-150 scale-y-100 md:h-80 md:w-110 md:scale-150 2xl:scale-125"
                     alt="background grid image"
                 />
-                <div className="bg-blue-850 text-white w-fit text-xl xs:text-2xl xs:leading-7 font-serif italic px-4">
-                    Our Work
+                <div className="bg-blue-850 text-white w-fit text-xl xs:text-2xl xs:leading-7 font-serif italic px-4 mt-10">
+                    {screenSize < 1024 ? 'Our Services' : 'Our Work'}
                 </div>
-                <h3 className="w-4/6 text-4xl py-2 xs:text-4.7xl xs:leading-13 xs:py-4 xs:w-7/10 sm:text-5.5xl sm:w-1/2 md:w-1/3 lg:text-6xl lg:leading-14 lg:w-1/3 lg:py-4 xl:text-7xl xl:leading-20 xl:py-4 2xl:text-7.7xl 2xl:leading-24 2xl:py-4 3xl:leading-24 3xl:py-4">
+                <h3 className="w-4/6 text-4xl mt-5 xs:mt-1 text-slate-925 mb-8 xs:text-4.7xl xs:leading-13 xs:p-4 xs:pl-0 sm:text-5.5xl sm:w-1/2 md:w-1/3 lg:text-6xl lg:leading-14 lg:w-1/3 lg:py-4 xl:text-7xl xl:leading-20 xl:py-4 2xl:text-7.7xl 2xl:leading-24 2xl:py-4 3xl:leading-24 3xl:py-4">
                     Simplifying the Next.
                 </h3>
-                <p className="md:text-lg md:leading-6 lg:leading-6 lg:m-2 xl:text-2xl xl:leading-7 xl:w-4/6 2xl:leading-7 3xl:leading-8 text-slate-550 font-roboto font-normal">
-                    Yumelabs is a global UI UX Design and Industrial Design agency that helps your business scale
+                <p className="text-lg md:leading-6 lg:leading-6 lg:m-2 xl:text-2xl xl:leading-7 xl:w-4/6 2xl:leading-7 3xl:leading-8 text-slate-550 font-roboto font-normal">
+                    Yumelabs is a global UI UX Design and Industrial Design agency that helps your <br /> business scale
                     through fail-proof design innovation systems.
                 </p>
             </div>
@@ -117,6 +118,10 @@ const OurWork = () => {
             </button>
         </div>
     );
+};
+
+OurWork.propTypes = {
+    screenSize: PropTypes.number.isRequired
 };
 
 export default OurWork;

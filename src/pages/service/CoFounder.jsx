@@ -29,9 +29,9 @@ const CoFounder = () => {
                                 <img
                                     src={ProfileImage}
                                     alt="profile image"
-                                    className="w-17.75 md:w-20 lg:w-21 xl:w-22 2xl:w-22 3xl:w-24 h-17.75 md:h-20 xl:h-24 3xl:h-24 absolute right-1 lg:bottom-5 top-3 3xl:top-5"></img>
+                                    className="w-16 xs:h-20 xs:w-20 xs:top-3 xs:left-6  2xl:w-22 3xl:w-24 h-16 md:h-20 3xl:h-24 absolute right-1 lg:bottom-5 top-4 xs: 3xl:top-5 rounded-full"></img>
                             </div>
-                            <div className="mt-2 3xl:mt-5 ">
+                            <div className="mt-2 3xl:mt-5 ml-3">
                                 <h2 className="text-base lg:text-xl text-left 3xl:text-2.5xl text-slate-925 w-44 md:w-48 lg:w-52 xl:w-60 2xl:w-64 3xl:w-72 h-9  leading-7 3xl:leading-normal font-medium font-poppins">
                                     Mrs. Regina Christy
                                 </h2>
@@ -44,7 +44,7 @@ const CoFounder = () => {
                     </div>
                 </div>
 
-                <div className="lg:w-96 xl:w-116.25 2xl:w-142.4 3xl:w-144.5 hidden lg:block 3xl:text-left ">
+                <div className="lg:w-96 xl:w-116.25 2xl:w-142.4 3xl:w-144.5 hidden lg:block 3xl:text-left xl:ml-60 3xl:ml-110">
                     <p className="lg:text-base 3xl:text-lg 2xl:text-4 text-gray-525 3xl:leading-6 opacity-100">
                         Scale Your Brand through:
                         <br />
@@ -60,7 +60,7 @@ const CoFounder = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-full flex">
+            <div className="w-full flex mt-10">
                 <hr className="w-full mr-2 border opacity-1 h-0 mt-6 3xl:mt-7"></hr>
                 <img src={ArrowLeftIcon} alt="left arrow image" className="mr-2 w-14 h-14"></img>
                 <img src={ArrowRightIcon} alt="right arrow image" className="w-14 h-14"></img>

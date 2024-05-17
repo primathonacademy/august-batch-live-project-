@@ -1,4 +1,4 @@
-import GridImg from '../../assets/images/grid-line-image.svg';
+import GridImg from '../../assets/images/bg-grid-lines.svg';
 import CardImage from '../../assets/images/card-image.png';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -54,19 +54,19 @@ function OurServicesCard(props) {
     );
 }
 
-function Ourservices() {
+function Ourservices({ screenSize }) {
     return (
-        <div className="w-full flex justify-center items-center gap-1 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 xs:pb-23">
+        <div className="w-full flex justify-center items-center gap-1 xs:gap-x-2.5 xs:gap-y-2 3xl:gap-3 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 xs:pb-23 relative mb-10">
             <img
                 src={GridImg}
-                className="absolute left-0 hidden lg:block w-210 h-60 scale-x-125 scale-y-150 object-cover"
+                className="absolute -left-24 top-0 scale-150 w-full h-72 bg-center object-cover xs:h-80 sm:h-60 sm:-top-5"
                 alt="grid background image"
             />
             <div className="xs:pt-25 py-5">
-                <div className="text-xl italic font-normal w-fit px-2 font-serif text-white bg-blue-850">
-                    Our Approach
+                <div className="text-xl italic font-normal w-fit px-4 py-1 md:text-2xl 2xl:text-3xl font-serif text-white bg-blue-850">
+                    {screenSize < 1024 ? 'Our Approach' : 'Our Services'}
                 </div>
-                <div className="xs:text-4xl text-2xl py-5 font-poppins font-medium text-zinc-850 xs:w-11/12 xs:py-4 lg:w-3/4 xl:w-2/3 2xl:w-1/2">
+                <div className="xs:text-4xl text-2xl py-5 font-poppins font-medium text-zinc-850 xs:w-11/12 xs:py-4 lg:w-4/5 lg:leading-11 xl:w-2/3 2xl:w-3/5">
                     High-potential global brands trust Yume Labs for better customer advocacy, stronger investor trust,
                     and higher media love.
                 </div>
@@ -86,7 +86,7 @@ export default function SimpleSlider() {
     return (
         <div className="bg-gray-75 py-20">
             <Ourservices />
-            <Slider {...settings}>
+            <Slider {...settings} className="md:mt-20">
                 {carouselItems.map((item, index) => {
                     return (
                         <OurServicesCard
@@ -102,3 +102,7 @@ export default function SimpleSlider() {
         </div>
     );
 }
+
+Ourservices.propTypes = {
+    screenSize: PropTypes.number.isRequired
+};

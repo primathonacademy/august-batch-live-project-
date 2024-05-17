@@ -16,14 +16,14 @@ const HomePage = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
     return (
-        <div>
+        <>
             <PosterSection />
             <ExploreServiceSection screenSize={screenSize} />
             <OurWork screenSize={screenSize} />
-            <Ourservices />
+            <Ourservices screenSize={screenSize} />
             <CustomerLoveSection />
             <ArtSection screenSize={screenSize} />
-        </div>
+        </>
     );
 };
 

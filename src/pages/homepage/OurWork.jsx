@@ -12,14 +12,14 @@ const OurWork = ({ screenSize }) => {
             <div>
                 <img
                     src={GridImg}
-                    className="absolute left-0 h-110 lg:w-1/2 object-cover scale-x-150 "
+                    className="absolute left-0 -top-10 h-60 w-full lg:w-210 lg:-left-8 lg:-top-10 lg:h-44 object-cover scale-x-150 lg:bg-left 3xl:w-330 3xl:h-60"
                     alt="background grid image"
                 />
-                <div className="bg-blue-850 text-white w-fit text-xl xs:text-2xl xs:leading-7 font-serif italic px-4">
+                <div className="bg-blue-850 text-white w-fit text-xl xs:text-2xl xs:leading-7 font-serif italic px-4 2xl:text-3xl py-1">
                     Our Work
                 </div>
-                <h3 className="text-3xl xs:text-4xl md:text-5xl 3xl:text-5.7xl 3xl:leading-15 font-medium font-poppins text-left xl:w-4/5 py-4">
-                    Discover brand innovation stories that will inspire you to reimagine the Next for yours.
+                <h3 className="text-3xl xs:text-4xl md:text-3xl 3xl:text-5.7xl 3xl:leading-15 font-medium font-poppins text-left xl:w-4/5 py-4">
+                    Discover brand innovation stories that will <br /> inspire you to reimagine the Next for yours.
                 </h3>
             </div>
             <div className="lg:grid grid-cols-2 grid-rows-2 gap-10 pt-40">
