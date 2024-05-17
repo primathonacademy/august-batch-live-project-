@@ -1,8 +1,14 @@
+import GridImg from '../../assets/images/grid-line-image.svg';
 const HeroSection = () => {
     return (
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 w-10/12">
             <div className="pt-36">
-                <div className="text-xl italic font-normal w-fit px-5 font-serif text-white bg-blue-850 ">
+                <div className="text-xl md:text-2xl 3xl:text-3xl xs:leading-7 italic font-normal w-fit px-5 font-serif text-white bg-blue-850 ">
+                    <img
+                        src={GridImg}
+                        className="absolute left-0 block w-210 h-60 scale-x-125 scale-y-150 object-cover"
+                        alt="grid background image"
+                    />
                     <p className="hidden md:block">Minits</p>
                     <p className="md:hidden">Our Services</p>
                 </div>
