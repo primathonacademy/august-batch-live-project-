@@ -29,10 +29,10 @@ const CustomerLoveCard = () => {
                     className="absolute left-14 xs:left-16 lg:left-52 md:left-24 xl:left-40 3xl:left-60 xl:ml-20 w-14 h-14 xs:w-20 xs:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28"
                 />
                 <div className="flex-1 pl-6 xs:pl-10 lg:pl-14 xl:pl-14">
-                    <h6 className="text-sm xs:text-lg md:text-xl xl:text-2xl font-medium font-poppins lg:py-2">
+                    <h6 className="text-sm xs:text-lg md:text-xl xl:text-2xl font-medium font-poppins lg:py-2 text-slate-925">
                         Mrs. Regina Christy
                     </h6>
-                    <p className="text-slate-550 text-sm xs:text-base md:text-xl xl:text-2xl lg:leading-8.5 font-normal font-poppins">
+                    <p className="text-slate-550 text-sm xs:text-base md:text-xl xl:text-2xl font-poppins">
                         Chief Digital Officer Approlabs
                     </p>
                 </div>
@@ -47,13 +47,13 @@ const CustomerLoveSection = () => {
             <div className="w-full">
                 <img
                     src={GridImg}
-                    className="absolute left-0 hidden lg:block w-210 h-60 scale-x-150 scale-y-150 bg-cover bg-center"
+                    className="absolute left-0 top-24 hidden md:block w-210 h-56 scale-x-150 scale-y-150 bg-cover bg-center xl:w-250"
                     alt="grid background image"
                 />
-                <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-xl md:text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-4">
+                <div className="w-full text-blue-850 lg:text-white lg:w-fit lg:bg-blue-850 text-2xl 3xl:text-3xl xs:leading-7 font-medium font-serif italic lg:px-4 lg:mt-3">
                     Customer Love
                 </div>
-                <h3 className="text-3xl xs:text-4xl sm:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-9 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6 lg:py-5">
+                <h3 className="text-4xl lg:text-4.7xl 2xl:text-5xl 3xl:text-5.7xl leading-10 xs:leading-10 sm:leading-11 lg:leading-12 2xl:leading-14 font-medium font-poppins xs:w-96 sm:w-full lg:w-4/5 xl:w-3/4 3xl:w-4/6 lg:py-5 mt-3 lg:mt-1 text-zinc-850">
                     Our customer brands see consistent return on design investment
                 </h3>
             </div>

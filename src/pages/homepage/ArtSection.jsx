@@ -53,10 +53,10 @@ function ArtSection({ screenSize }) {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -71,10 +71,10 @@ function ArtSection({ screenSize }) {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -89,10 +89,10 @@ function ArtSection({ screenSize }) {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2 pb-28">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -116,7 +116,7 @@ function ArtSection({ screenSize }) {
                         </div>
                     </div>
                 ) : (
-                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-60 button-div mt-32 my-28 mx-auto">
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-60 button-div sm:-mt-4 mt-4 mb-28 mx-auto">
                         <button className="text-md text-blue-850 font-poppins font-medium ml-3 tracking-wider button">
                             ALL OUR SERVICES
                         </button>
