@@ -31,6 +31,9 @@ const Header = () => {
         setActiveNavItem(item);
         setIsMenuOpen(false);
     };
+    const handleLogoClick = () => {
+        setActiveNavItem(null);
+    };
 
     const NAVBAR_ITEMS_EXCLUDING_LAST = NAV_ITEMS.slice(0, -1);
 
@@ -41,7 +44,7 @@ const Header = () => {
                     isMenuOpen ? 'menu-open' : ''
                 } ${isScrolled ? 'backdrop-blur-2xl bg-opacity-100' : ''}`}>
                 <div className="flex h-16 md:border-0 justify-between items-center">
-                    <Link to="/">
+                    <Link to="/" onClick={handleLogoClick}>
                         <img src={yumeLabsNameLogo} alt="yumi lab logo " className="w-36 md:w-40 lg:h-8 lg:w-60" />
                     </Link>
 
