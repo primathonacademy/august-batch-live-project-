@@ -85,7 +85,7 @@ export default function SimpleSlider() {
     };
     return (
         <div className="bg-gray-75 py-20">
-            <Ourservices />
+            <Ourservices screenSize={768} />
             <Slider {...settings} className="md:mt-20">
                 {carouselItems.map((item, index) => {
                     return (
