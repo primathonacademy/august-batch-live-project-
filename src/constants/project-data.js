@@ -31,5 +31,35 @@ export const projectData = [
         heading: 'Simplicontract3',
         discription:
             'Yumelabs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    },
+    {
+        id: 4,
+        imgSrc: projectImg,
+        deskImg: projectDesktopImg,
+        hash1: '# UX/UI',
+        hash2: '# DEVELOPMENT',
+        heading: 'Simplicontract4',
+        discription:
+            'Yumelabs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    },
+    {
+        id: 5,
+        imgSrc: projectImg,
+        deskImg: projectDesktopImg,
+        hash1: '# UX/UI',
+        hash2: '# DEVELOPMENT',
+        heading: 'Simplicontract5',
+        discription:
+            'Yumelabs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
+    },
+    {
+        id: 6,
+        imgSrc: projectImg,
+        deskImg: projectDesktopImg,
+        hash1: '# UX/UI',
+        hash2: '# DEVELOPMENT',
+        heading: 'Simplicontract6',
+        discription:
+            'Yumelabs is a global UI UX Design and Industrial Design agency that helps your business scale through fail-proof design innovation systems.'
     }
 ];

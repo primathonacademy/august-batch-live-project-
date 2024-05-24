@@ -31,6 +31,9 @@ const Header = () => {
         setActiveNavItem(item);
         setIsMenuOpen(false);
     };
+    const handleLogoClick = () => {
+        setActiveNavItem(null);
+    };
 
     const NAVBAR_ITEMS_EXCLUDING_LAST = NAV_ITEMS.slice(0, -1);
 
@@ -48,7 +51,6 @@ const Header = () => {
                             className="w-36 md:w-40 lg:h-8 lg:w-60"
                             onClick={handleNavItemClick}
                         />
-                    </Link>
 
                     <div className="md:hidden">
                         <button onClick={toggleMenu}>{isMenuOpen ? <FaTimes /> : <FaBars />}</button>
