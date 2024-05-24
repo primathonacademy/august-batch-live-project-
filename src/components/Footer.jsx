@@ -19,16 +19,26 @@ const Footer = () => {
                         <p className="font-poppins text-xs font-semibold text-neutral-575 lg:text-sm lg:leading-7">
                             WRITE TO US
                         </p>
-                        <p className="text-lg lg:leading-7 2xl:text-lg 3xl:text-2xl">hello@yumelabs.com</p>
+                        <a
+                            href="mailto:hello@yumelabs.com"
+                            target={'_blank'}
+                            className="text-lg lg:leading-7 2xl:text-lg 3xl:text-2xl">
+                            hello@yumelabs.com
+                        </a>
                     </div>
                     <div className="mt-3">
                         <p className="font-poppins text-xs font-semibold text-neutral-575 lg:text-sm lg:leading-7 3xl:leading-7.5">
                             ADDRESS
                         </p>
-                        <p className="text-lg 2xl:text-xl 3xl:text-2xl 3xl:leading-7">
+                        <a
+                            href="https://maps.app.goo.gl/dpp1LCFHVterH4YD8"
+                            target={'_'}
+                            className="text-lg 2xl:text-xl 3xl:text-2xl 3xl:leading-7">
                             4th Floor, Qubical Coworking Space, <br /> Kormanagala Bangalore - 560033 Karnataka, India
-                            <span className="mt-7 block">+91 9562332441</span>
-                        </p>
+                            <a href="tel:9562332441" className="mt-7 block">
+                                +91 9562332441
+                            </a>
+                        </a>
                     </div>
                 </address>
 

@@ -89,6 +89,9 @@ export default {
             borderRadius: {
                 40: '2.5rem',
                 8: '2rem'
+            },
+            animation: {
+                'spin-slow': 'spin 6s linear infinite'
             }
         }
     },

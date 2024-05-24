@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import GetTouch from './components/GetTouch';
+import BottomRightButton from './components/BottomRightButton';
 
 function Layout() {
     const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -15,6 +16,7 @@ function Layout() {
     }, []);
     return (
         <>
+            <BottomRightButton />
             <Header />
             <main className="overflow-hidden">
                 <Outlet />

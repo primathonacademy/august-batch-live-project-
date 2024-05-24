@@ -3,6 +3,7 @@ import ProductInnovationImg from '../../assets/images/product-innovation-img.png
 import IndustrialDesignImg from '../../assets/images/industrial-design-img.png';
 import UxUiDesignImg from '../../assets/images/ux-ui-design-img.png';
 import ArrowRightIcon from '../../assets/icons/arrow-right-icon.svg';
+import { NavLink } from 'react-router-dom';
 
 const ExploreServiceSection = ({ screenSize }) => {
     return (
@@ -17,17 +18,19 @@ const ExploreServiceSection = ({ screenSize }) => {
                         : 'Build your brand moat with us and leave the competition in the dust.'}
                 </p>
 
-                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-60 button-div mt-32">
-                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
-                        {screenSize < 1024 ? 'ALL OUR SERVICES' : 'EXPLORE SERVICES'}
-                    </button>
+                <NavLink to={'/service'}>
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-60 button-div mt-32">
+                        <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
+                            {screenSize < 1024 ? 'ALL OUR SERVICES' : 'EXPLORE SERVICES'}
+                        </button>
 
-                    <div
-                        className="w-12 h-12 bg-blue-600 
+                        <div
+                            className="w-12 h-12 bg-blue-600 
                     rounded-full flex justify-center item-center ml-3 button-arrow">
-                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                            <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             </div>
             <div className="grid grid-cols-2 gap-x-1 lg:gap-y-3 lg:flex lg:flex-col">
                 <div className="w-full relative">
