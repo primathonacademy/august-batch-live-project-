@@ -4,7 +4,7 @@ import BgGridLine from '../../assets/images/grid-image.svg';
 
 function AboutSection({ screenSize }) {
     return (
-        <section className="w-full px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
+        <section className="w-full px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 relative">
             <div className="relative w-389 h-40 scale-150">
                 <img
                     className="absolute inset-0 bg-cover object-cover bg-center -top-14 left-16"
@@ -13,12 +13,12 @@ function AboutSection({ screenSize }) {
                 />
             </div>
 
-            <div className="pt-24 pb-12 absolute top-16 2xl:top-20">
+            <div className="pt-16 pb-12 absolute top-16 2xl:top-20">
                 <h4 className="w-36 md:w-40 md:mt-4 lg:w-45.5 xl:w-48 2xl:w-52 bg-blue-850 text-white py-2 text-center font-serif italic text-xl lg:text-2xl 2xl:text-3xl">
                     {screenSize < 768 ? 'Our Services' : 'About Us'}
                 </h4>
                 {screenSize < 1024 ? (
-                    <h3 className="font-poppins font-normal leading-13 text-5xl mt-5 sm:mt-5 pl-0 w-110 sm:w-127">
+                    <h3 className="font-poppins font-normal ss:text-3xl ss:w-56 xs:leading-13 xs:text-5xl xs:mt-5 sm:mt-5 pl-0 xs:w-110 sm:w-127 ">
                         Feet at home among brave dreamers and curious rebels.
                     </h3>
                 ) : (
