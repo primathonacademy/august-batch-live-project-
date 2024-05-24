@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import HeroBackground from '../assets/images/hero-background.svg';
 import RightArrowIcon from '../assets/icons/arrow-right-icon.svg';
+import { Link } from 'react-router-dom';
 
 const GetTouch = ({ screenSize }) => {
     return (
@@ -10,7 +11,7 @@ const GetTouch = ({ screenSize }) => {
                     <img
                         src={HeroBackground}
                         alt="get in touch background grid lines"
-                        className="absolute top-0 object-cover bg-center h-full md:left-0 xl:w-full"
+                        className="absolute z-0 top-0 object-cover bg-center h-full md:left-0 xl:w-full"
                     />
 
                     <div className="h-full flex flex-col justify-around items-center mt-10 lg:flex-row lg:items-center lg:pb-20">
@@ -24,11 +25,13 @@ const GetTouch = ({ screenSize }) => {
                             </h2>
                         </div>
 
-                        <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 min-w-52 lg:w-64 lg:h-16 button-div mt-24 lg:mt-0 cursor-pointer z-10">
-                            <button className="text-md lg:text-xl text-blue-850 font-poppins font-medium ml-5 tracking-wider button">
-                                {screenSize < 1024 ? 'ALL OUR SERVICES' : 'GET IN TOUCH'}
-                            </button>
-
+                        <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 min-w-52 lg:w-64 lg:h-16 button-div mt-24 lg:mt-0  z-0 font-poppins font-medium">
+                            <Link to={'/contact'}>
+                                {' '}
+                                <button className="text-md lg:text-xl text-blue-850  ml-5 tracking-wider button">
+                                    {screenSize < 1024 ? 'ALL OUR SERVICES' : 'GET IN TOUCH'}
+                                </button>
+                            </Link>
                             <div
                                 className="w-12 h-12 bg-blue-600 
                     rounded-full flex justify-center item-center mx-2 button-arrow">

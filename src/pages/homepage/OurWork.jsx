@@ -5,6 +5,7 @@ import MobileImgBlack from '../../assets/images/black-moblie-image.png';
 import MobileGraphicImg from '../../assets/images/mobile-graphic.png';
 import MobileImgBlue from '../../assets/images/blue-mobile-image.png';
 import ArrowRightIcon from '../../assets/icons/arrow-right-icon.svg';
+import { NavLink } from 'react-router-dom';
 
 const OurWork = ({ screenSize }) => {
     return (
@@ -82,27 +83,31 @@ const OurWork = ({ screenSize }) => {
             </div>
 
             {screenSize < 1024 ? (
-                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-64 mt-32 mx-auto my-20">
-                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider">
-                        EXPLORE PORTFOLIO
-                    </button>
+                <NavLink to={'/'}>
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-64 mt-32 mx-auto my-20">
+                        <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider">
+                            EXPLORE PORTFOLIO
+                        </button>
 
-                    <div className="w-12 h-12 bg-blue-600 rounded-full flex justify-center item-center ml-3">
-                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                        <div className="w-12 h-12 bg-blue-600 rounded-full flex justify-center item-center ml-3">
+                            <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             ) : (
-                <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-64 button-div mt-32 my-28 mx-auto">
-                    <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
-                        EXPLORE PORTFOLIO
-                    </button>
+                <NavLink to={'/'}>
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-64 button-div mt-32 my-28 mx-auto">
+                        <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider button">
+                            EXPLORE PORTFOLIO
+                        </button>
 
-                    <div
-                        className="w-12 h-12 bg-blue-600 
+                        <div
+                            className="w-12 h-12 bg-blue-600 
                     rounded-full flex justify-center item-center ml-4 button-arrow">
-                        <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                            <img src={ArrowRightIcon} alt="right direction arrow" className="w-3" />
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             )}
         </div>
     );

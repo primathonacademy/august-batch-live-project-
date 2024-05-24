@@ -9,10 +9,12 @@ import Service from './service';
 import Layout from '../Layout';
 import HomePage from './homepage';
 import { ROUTES } from '../constants';
+import { ScrollToTop } from '../utilitis/ScrollToTop';
 
 const App = () => {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 <Route element={<Layout />}>
                     <Route path={ROUTES.HOME} element={<HomePage />} />
