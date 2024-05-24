@@ -31,7 +31,6 @@ const Header = () => {
         setActiveNavItem(item);
         setIsMenuOpen(false);
     };
-
     const NAVBAR_ITEMS_EXCLUDING_LAST = NAV_ITEMS.slice(0, -1);
 
     return (
@@ -49,7 +48,6 @@ const Header = () => {
                             onClick={handleNavItemClick}
                         />
                     </Link>
-
                     <div className="md:hidden">
                         <button onClick={toggleMenu}>{isMenuOpen ? <FaTimes /> : <FaBars />}</button>
                     </div>
