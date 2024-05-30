@@ -1,32 +1,48 @@
 import HomePoster from '../../assets/images/home-poster.png';
-import GridImg from '../../assets/images/grid-image.jpg';
+import GridImg from '../../assets/images/bg-grid-lines.png';
+import IconicDropLeft from '../../assets/images/ionic-md-arrow-dropleft.svg';
 
 const Postersection = () => {
     return (
-        <div className="w-full px-5 md:px-16 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 pb-5">
+        <div className="w-full px-5 md:px-16 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 pb-5 relative">
             <div
-                className="absolute left-0 top-0 w-full bg-center bg-cover"
+                className="absolute left-0 top-4 w-110 h-110 sm:w-full bg-center bg-cover md:h-60 md:scale-125 xl:scale-150 md:w-1/2 2xl:w-210 3xl:w-270"
                 style={{ backgroundImage: `url(${GridImg})` }}></div>
-            <div className="lg:flex xs:pt-3.5 md:pt-4 xs:pb-3.5 md:pb-1.5 3xl:pt-2.5">
-                <div className="w-full xs:pt-5 xs:pb-4 3xl:py-0">
-                    <h3 className="xs:w-3/5 md:w-1/2 3xl:w-full text-4xl xs:text-3 lg:w-full lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-5 sm:text-5xl leading-2.75 xs:leading-3.5 sm:leading-2.5 3xl:leading-6 font-medium font-poppins">
+
+            <div className="lg:flex pt-14 lg:py-20">
+                <div className="w-full">
+                    <h3 className="text-4xl pr-5 xs:pr-32 xs:mt-6 leading-10 xs:text-5xl xs:leading-12 2xl:text-7xl font-medium font-poppins">
                         Simplifying the Next.
                     </h3>
-                    <div className="px-2 py-2 my-4 sm:my-2 lg:my-5 3xl:my-10 3xl:px-5  3xl:text-4xl xs:leading-1.75 3xl:leading-10 text-white bg-blue-700 w-fit font-serif text-center font-normal italic">
-                        for Dreamers who do.
+                    <div className="w-fit text-white bg-blue-850 text-xl md:text-2xl 3xl:text-3xl font-medium font-serif italic px-4 mt-5 py-1">
+                        For Dreamers who do.
                     </div>
                 </div>
-                <p className="xs:pb-3.5 3xl:pb-0 lg:pt-6 3xl:pt-4 xs:w-3/4 3xl:w-1/2  3xl:pl-10 xs:text-lg lg:text-sm xl:text-xl 3xl:text-2xl leading-1.5 3xl:leading-7 font-roboto text-blue-900 flex flex-col text-left">
+
+                <p className="xs:w-3/4 md:w-1/2 text-base xs:text-lg xl:text-xl 3xl:text-2xl font-roboto flex flex-col text-left text-slate-925 py-10 lg:py-0">
                     High-potential global brands trust Yume Labs for better customer advocacy, stronger investor trust,
                     and higher media love.
                 </p>
             </div>
 
-            <div className="relative p-0.625">
-                <img className="xs:h-39.875" src={HomePoster} alt="Home Page Image" />
-                <div className="sm:top-3/5 w-1/6 top-2/3 3xl:top-2/3 left-1/4 absolute text-left text-base leading-5 xs:text-2xl lg:text-5xl lg:w-1/4 3xl:w-5 3xl:text 3xl:leading-96 text-white font-serif italic ">
+            <div className="relative mt-24 sm:mt-32 lg:mt-8">
+                <img
+                    className="w-full h-110 xs:h-137 lg:h-175 object-cover rounded-lg"
+                    src={HomePoster}
+                    alt="home poster image"
+                />
+                <div className="absolute w-1/6 left-10 sm:left-20 bottom-10 xs:bottom-20 lg:left-28 lg:bottom-28 text-4xl lg:text-6xl text-white font-serif italic ">
                     Dreams Delivered
                 </div>
+                <div className="hidden lg:flex absolute bottom-28 right-28 items-center">
+                    <div className="text-2xl text-blue-850 font-medium font-poppins px-5">Play Showreel</div>
+                    <button className="flex justify-center items-center bg-blue-575 p-5 w-16 hover:bg-gradient-to-r rounded-full hover:from-pink-500 hover:to-blue-575">
+                        <img src={IconicDropLeft} alt="ionic arrow dropdown right icon" />
+                    </button>
+                </div>
+                <button className="absolute flex lg:hidden left-24 xs:left-40 sm:left-64 md:left-72 bottom-44 xs:bottom-60 sm:bottom-64 justify-center items-center bg-blue-575 p-5 w-16  hover:bg-gradient-to-r rounded-full hover:from-pink-500 hover:to-blue-575">
+                    <img src={IconicDropLeft} alt="ionic arrow dropdown right icon" />
+                </button>
             </div>
         </div>
     );

@@ -1,30 +1,33 @@
+import PropTypes from 'prop-types';
 import ArtSectionImg from '../../assets/images/art-card.png';
 import GridlineImage from '../../assets/images/grid-lines.svg';
 import NewsCard from '../../assets/images/news-card.png';
-import RightArrow from '../../assets/icons/arrow-right.svg';
-import { NavLink } from 'react-router-dom';
-import { ROUTES } from '../../constants';
+import RightArrow from '../../assets/icons/arrow-right-icon.svg';
 
-function ArtSection() {
+function ArtSection({ screenSize }) {
     return (
         <>
             <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 pt-12 4xl:text-2xl xs:px-2">
                 <section>
                     <div className="pl-6 4xl:pl-8">
-                        <div className="hidden lg:block lg:relative lg:h-0 lg:-top-24 lg:-left-20 xl:-left-32 2xl:left-0">
-                            <img src={GridlineImage} alt="Grid Lines Art section" className="md:w-full md:h-96" />
+                        <div className="hidden lg:block lg:relative lg:h-0 lg:-top-52 lg:-left-28 xl:-left-40 2xl:-left-52 3xl:-left-80">
+                            <img
+                                src={GridlineImage}
+                                alt="Grid-Lines-Art-section"
+                                className="md:w-full md:h-96 lg:h-127 lg:-left-6 3xl:scale-110"
+                            />
                         </div>
-                        <span className="text-blue-500 lg:text-white lg:bg-blue-900 md:text-blue-800 lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 4xl:text-4xl">
+                        <span className="text-blue-500 lg:text-white lg:bg-blue-850 md:text-blue-800 lg:px-12 lg:text-lg xl:text-xl italic font-serif py-2 4xl:text-4xl">
                             The Art of the Possible
                         </span>
-                        <p className="text-3xl text-black sm:text-4xl font-poppins font-medium 2xl:text-6xl mb-4 sm:mb-12 xl:mb-32 leading-9 pt-4 w-10/12 3xl:text-6xl 4xl:text-8xl">
+                        <p className="text-3xl text-black sm:text-4xl font-poppins font- xl:text-5.7xl 2xl:text-6xl mb-4 sm:mb-12 xl:mb-32 leading-9 pt-4 w-10/12 3xl:text-6xl 4xl:text-8xl xl:leading-14">
                             Learn from our time in the trenches innovating for user advocacy.
                         </p>
                     </div>
                 </section>
                 <div className="relative flex pb-8 overflow-x-auto">
                     <div
-                        className="bg-cover lg:h-full object-cover overflow-hidden w-full md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl"
+                        className="bg-cover lg:h-full object-cover overflow-hidden w-full md:rounded-4xl rounded-3xl bg-center 3xl:rounded-3xl lg:mt-3 xl:mt-1"
                         style={{ backgroundImage: `url(${ArtSectionImg})` }}>
                         <div className="lg:pt-64 lg:pl-32 md:pt-32 md:pl-12 pt-16 pl-9 lg:pb-4 pr-2 p-20">
                             <div className="mt-2 mr-6 md:pb-28">
@@ -50,10 +53,10 @@ function ArtSection() {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -68,10 +71,10 @@ function ArtSection() {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -86,10 +89,10 @@ function ArtSection() {
                                             className="w-full rounded-lg bg-slate-300"
                                         />
                                         <div className="mt-2 pb-28">
-                                            <h1 className="font-semibold text-lg pt-4 xl:text-2xl">
+                                            <h3 className="font-medium text-slate-925 text-lg pt-4 xl:text-2xl">
                                                 /01/ News Technology / 03 March 2022
-                                            </h1>
-                                            <p className="font-roboto text-gray-600 pt-4 text-lg lg:w-8/12 xl:text-2xl">
+                                            </h3>
+                                            <p className="font-roboto text-slate-725 pt-4 text-lg lg:w-10/12 xl:text-2xl">
                                                 Great Place to Work 2022 Survey: Vincit is the best place to work in
                                                 Finland, again!
                                             </p>
@@ -102,21 +105,36 @@ function ArtSection() {
                 </div>
             </div>
             <section>
-                <div className="w-full flex justify-center items-center pt-5 pb-12 sm:pb-5 z-10">
-                    <NavLink
-                        to={ROUTES.SERVICE}
-                        className="flex items-center justify-center cursor-pointer gap-8 xs:gap-14 2xl:gap-16 py-1 xl:py-2 pl-5 xl:pl-12 2xl:pl-16 bg-slate-100 rounded-full hover:bg-gradient-to-r hover:from-blue-100 hover:to-pink-100">
-                        <h1 className="text-blue-500 text-xs sm:text-sm md:text-base xl:text-xl font-semibold hover:scale-110 transition-all duration-300">
+                {screenSize < 1024 ? (
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-60 mt-32 mx-auto my-20">
+                        <button className="text-md text-blue-850 font-poppins font-semibold ml-3 tracking-wider">
                             ALL OUR SERVICES
-                        </h1>
-                        <div className="flex justify-center rounded-full p-3.5 sm:p-4 xl:p-6 mr-1 xs:mr-1.5 xl:mr-2 bg-blue-700 hover:bg-gradient-to-r hover:from-blue-500 hover:from-10% hover:to-pink-600 transition-all duration-300">
-                            <img src={RightArrow} alt="Right Arrow" className="w-3 h-3 sm:w-4 sm:h-4 hover:scale-100" />
+                        </button>
+
+                        <div className="w-12 h-12 bg-blue-600 rounded-full flex justify-center item-center ml-3">
+                            <img src={RightArrow} alt="right direction arrow" className="w-3" />
                         </div>
-                    </NavLink>
-                </div>
+                    </div>
+                ) : (
+                    <div className="flex items-center justify-center bg-zinc-75 rounded-full h-14 w-56 lg:w-60 button-div sm:-mt-4 mt-4 mb-28 mx-auto">
+                        <button className="text-md text-blue-850 font-poppins font-medium ml-3 tracking-wider button">
+                            ALL OUR SERVICES
+                        </button>
+
+                        <div
+                            className="w-12 h-12 bg-blue-600 
+                    rounded-full flex justify-center item-center ml-4 button-arrow">
+                            <img src={RightArrow} alt="right direction arrow" className="w-3" />
+                        </div>
+                    </div>
+                )}
             </section>
         </>
     );
 }
+
+ArtSection.propTypes = {
+    screenSize: PropTypes.number.isRequired
+};
 
 export default ArtSection;

@@ -61,6 +61,9 @@ export default {
                 },
                 neutral: {
                     575: '#555555'
+                },
+                orange: {
+                    light: '#E5C090'
                 }
             },
             fontSize: {
@@ -86,6 +89,9 @@ export default {
             borderRadius: {
                 40: '2.5rem',
                 8: '2rem'
+            },
+            animation: {
+                'spin-slow': 'spin 6s linear infinite'
             }
         }
     },
