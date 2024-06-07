@@ -5,8 +5,87 @@ import Ellipse from '../../assets/images/ellipse.svg';
 import ArrowLeftIcon from '../../assets/icons/arrow-left.svg';
 import ArrowRightIcon from '../../assets/icons/arrow-right.svg';
 import PropTypes from 'prop-types';
+import { useState } from 'react';
 
 const FormSection = ({ screenSize }) => {
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+        email: '',
+        message: '',
+        agree: false
+    });
+
+    const [errors, setErrors] = useState({
+        name: '',
+        phone: '',
+        email: '',
+        message: '',
+        agree: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value, type, checked } = e.target;
+        let error = '';
+
+        // Validation logic for specific fields
+        if (type === 'text' && name === 'name' && !value.trim()) {
+            error = 'name is required';
+        } else if (type === 'text' && name === 'email' && !/\S+@\S+\.\S+/.test(value)) {
+            error = 'invalid email address';
+        } else if (type === 'text' && name === 'phone' && (!value.trim() || !/^\d+$/.test(value))) {
+            error = 'invalid phone number';
+        }
+
+        // Update the errors state for the specific field
+        setErrors((prevErrors) => ({
+            ...prevErrors,
+            [name]: error
+        }));
+
+        setFormData((prevState) => ({
+            ...prevState,
+            [name]: type === 'checkbox' ? checked : value
+        }));
+    };
+
+    const hasErrors = Object.values(errors).some((error) => error !== '');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const formErrors = validateForm(formData);
+        if (Object.keys(formErrors).length === 0) {
+            console.log(formData);
+            // You can submit the form data here
+        } else {
+            setErrors(formErrors);
+        }
+    };
+
+    function validateForm(data) {
+        let errors = {};
+        if (!data.name.trim()) {
+            errors.name = 'Name is required';
+        }
+        if (!data.phone.trim()) {
+            errors.phone = 'Phone number is required';
+        } else if (!/^\d+$/.test(data.phone.trim())) {
+            errors.phone = 'Phone number must contain only digits';
+        }
+        if (!data.email.trim()) {
+            errors.email = 'Email is required';
+        } else if (!/\S+@\S+\.\S+/.test(data.email)) {
+            errors.email = 'Invalid email address';
+        }
+        if (!data.message.trim()) {
+            errors.message = 'Message is required';
+        }
+        if (!data.agree) {
+            errors.agree = 'You must agree to the terms';
+        }
+        return errors;
+    }
+
     return (
         <div className="px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5 mt-5 relative">
             {screenSize < 1024 ? (
@@ -54,41 +133,71 @@ const FormSection = ({ screenSize }) => {
             )}
 
             <div className="flex flex-col lg:flex-row-reverse lg:gap-10 xl:gap-28 2xl:gap-36 3xl:gap-52  mt-7 justify-end">
-                <div className="mt-40 ml-8 h-210 w-10/12">
-                    <input
-                        type="text"
-                        placeholder="* Name"
-                        className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 h-20 lg:h-14"
-                    />
-                    <input
-                        type="text"
-                        placeholder="* Phone number"
-                        className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127  2xl:w-162.5 3xl:w-175 h-20 mt-4 lg:h-14"
-                    />
-                    <input
-                        type="text"
-                        placeholder="* Email"
-                        className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 h-20 mt-4 lg:h-14"
-                    />
+                <form onSubmit={handleSubmit}>
+                    <div className="mt-40 ml-8 h-210 w-10/12">
+                        <input
+                            type="text"
+                            placeholder="* Name"
+                            className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 h-20 lg:h-14"
+                            name="name"
+                            onChange={handleChange}
+                            value={formData.name}
+                        />
+                        {errors.name && <div className="text-red-600">{errors.name}</div>}
+                        <input
+                            type="text"
+                            placeholder="* Phone number"
+                            name="phone"
+                            className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127  2xl:w-162.5 3xl:w-175 h-20 mt-4 lg:h-14"
+                            onChange={handleChange}
+                            value={formData.phone}
+                        />
+                        {errors.phone && <div className="text-red-600">{errors.phone}</div>}
+                        <input
+                            type="text"
+                            placeholder="* Email"
+                            name="email"
+                            className="lg:placeholder:text-lg border pl-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 h-20 mt-4 lg:h-14"
+                            onChange={handleChange}
+                            value={formData.email}
+                        />
+                        {errors.email && <div className="text-red-600">{errors.email}</div>}
 
-                    <textarea
-                        rows="5"
-                        cols="20"
-                        placeholder="* Message"
-                        className="lg:placeholder:text-lg border p-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 mt-4"></textarea>
+                        <textarea
+                            rows="5"
+                            cols="20"
+                            placeholder="* Message"
+                            name="message"
+                            className="lg:placeholder:text-lg border p-4 w-full lg:w-96 xl:w-127 2xl:w-162.5 3xl:w-175 mt-4"
+                            onChange={handleChange}
+                            value={formData.message}
+                        />
 
-                    <div className="flex mt-14 gap-5 lg:gap-1 lg:mt-4 xl:w-127 2xl:w-162.5 3xl:w-175">
-                        <input type="checkbox" className="w-6 h-6" />
-                        <p className="text-gray-525 font-normal w-64 lg:w-full tracking-normal text-lg lg:text-xl 2xl:text-2xl font-roboto ml-6">
-                            I agree to frog collecting and processing my personal data to allow me to receive
-                            information on frog services.
-                        </p>
+                        {errors.message && <div className="text-red-600">{errors.message}</div>}
+
+                        <div className="flex mt-14 gap-5 lg:gap-1 lg:mt-4 xl:w-127 2xl:w-162.5 3xl:w-175">
+                            <input
+                                type="checkbox"
+                                className="w-6 h-6"
+                                name="agree"
+                                onChange={handleChange}
+                                checked={formData.agree}
+                            />
+                            <p className="text-gray-525 font-normal w-64 lg:w-full tracking-normal text-lg lg:text-xl 2xl:text-2xl font-roboto ml-6">
+                                I agree to frog collecting and processing my personal data to allow me to receive
+                                information on frog services.
+                            </p>
+                            {errors.agree && <div className="text-red-600">{errors.agree}</div>}
+                        </div>
+
+                        <button
+                            className="w-80 tracking-wider text-white font-medium h-20 text-center rounded-full bg-blue-575 mt-20 lg:text-xl 2xl:text-2xl cursor-pointer"
+                            type="submit"
+                            disabled={hasErrors}>
+                            SUBMIT
+                        </button>
                     </div>
-
-                    <button className="w-80 tracking-wider text-white font-medium h-20 text-center rounded-full bg-blue-575 mt-20 lg:text-xl 2xl:text-2xl">
-                        SUBMIT
-                    </button>
-                </div>
+                </form>
 
                 <div className="mt-28 px-5 md:px-14 lg:px-20 xl:px-24 2xl:px-28 3xl:px-45.5">
                     <div className="mt-10 w-96 lg:w-101.5 xl:w-106.7 2xl:w-116.25 3xl:w-127 h-80 lg:h-96 xl:h-106.7 2xl:h-116.25 3xl:h-131">
